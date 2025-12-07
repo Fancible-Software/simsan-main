@@ -40,3 +40,23 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* === Service Section Visual Utilities === */
+.bg-gradient-service {
+  background: linear-gradient(135deg, #ff8722 0%, #fa6622 100%);
+}
+.shadow-service {
+  box-shadow: 0 8px 32px 0 rgba(255, 87, 34, 0.18);
+}
+.text-service-heading {
+  color: #ff5722;
+}
+.text-muted-foreground {
+  color: #818181;
+}
+.border-border {
+  border-color: #ffe0d1;
+}
+.divide-border {
+  border-top: 1px solid #ffe0d1;
+}
