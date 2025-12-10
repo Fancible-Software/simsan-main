@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
   },
   // Enable compression
   compress: true,
+  // Optimize production builds
   // Reduce bundle size
   experimental: {
     optimizePackageImports: ["@mui/material", "@mui/icons-material"],
