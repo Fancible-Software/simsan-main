@@ -19,12 +19,12 @@ export default function Home() {
 
       {/* Hero Section with overlay gradient */}
       <Box
-        className="relative w-full min-h-[520px] lg:min-h-[660px] flex flex-col justify-center"
+        className="relative w-full min-h-[520px] lg:min-h-[660px] flex flex-col justify-center rounded-bl-[5%] rounded-br-[5%]"
         style={{ background: `url('/mask-group.png') right center/cover no-repeat`, position: 'relative' }}
       >
         {/* Gradient Overlay (left black to transparent right) */}
         <Box
-          className="absolute top-0 left-0 w-full h-full z-0"
+          className="absolute top-0 left-0 w-full h-full z-0 rounded-bl-[15%] rounded-br-[5%]"
           style={{
             background:
               'linear-gradient(90deg, rgba(20,20,20,0.98) 0%, rgba(20,20,20,0.9) 34%, rgba(20,20,20,0.7) 48%, rgba(20,20,20,0.3) 70%, rgba(0,0,0,0.0) 100%)'
