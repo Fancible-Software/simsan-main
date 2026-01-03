@@ -12,3 +12,17 @@ export interface ApiResponse<T> {
   error?: string;
 }
 
+// Contact API Types
+export interface ContactCreateRequest {
+  name: string;
+  email: string;
+  phone: string;
+  service: string;
+  message: string;
+}
+
+export interface ContactCreateResponse {
+  status: boolean;
+  message: string;
+}
+

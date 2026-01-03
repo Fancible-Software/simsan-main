@@ -215,11 +215,11 @@ export default function AreasWeServeIn() {
 
           {/* Right Section - Map Images */}
           <Box className="w-full lg:w-1/2 flex flex-col gap-6 relative">
-            {/* Top Map - Greater Vancouver Area */}
+            {/* Top Map - Portland Area */}
             <Box className="relative rounded-lg overflow-hidden shadow-lg" style={{ zIndex: 2 }}>
               <Image
-                src="/map-vancouver-area.jpg"
-                alt="Greater Vancouver Area Service Map"
+                src="/portland-map.png"
+                alt="Portland Area Service Map"
                 width={600}
                 height={400}
                 className="w-full h-auto object-cover rounded-lg"
@@ -236,14 +236,14 @@ export default function AreasWeServeIn() {
               />
             </Box>
 
-            {/* Bottom Map - Fraser Valley Area */}
+            {/* Bottom Map - Seattle Area */}
             <Box
               className="relative rounded-lg overflow-hidden shadow-lg"
               style={{ zIndex: 1, marginTop: "-40px", marginLeft: "40px" }}
             >
               <Image
-                src="/map-fraser-valley.png"
-                alt="Fraser Valley Region Service Map"
+                src="/seattle-map.png"
+                alt="Seattle Area Service Map"
                 width={600}
                 height={400}
                 className="w-full h-auto object-cover rounded-lg"

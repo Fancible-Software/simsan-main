@@ -1,11 +1,200 @@
 "use client";
+import { useState, FormEvent } from "react";
 import Box from "@mui/material/Box";
 import { colors } from "@/lib/colors";
 import { CONTACT_INFO } from "@/constants";
+import { createContact } from "@/lib/api/contact";
+import type { ContactCreateRequest } from "@/types";
+import Toast from "./Toast";
+import { useToast } from "@/hooks/useToast";
+
+interface FormErrors {
+  name?: string;
+  email?: string;
+  phone?: string;
+  service?: string;
+  message?: string;
+}
 
 export default function ContactUs() {
+  const [formData, setFormData] = useState<ContactCreateRequest>({
+    name: "",
+    email: "",
+    phone: "+1",
+    service: "",
+    message: "",
+  });
+
+  const [errors, setErrors] = useState<FormErrors>({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const { toast, showToast, hideToast } = useToast();
+
+  // Email validation
+  const validateEmail = (email: string): boolean => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
+  // Phone formatting: formats to +1-XXX-XXX-XXXX
+  const formatPhoneNumber = (value: string): string => {
+    // Remove all non-digit characters except +
+    const cleaned = value.replace(/[^\d+]/g, "");
+    
+    // Always ensure it starts with +1
+    if (!cleaned.startsWith("+1")) {
+      if (cleaned.startsWith("1")) {
+        return `+${cleaned}`;
+      }
+      if (cleaned.startsWith("+")) {
+        return cleaned.length === 1 ? "+1" : `+1${cleaned.slice(1)}`;
+      }
+      // If empty or doesn't start with + or 1, return +1
+      if (cleaned === "") {
+        return "+1";
+      }
+      return `+1${cleaned}`;
+    }
+    
+    // If user tries to delete +1, keep it
+    if (cleaned === "+1" || cleaned.length < 2) {
+      return "+1";
+    }
+    
+    // Extract digits after +1
+    const digits = cleaned.slice(2);
+    
+    // Limit to 10 digits
+    const limitedDigits = digits.slice(0, 10);
+    
+    // Format: +1-XXX-XXX-XXXX
+    if (limitedDigits.length === 0) {
+      return "+1";
+    } else if (limitedDigits.length <= 3) {
+      return `+1-${limitedDigits}`;
+    } else if (limitedDigits.length <= 6) {
+      return `+1-${limitedDigits.slice(0, 3)}-${limitedDigits.slice(3)}`;
+    } else {
+      return `+1-${limitedDigits.slice(0, 3)}-${limitedDigits.slice(3, 6)}-${limitedDigits.slice(6)}`;
+    }
+  };
+
+  // Phone validation: must start with +1 and have 10 digits after
+  const validatePhone = (phone: string): boolean => {
+    // Remove spaces and dashes for validation
+    const cleanedPhone = phone.replace(/[\s-]/g, "");
+    // Must start with +1 and have exactly 10 more digits
+    const phoneRegex = /^\+1\d{10}$/;
+    return phoneRegex.test(cleanedPhone);
+  };
+
+  const validateForm = (): boolean => {
+    const newErrors: FormErrors = {};
+
+    // Name validation
+    if (!formData.name.trim()) {
+      newErrors.name = "Name is required";
+    }
+
+    // Email validation
+    if (!formData.email.trim()) {
+      newErrors.email = "Email is required";
+    } else if (!validateEmail(formData.email)) {
+      newErrors.email = "Please enter a valid email address (e.g., johndoe@example.com)";
+    }
+
+    // Phone validation
+    if (!formData.phone.trim()) {
+      newErrors.phone = "Mobile number is required";
+    } else if (!validatePhone(formData.phone)) {
+      newErrors.phone = "Phone must start with +1 followed by 10 digits (e.g., +1-604-880-4476)";
+    }
+
+    // Service validation
+    if (!formData.service) {
+      newErrors.service = "Please select a service";
+    }
+
+    // Message validation
+    if (!formData.message.trim()) {
+      newErrors.message = "Message is required";
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+  ) => {
+    const { name, value } = e.target;
+    
+    // Format phone number as user types
+    if (name === "phone") {
+      const formatted = formatPhoneNumber(value);
+      setFormData((prev) => ({ ...prev, [name]: formatted }));
+    } else {
+      setFormData((prev) => ({ ...prev, [name]: value || "" }));
+    }
+    
+    // Clear error for this field when user starts typing
+    if (errors[name as keyof FormErrors]) {
+      setErrors((prev) => ({ ...prev, [name]: undefined }));
+    }
+  };
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    if (!validateForm()) {
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    try {
+      // Clean phone number (remove spaces and dashes) before sending
+      const cleanedPhone = formData.phone.replace(/[\s-]/g, "");
+      const payload: ContactCreateRequest = {
+        ...formData,
+        phone: cleanedPhone,
+      };
+
+      const response = await createContact(payload);
+
+      if (response.status && response.message) {
+        showToast(response.message, "success");
+        // Reset form
+        setFormData({
+          name: "",
+          email: "",
+          phone: "+1",
+          service: "",
+          message: "",
+        });
+      } else {
+        showToast(
+          response.message || "Failed to send message. Please try again.",
+          "error"
+        );
+      }
+    } catch (error) {
+      showToast(
+        error instanceof Error ? error.message : "An error occurred. Please try again.",
+        "error"
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
   return (
-    <Box className="w-full bg-gray-50 py-12 lg:py-16">
+    <>
+      <Toast
+        message={toast.message}
+        type={toast.type}
+        isVisible={toast.isVisible}
+        onClose={hideToast}
+      />
+      <Box className="w-full bg-gray-50 py-12 lg:py-16">
       <Box className="max-w-7xl mx-auto px-6 lg:px-8 xl:px-0">
         <Box className="flex flex-col lg:flex-row gap-8 lg:gap-12">
           {/* Left Section - Need Help */}
@@ -146,79 +335,153 @@ export default function ContactUs() {
               </p>
 
               {/* Contact Form */}
-              <form className="w-full mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+              <form onSubmit={handleSubmit} className="w-full mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Name */}
                 <Box>
-                  <label className="text-white block mb-2 font-bold text-[16px] text-left" >Name*</label>
+                  <label className="text-white block mb-2 font-bold text-[16px] text-left">
+                    Name*
+                  </label>
                   <input
                     type="text"
+                    name="name"
+                    value={formData.name || ""}
+                    onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg bg-white text-gray-800 border-none focus:outline-none focus:ring-2 focus:ring-white"
-                    placeholder="John Doe Adirha"
+                    className={`w-full px-4 py-3 rounded-lg bg-white text-gray-800 border-none focus:outline-none focus:ring-2 focus:ring-white ${
+                      errors.name ? "ring-2 ring-red-300" : ""
+                    }`}
+                    placeholder="John Doe"
                   />
+                  {errors.name && (
+                    <p className="text-red-200 text-sm mt-1">{errors.name}</p>
+                  )}
                 </Box>
+
                 {/* Email */}
                 <Box>
-                  <label className="text-white block mb-2 font-bold text-[16px] text-left" >Email*</label>
+                  <label className="text-white block mb-2 font-bold text-[16px] text-left">
+                    Email*
+                  </label>
                   <input
                     type="email"
+                    name="email"
+                    value={formData.email || ""}
+                    onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg bg-white text-gray-800 border-none focus:outline-none focus:ring-2 focus:ring-white"
-                    placeholder="Johndemo@ymail.com"
+                    className={`w-full px-4 py-3 rounded-lg bg-white text-gray-800 border-none focus:outline-none focus:ring-2 focus:ring-white ${
+                      errors.email ? "ring-2 ring-red-300" : ""
+                    }`}
+                    placeholder="johndoe@example.com"
                   />
+                  {errors.email && (
+                    <p className="text-red-200 text-sm mt-1">{errors.email}</p>
+                  )}
                 </Box>
 
                 {/* Mobile Number */}
                 <Box>
-                  <label className="text-white block mb-2 font-bold text-[16px] text-left" >Mobile Number*</label>
+                  <label className="text-white block mb-2 font-bold text-[16px] text-left">
+                    Mobile Number*
+                  </label>
                   <input
                     type="tel"
+                    name="phone"
+                    value={formData.phone || "+1"}
+                    onChange={handleInputChange}
+                    onFocus={(e) => {
+                      if (!e.target.value || e.target.value === "") {
+                        setFormData((prev) => ({ ...prev, phone: "+1" }));
+                      }
+                    }}
                     required
-                    className="w-full px-4 py-3 rounded-lg bg-white text-gray-800 border-none focus:outline-none focus:ring-2 focus:ring-white"
-                    placeholder="+1 89659866666"
+                    className={`w-full px-4 py-3 rounded-lg bg-white text-gray-800 border-none focus:outline-none focus:ring-2 focus:ring-white ${
+                      errors.phone ? "ring-2 ring-red-300" : ""
+                    }`}
+                    placeholder="+1-604-880-4476"
                   />
+                  {errors.phone && (
+                    <p className="text-red-200 text-sm mt-1">{errors.phone}</p>
+                  )}
                 </Box>
+
                 {/* Select Service */}
                 <Box>
-                  <label className="text-white block mb-2 font-bold text-[16px] text-left" >Select Service*</label>
+                  <label className="text-white block mb-2 font-bold text-[16px] text-left">
+                    Select Service*
+                  </label>
                   <Box className="relative">
                     <select
+                      name="service"
+                      value={formData.service || ""}
+                      onChange={handleInputChange}
                       required
-                      className="w-full px-4 py-3 rounded-lg bg-white text-gray-800 border-none focus:outline-none focus:ring-2 focus:ring-white appearance-none"
+                      className={`w-full px-4 py-3 rounded-lg bg-white text-gray-800 border-none focus:outline-none focus:ring-2 focus:ring-white appearance-none ${
+                        errors.service ? "ring-2 ring-red-300" : ""
+                      }`}
                     >
                       <option value="">Select a service</option>
-                      <option value="roof-gutter">Roof & Gutter Cleaning</option>
-                      <option value="window">Window Washing</option>
-                      <option value="pressure">Pressure Cleaning</option>
-                      <option value="christmas">Christmas Lighting & Decoration</option>
+                      <option value="Roof & Gutter Cleaning">Roof & Gutter Cleaning</option>
+                      <option value="Window Washing">Window Washing</option>
+                      <option value="Pressure Cleaning">Pressure Cleaning</option>
+                      <option value="Christmas Lighting & Decoration">
+                        Christmas Lighting & Decoration
+                      </option>
+                      <option value="Roof Cleaning">Roof Cleaning</option>
                     </select>
                     <Box className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
                         <polyline points="6 9 12 15 18 9" />
                       </svg>
                     </Box>
                   </Box>
+                  {errors.service && (
+                    <p className="text-red-200 text-sm mt-1">{errors.service}</p>
+                  )}
                 </Box>
 
                 {/* Message */}
                 <Box className="col-span-1 md:col-span-2">
-                  <label className="text-white block mb-2 font-bold text-[16px] text-left" >Message</label>
+                  <label className="text-white block mb-2 font-bold text-[16px] text-left">
+                    Message*
+                  </label>
                   <textarea
+                    name="message"
+                    value={formData.message || ""}
+                    onChange={handleInputChange}
                     rows={5}
-                    className="w-full px-4 py-3 rounded-lg bg-white text-gray-800 border-none focus:outline-none focus:ring-2 focus:ring-white resize-none"
+                    required
+                    className={`w-full px-4 py-3 rounded-lg bg-white text-gray-800 border-none focus:outline-none focus:ring-2 focus:ring-white resize-none ${
+                      errors.message ? "ring-2 ring-red-300" : ""
+                    }`}
                     placeholder="Your message here..."
                   />
+                  {errors.message && (
+                    <p className="text-red-200 text-sm mt-1">{errors.message}</p>
+                  )}
                 </Box>
 
                 {/* Submit Button */}
                 <Box className="col-span-1 md:col-span-2 flex items-start mt-6">
                   <button
                     type="submit"
-                    className="px-10 py-4 rounded-full bg-white text-[18px]"
+                    disabled={isSubmitting}
+                    className={`px-10 py-4 rounded-full bg-white text-[18px] font-semibold transition-opacity ${
+                      isSubmitting
+                        ? "opacity-70 cursor-not-allowed"
+                        : "hover:opacity-90"
+                    }`}
                     style={{ color: colors.primary }}
-                    
                   >
-                    Submit
+                    {isSubmitting ? "Submitting..." : "Submit"}
                   </button>
                 </Box>
               </form>
@@ -227,6 +490,7 @@ export default function ContactUs() {
         </Box>
       </Box>
     </Box>
+    </>
   );
 }
 
