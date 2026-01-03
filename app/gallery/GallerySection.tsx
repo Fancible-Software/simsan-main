@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Box from "@mui/material/Box";
 import Image from "next/image";
 import HeroBanner, { BreadcrumbItem } from "@/components/HeroBanner";
@@ -15,8 +15,10 @@ interface GallerySectionProps {
 }
 
 export default function GallerySection({ breadcrumbs, galleryImages }: GallerySectionProps) {
-  const [activeFilter, setActiveFilter] = useState<string>("all");
+  const [activeFilter, setActiveFilter] = useState<string>("roof-gutter-cleaning");
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
+  const [displayedCount, setDisplayedCount] = useState<number>(9);
+  const [isLoadingMore, setIsLoadingMore] = useState<boolean>(false);
 
   // Get unique categories from images and create filter options
   const uniqueCategories = Array.from(
@@ -43,6 +45,15 @@ export default function GallerySection({ breadcrumbs, galleryImages }: GallerySe
   const filteredImages = activeFilter === "all" 
     ? galleryImages 
     : galleryImages.filter(img => img.category === activeFilter);
+
+  // Reset displayed count when filter changes
+  useEffect(() => {
+    setDisplayedCount(9);
+  }, [activeFilter]);
+
+  // Get images to display (limited by displayedCount)
+  const imagesToDisplay = filteredImages.slice(0, displayedCount);
+  const hasMoreImages = filteredImages.length > displayedCount;
 
   const handleImageClick = (image: GalleryImage) => {
     setSelectedImage(image);
@@ -86,6 +97,54 @@ export default function GallerySection({ breadcrumbs, galleryImages }: GallerySe
     window.addEventListener("keydown", handleKeyPress);
     return () => window.removeEventListener("keydown", handleKeyPress);
   }, [selectedImage, filteredImages]);
+
+  // Ref for the sentinel element
+  const sentinelRef = useRef<HTMLDivElement>(null);
+
+  // Infinite scroll: Load more images when user scrolls to bottom
+  useEffect(() => {
+    if (!hasMoreImages) return;
+
+    const loadMoreImages = () => {
+      if (isLoadingMore) return;
+      
+      setIsLoadingMore(true);
+      // Simulate a small delay for smooth loading
+      setTimeout(() => {
+        setDisplayedCount((prev) => Math.min(prev + 9, filteredImages.length));
+        setIsLoadingMore(false);
+      }, 300);
+    };
+
+    // Use Intersection Observer for better performance
+    const observerOptions = {
+      root: null,
+      rootMargin: "200px",
+      threshold: 0.1,
+    };
+
+    const observerCallback = (entries: IntersectionObserverEntry[]) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && hasMoreImages && !isLoadingMore) {
+          loadMoreImages();
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    const sentinel = sentinelRef.current;
+    
+    if (sentinel) {
+      observer.observe(sentinel);
+    }
+
+    return () => {
+      if (sentinel) {
+        observer.unobserve(sentinel);
+      }
+      observer.disconnect();
+    };
+  }, [hasMoreImages, isLoadingMore, filteredImages.length]);
 
   return (
     <>
@@ -155,8 +214,9 @@ export default function GallerySection({ breadcrumbs, galleryImages }: GallerySe
               </p>
             </Box>
           ) : (
-            <Box className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-              {filteredImages.map((image) => (
+            <>
+              <Box className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+                {imagesToDisplay.map((image) => (
                 <Box
                   key={image.id}
                   className="relative group cursor-pointer overflow-hidden rounded-lg bg-gray-100"
@@ -214,8 +274,45 @@ export default function GallerySection({ breadcrumbs, galleryImages }: GallerySe
                     </Box>
                   </Box>
                 </Box>
-              ))}
-            </Box>
+                ))}
+              </Box>
+
+              {/* Loading indicator and sentinel for infinite scroll */}
+              {hasMoreImages && (
+                <Box
+                  ref={sentinelRef}
+                  className="flex flex-col items-center justify-center py-8 mt-4"
+                >
+                  {isLoadingMore ? (
+                    <Box className="flex items-center gap-3">
+                      <Box
+                        className="w-8 h-8 border-4 rounded-full animate-spin"
+                        style={{
+                          borderColor: colors.primary + "30",
+                          borderTopColor: colors.primary,
+                        }}
+                      />
+                      <span className="text-gray-600 font-medium">Loading more images...</span>
+                    </Box>
+                  ) : (
+                    <Box className="text-center">
+                      <p className="text-gray-600 text-sm">
+                        Scroll down to load more images ({filteredImages.length - displayedCount} remaining)
+                      </p>
+                    </Box>
+                  )}
+                </Box>
+              )}
+
+              {/* Show message when all images are loaded */}
+              {!hasMoreImages && filteredImages.length > 9 && (
+                <Box className="flex items-center justify-center py-8 mt-4">
+                  <p className="text-gray-600 text-sm font-medium">
+                    All {filteredImages.length} images displayed
+                  </p>
+                </Box>
+              )}
+            </>
           )}
         </Box>
       </Box>
