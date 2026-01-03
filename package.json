@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "generate:gallery": "tsx scripts/generate-gallery.ts",
+    "build": "npm run generate:gallery && next build",
     "start": "next start",
     "lint": "eslint"
   },
@@ -25,6 +26,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.0.7",
     "tailwindcss": "^4",
+    "tsx": "^4.7.0",
     "typescript": "^5"
   }
 }
