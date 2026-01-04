@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
 
 :root {
   /* Background colors */
@@ -100,4 +101,16 @@ body {
 }
 .toast-slide-in {
   animation: slideInRight 0.3s ease-out;
+}
+
+/* Leaflet Map Styles */
+.custom-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+.leaflet-popup-content {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
 }

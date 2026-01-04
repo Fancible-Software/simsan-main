@@ -200,7 +200,7 @@ export default function Footer() {
               </Typography>
               <Box className="flex flex-col gap-4">
                 {/* Location */}
-                <Box className="flex items-start gap-3 justify-center sm:justify-start">
+                {/* <Box className="flex items-start gap-3 justify-center sm:justify-start">
                   <Box
                     className="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5"
                     style={{ background: colors.primary }}
@@ -212,7 +212,7 @@ export default function Footer() {
                   <Typography className="text-white" style={{ fontSize: '0.9375rem' }}>
                     Lower Mainland & Fraser Valley, BC, Canada
                   </Typography>
-                </Box>
+                </Box> */}
 
                 {/* Phone 1 */}
                 <Box className="flex items-start gap-3 justify-center sm:justify-start">

@@ -2,9 +2,9 @@
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import Image from "next/image";
 import { colors } from "@/lib/colors";
 import Link from "next/link";
+import FraserValleyMap from "@/components/FraserValleyMap";
 
 // Service areas organized for display
 const serviceAreas = [
@@ -213,52 +213,9 @@ export default function AreasWeServeIn() {
             </Box>
           </Box>
 
-          {/* Right Section - Map Images */}
+          {/* Right Section - Fraser Valley Map */}
           <Box className="w-full lg:w-1/2 flex flex-col gap-6 relative">
-            {/* Top Map - Portland Area */}
-            <Box className="relative rounded-lg overflow-hidden shadow-lg" style={{ zIndex: 2 }}>
-              <Image
-                src="/portland-map.png"
-                alt="Portland Area Service Map"
-                width={600}
-                height={400}
-                className="w-full h-auto object-cover rounded-lg"
-                style={{ opacity: 0.85 }}
-              />
-              {/* Service Area Border Overlay */}
-              <Box
-                className="absolute inset-0 pointer-events-none"
-                style={{
-                  border: `3px solid ${colors.primary}`,
-                  borderRadius: "8px",
-                  opacity: 0.8,
-                }}
-              />
-            </Box>
-
-            {/* Bottom Map - Seattle Area */}
-            <Box
-              className="relative rounded-lg overflow-hidden shadow-lg"
-              style={{ zIndex: 1, marginTop: "-40px", marginLeft: "40px" }}
-            >
-              <Image
-                src="/seattle-map.png"
-                alt="Seattle Area Service Map"
-                width={600}
-                height={400}
-                className="w-full h-auto object-cover rounded-lg"
-                style={{ opacity: 0.85 }}
-              />
-              {/* Service Area Border Overlay */}
-              <Box
-                className="absolute inset-0 pointer-events-none"
-                style={{
-                  border: `3px solid ${colors.primary}`,
-                  borderRadius: "8px",
-                  opacity: 0.8,
-                }}
-              />
-            </Box>
+            <FraserValleyMap />
           </Box>
         </Box>
       </Box>
