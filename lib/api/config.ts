@@ -4,7 +4,7 @@
  */
 
 export const API_CONFIG = {
-  BASE_URL: "admin-dev-api.fanciblesoftware.com/",
+  BASE_URL: "https://admin-dev-api.fanciblesoftware.com",
 } as const;
 
 export const API_ENDPOINTS = {
