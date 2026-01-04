@@ -75,24 +75,26 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
 
                     {/* CTA Buttons */}
                     <Box className="flex flex-col sm:flex-row gap-4 mt-4">
-                        <button
-                            className="text-white font-semibold px-8 py-4 rounded-lg w-fit flex items-center gap-2 transition-colors duration-200 uppercase tracking-wide text-sm lg:text-base"
+                        <a
+                            href="tel:+17782227988"
+                            className="text-white font-semibold px-8 py-4 rounded-lg w-fit flex items-center gap-2 transition-colors duration-200 uppercase tracking-wide text-sm lg:text-base no-underline"
                             style={{ background: colors.primary }}
                         >
                             CALL US NOW
                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                             </svg>
-                        </button>
-                        <button
-                            className="text-white font-semibold px-8 py-4 rounded-lg w-fit flex items-center gap-2 transition-colors duration-200 uppercase tracking-wide text-sm lg:text-base"
+                        </a>
+                        <Link
+                            href="/estimate"
+                            className="text-white font-semibold px-8 py-4 rounded-lg w-fit flex items-center gap-2 transition-colors duration-200 uppercase tracking-wide text-sm lg:text-base no-underline"
                             style={{ background: colors.primary }}
                         >
                             GET QUOTE
                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                             </svg>
-                        </button>
+                        </Link>
                     </Box>
                 </Box>
             </Box>
@@ -156,15 +158,16 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             </Box>
 
                             {/* CTA Button */}
-                            <button
-                                className="text-white font-semibold px-8 py-4 rounded-lg w-fit flex items-center gap-2 transition-colors duration-200 uppercase tracking-wide text-sm lg:text-base"
+                            <a
+                                href="tel:+17782227988"
+                                className="text-white font-semibold px-8 py-4 rounded-lg w-fit flex items-center gap-2 transition-colors duration-200 uppercase tracking-wide text-sm lg:text-base no-underline"
                                 style={{ background: colors.primary }}
                             >
                                 CALL EXPERTS NOW
                                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                                 </svg>
-                            </button>
+                            </a>
                         </Box>
 
                         {/* Right Column - Image Gallery */}
@@ -280,15 +283,16 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             </Box>
 
                             {/* CTA Button */}
-                            <button
-                                className="text-white font-semibold px-8 py-4 rounded-lg w-full sm:w-fit flex items-center justify-center gap-2 transition-colors duration-200 uppercase tracking-wide text-sm lg:text-base"
+                            <a
+                                href="tel:+17782227988"
+                                className="text-white font-semibold px-8 py-4 rounded-lg w-full sm:w-fit flex items-center justify-center gap-2 transition-colors duration-200 uppercase tracking-wide text-sm lg:text-base no-underline"
                                 style={{ background: colors.primary }}
                             >
                                 CALL NOW TO SCHEDULE YOUR SERVICE
                                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                                 </svg>
-                            </button>
+                            </a>
                         </Box>
                     </Box>
                 </Box>
@@ -429,15 +433,16 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
 
                     {/* BOOK NOW Button */}
                     <Box className="flex justify-center sm:justify-start">
-                        <button
-                            className="text-white font-semibold px-8 py-4 rounded-lg w-full sm:w-fit flex items-center justify-center gap-2 transition-colors duration-200 uppercase tracking-wide text-sm lg:text-base"
+                        <Link
+                            href="/contact"
+                            className="text-white font-semibold px-8 py-4 rounded-lg w-full sm:w-fit flex items-center justify-center gap-2 transition-colors duration-200 uppercase tracking-wide text-sm lg:text-base no-underline"
                             style={{ background: colors.primary }}
                         >
                             BOOK NOW
                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                             </svg>
-                        </button>
+                        </Link>
                     </Box>
                 </Box>
             </Box>

@@ -17,7 +17,7 @@ export const SERVICES: Service[] = [
     title: "Roof & Gutter Cleaning",
     shortTitle: "Roof &",
     description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    longDescription: "Tired of climbing ladders and risking your safety to clean your roof and gutters? AA Window, Roof & Gutter Cleaning is here to help. For over 40 years, we've been the trusted name in the Pacific Northwest for reliable, professional roof and gutter cleaning services. Our trained technicians don’t just clean — they inspect, protect, and extend the life of your roof and gutter system. We remove moss, leaves, and debris, ensure proper water flow, and handle minor repairs on the spot. And once we're done, we leave your property spotless.",
+    longDescription: "Tired of climbing ladders and risking your safety to clean your roof and gutters? AA Window, Roof & Gutter Cleaning is here to help. For over 40 years, we've been the trusted name in the Pacific Northwest for reliable, professional roof and gutter cleaning services. Our trained technicians don't just clean — they inspect, protect, and extend the life of your roof and gutter system. We remove moss, leaves, and debris, ensure proper water flow, and handle minor repairs on the spot. And once we're done, we leave your property spotless.",
     subheading: "Serving the Greater Seattle & Portland Area",
     benefits: [
       "Experienced professionals with 40+ years of expertise",
@@ -25,11 +25,14 @@ export const SERVICES: Service[] = [
       "No-mess guarantee — we leave your home clean and tidy",
       "Flexible scheduling to fit your routine"
     ],
-    heroImage: "/homepage1.png",
+    heroImage: "/gutter_cleaning/simsan_fraser_gutter_cleaning_1.jpeg",
     galleryImages: [
-      "/home-about-img1.png",
-      "/home-about-imp2.png",
-      "/homepage1.png"
+      "/gutter_cleaning/simsan_fraser_gutter_cleaning_1.jpeg",
+      "/gutter_cleaning/simsan_fraser_gutter_cleaning_2.jpeg",
+      "/gutter_cleaning/simsan_fraser_gutter_cleaning_3.jpeg",
+      "/gutter_cleaning/simsan_fraser_gutter_cleaning_4.jpeg",
+      "/gutter_cleaning/simsan_fraser_gutter_cleaning_5.jpeg",
+      "/gutter_cleaning/simsan_fraser_gutter_cleaning_6.jpeg"
     ],
     area: "Greater Seattle & Portland Area"
   },
@@ -88,11 +91,11 @@ export const SERVICES: Service[] = [
       "Professional installation and maintenance",
       "Flexible scheduling to fit your routine"
     ],
-    heroImage: "/homepage1.png",
+    heroImage: "/christmas_light_setup/simsan_fraser_christmas_light_setup_1.jpeg",
     galleryImages: [
-      "/home-about-img1.png",
-      "/home-about-imp2.png",
-      "/homepage1.png"
+      "/christmas_light_setup/simsan_fraser_christmas_light_setup_1.jpeg",
+      "/christmas_light_setup/simsan_fraser_christmas_light_setup_2.jpeg",
+      "/christmas_light_setup/simsan_fraser_christmas_light_setup_3.jpeg"
     ],
     area: "Greater Seattle & Portland Area"
   },
@@ -281,7 +284,7 @@ export const SERVICES: Service[] = [
     area: "Greater Seattle & Portland Area"
   },
   {
-    slug: "roof-blow-debris-cleaning",
+    slug: "roof-blow-and-debris-cleaning",
     title: "Roof Blow & Debris Cleaning",
     shortTitle: "Roof Blow & Debris",
     description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",

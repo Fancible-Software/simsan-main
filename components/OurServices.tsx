@@ -30,7 +30,7 @@ export default function OurServices() {
           <Box className="overflow-visible rounded-t-[32px] flex flex-col">
             <Box className="relative overflow-visible">
               <Image
-                src="/home-about-imp2.png"
+                src="/gutter_cleaning/simsan_fraser_gutter_cleaning_1.jpeg"
                 alt="Roof & Gutter Cleaning"
                 width={700}
                 height={510}
@@ -77,7 +77,7 @@ export default function OurServices() {
           <Box className="overflow-visible rounded-t-[32px] flex flex-col">
             <Box className="relative overflow-visible">
               <Image
-                src="/home-about-img1.png"
+                src="/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_1.jpeg"
                 alt="Window Washing"
                 width={700}
                 height={510}
@@ -124,7 +124,7 @@ export default function OurServices() {
           <Box className="overflow-visible rounded-t-[32px] flex flex-col">
             <Box className="relative overflow-visible">
               <Image
-                src="/home-about-img1.png"
+                src="/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.jpeg"
                 alt="Pressure Cleaning"
                 width={700}
                 height={510}
@@ -171,7 +171,7 @@ export default function OurServices() {
           <Box className="overflow-visible rounded-t-[32px] flex flex-col">
             <Box className="relative overflow-visible">
               <Image
-                src="/home-about-imp2.png"
+                src="/christmas_light_setup/simsan_fraser_christmas_light_setup_1.jpeg"
                 alt="Christmas Lighting & Decoration"
                 width={700}
                 height={510}

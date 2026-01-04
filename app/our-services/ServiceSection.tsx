@@ -26,7 +26,7 @@ const serviceIcons: Record<string, React.ReactNode> = {
     "flat-roof-cleaning": <FlatRoofCleaningIcon className="w-full h-full" />,
     "pressure-washing-concrete-floors": <PressureWashingConcreteFloorsIcon className="w-full h-full" />,
     "pressure-washing-floors": <PressureWashingFloorsIcon className="w-full h-full" />,
-    "roof-blow-debris-cleaning": <RoofBlowDebrisCleaningIcon className="w-full h-full" />,
+    "roof-blow-and-debris-cleaning": <RoofBlowDebrisCleaningIcon className="w-full h-full" />,
     "spanish-tile-roof-cleaning": <SpanishTileRoofCleaningIcon className="w-full h-full" />,
 };
 

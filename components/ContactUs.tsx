@@ -307,7 +307,7 @@ export default function ContactUs() {
             <Box className="flex items-center gap-4 justify-center sm:justify-start">
               {/* WhatsApp */}
               <a
-                href="#"
+                href="https://wa.me/17782227988"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center hover:opacity-80 transition-opacity"

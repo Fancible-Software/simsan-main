@@ -35,6 +35,7 @@ const reviews = [
 export default function CustomerReviews() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardsToShow, setCardsToShow] = useState(1);
+  const [isPaused, setIsPaused] = useState(false);
 
   // Determine how many cards to show based on screen size
   useEffect(() => {
@@ -56,8 +57,42 @@ export default function CustomerReviews() {
   // Calculate max index based on cards to show
   const maxIndex = Math.max(0, reviews.length - cardsToShow);
 
+  // Auto-scroll functionality
+  useEffect(() => {
+    if (isPaused || maxIndex === 0) return;
+
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => {
+        if (prevIndex >= maxIndex) {
+          return 0; // Loop back to start
+        }
+        return prevIndex + 1;
+      });
+    }, 4000); // Change slide every 4 seconds
+
+    return () => clearInterval(interval);
+  }, [isPaused, maxIndex]);
+
   const goToSlide = (index: number) => {
     setCurrentIndex(Math.min(index, maxIndex));
+  };
+
+  const goToNext = () => {
+    setCurrentIndex((prevIndex) => {
+      if (prevIndex >= maxIndex) {
+        return 0; // Loop back to start
+      }
+      return prevIndex + 1;
+    });
+  };
+
+  const goToPrev = () => {
+    setCurrentIndex((prevIndex) => {
+      if (prevIndex <= 0) {
+        return maxIndex; // Loop to end
+      }
+      return prevIndex - 1;
+    });
   };
 
   return (
@@ -80,7 +115,45 @@ export default function CustomerReviews() {
       </p>
       
       {/* Carousel Container */}
-      <Box className="relative max-w-7xl w-full px-4 md:px-6 lg:px-8 overflow-hidden">
+      <Box 
+        className="relative max-w-7xl w-full px-4 md:px-6 lg:px-8 overflow-hidden"
+        onMouseEnter={() => setIsPaused(true)}
+        onMouseLeave={() => setIsPaused(false)}
+      >
+        {/* Previous Button */}
+        {maxIndex > 0 && (
+          <button
+            onClick={goToPrev}
+            className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110 shadow-lg"
+            style={{ 
+              background: colors.primary,
+              color: 'white'
+            }}
+            aria-label="Previous review"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M15 18l-6-6 6-6"/>
+            </svg>
+          </button>
+        )}
+
+        {/* Next Button */}
+        {maxIndex > 0 && (
+          <button
+            onClick={goToNext}
+            className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110 shadow-lg"
+            style={{ 
+              background: colors.primary,
+              color: 'white'
+            }}
+            aria-label="Next review"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M9 18l6-6-6-6"/>
+            </svg>
+          </button>
+        )}
+
         <Box
           className="flex transition-transform duration-500 ease-in-out"
           style={{
