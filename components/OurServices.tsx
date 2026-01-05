@@ -30,7 +30,7 @@ export default function OurServices() {
           <Box className="overflow-visible rounded-t-[32px] flex flex-col">
             <Box className="relative overflow-visible">
               <Image
-                src="/gutter_cleaning/simsan_fraser_gutter_cleaning_1.jpeg"
+                src="/gutter_cleaning/simsan_fraser_gutter_cleaning_1.webp"
                 alt="Roof & Gutter Cleaning"
                 width={700}
                 height={510}
@@ -77,7 +77,7 @@ export default function OurServices() {
           <Box className="overflow-visible rounded-t-[32px] flex flex-col">
             <Box className="relative overflow-visible">
               <Image
-                src="/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_1.jpeg"
+                src="/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_1.webp"
                 alt="Window Washing"
                 width={700}
                 height={510}
@@ -126,7 +126,7 @@ export default function OurServices() {
           <Box className="overflow-visible rounded-t-[32px] flex flex-col">
             <Box className="relative overflow-visible">
               <Image
-                src="/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.jpeg"
+                src="/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.webp"
                 alt="Pressure Cleaning"
                 width={700}
                 height={510}
@@ -175,7 +175,7 @@ export default function OurServices() {
           <Box className="overflow-visible rounded-t-[32px] flex flex-col">
             <Box className="relative overflow-visible">
               <Image
-                src="/christmas_light_setup/simsan_fraser_christmas_light_setup_1.jpeg"
+                src="/christmas_light_setup/simsan_fraser_christmas_light_setup_1.webp"
                 alt="Christmas Lighting & Decoration"
                 width={700}
                 height={510}

@@ -7,23 +7,23 @@ import React, { useState } from "react";
 
 const images = [
   {
-    src: "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_1.jpeg",
+    src: "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_1.webp",
     alt: "Asphalt Shingle Roof Cleaning"
   },
   {
-    src: "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_1.jpeg",
+    src: "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_1.webp",
     alt: "Cedar Roof Cleaning"
   },
   {
-    src: "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_1.jpeg",
+    src: "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_1.webp",
     alt: "Concrete Tile Roof Cleaning"
   },
   {
-    src: "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_1.jpeg",
+    src: "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_1.webp",
     alt: "Flat Roof Cleaning"
   },
   {
-    src: "/gutter_cleaning/simsan_fraser_gutter_cleaning_1.jpeg",
+    src: "/gutter_cleaning/simsan_fraser_gutter_cleaning_1.webp",
     alt: "Gutter Cleaning"
   }
 ];

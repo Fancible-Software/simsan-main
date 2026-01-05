@@ -305,7 +305,7 @@ export default function AboutUsPage() {
                     {/* Left: Big Image */}
                     <Box className="flex-1 flex items-center justify-center">
                         <img
-                            src="/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_1.jpeg"
+                            src="/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_1.webp"
                             alt="Roof cleaning in progress"
                             className="w-full max-w-md rounded-[36px] object-cover"
                             style={{ height: '355px', minWidth: 200, filter: 'brightness(1.1)' }}
