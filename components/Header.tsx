@@ -115,11 +115,15 @@ export default function Header() {
       >
         <Box className="flex items-center gap-2">
           <img src="/icons/email.svg" alt="Email" />
-          <Typography variant="body2">{CONTACT_INFO.EMAIL}</Typography>
+          <a href={`mailto:${CONTACT_INFO.EMAIL}`} className="text-white hover:text-gray-200 transition-colors no-underline">
+            <Typography variant="body2" component="span">{CONTACT_INFO.EMAIL}</Typography>
+          </a>
         </Box>
         <Box className="flex items-center gap-2">
           <img src="/icons/phone.svg" alt="Phone" />
-          <Typography variant="body2">{CONTACT_INFO.PHONE}</Typography>
+          <a href="tel:+17782227988" className="text-white hover:text-gray-200 transition-colors no-underline">
+            <Typography variant="body2" component="span">{CONTACT_INFO.PHONE}</Typography>
+          </a>
         </Box>
       </Box>
 

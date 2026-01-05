@@ -95,14 +95,16 @@ export default function Footer() {
           <Box className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 pt-6">
             {/* Column 1: Logo & Company Info */}
             <Box className="flex flex-col sm:items-start items-center">
-              <Image
-                src="/icons/logo.svg"
-                alt="Simsan Fraser Maintenance Ltd."
-                width={300}
-                height={100}
-                className="mb-4"
-                style={{ filter: 'brightness(0) invert(1)' }}
-              />
+              <Link href="/" className="no-underline">
+                <Image
+                  src="/icons/logo.svg"
+                  alt="Simsan Fraser Maintenance Ltd."
+                  width={300}
+                  height={100}
+                  className="mb-4 hover:opacity-80 transition-opacity cursor-pointer"
+                  style={{ filter: 'brightness(0) invert(1)' }}
+                />
+              </Link>
               {/* Social Media Icons */}
               <Box className="flex gap-3 mt-2">
                 {/* WhatsApp */}
