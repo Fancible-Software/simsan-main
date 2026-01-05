@@ -15,10 +15,10 @@ const companyLinks = [
 ];
 
 const services = [
-  "Roof & Gutter Cleaning",
-  "Window Cleaning",
-  "Pressure Washing",
-  "Christmas Light & Decoration",
+  { name: "Roof & Gutter Cleaning", slug: "roof-gutter-cleaning" },
+  { name: "Window Cleaning", slug: null }, // Link to services page
+  { name: "Pressure Washing", slug: null }, // Link to services page (multiple pressure washing services)
+  { name: "Christmas Light & Decoration", slug: "christmas-lighting-decoration" },
 ];
 
 export default function Footer() {
@@ -177,15 +177,21 @@ export default function Footer() {
                 Services
               </Typography>
               <Box className="flex flex-col gap-3">
-                {services.map((service) => (
-                  <Typography
-                    key={service}
-                    className="text-white hover:text-gray-300 transition-colors cursor-pointer"
-                    style={{ fontSize: '0.9375rem' }}
-                  >
-                    {service}
-                  </Typography>
-                ))}
+                {services.map((service) => {
+                  const href = service.slug 
+                    ? `/services/${service.slug}` 
+                    : "/our-services";
+                  return (
+                    <Link
+                      key={service.name}
+                      href={href}
+                      className="text-white hover:text-gray-300 transition-colors no-underline"
+                      style={{ fontSize: '0.9375rem' }}
+                    >
+                      {service.name}
+                    </Link>
+                  );
+                })}
               </Box>
             </Box>
 
@@ -224,9 +230,13 @@ export default function Footer() {
                       <path d="M2.5 0.5C2.22 0.5 2 0.72 2 1V11C2 11.28 2.22 11.5 2.5 11.5H9.5C9.78 11.5 10 11.28 10 11V1C10 0.72 9.78 0.5 9.5 0.5H2.5ZM3 2H9V10H3V2Z" fill="white"/>
                     </svg>
                   </Box>
-                  <Typography className="text-white" style={{ fontSize: '0.9375rem' }}>
+                  <a
+                    href="tel:+17782227988"
+                    className="text-white hover:text-gray-300 transition-colors no-underline"
+                    style={{ fontSize: '0.9375rem' }}
+                  >
                     +1-778-222-7988
-                  </Typography>
+                  </a>
                 </Box>
 
                 {/* Phone 2 */}
@@ -239,9 +249,13 @@ export default function Footer() {
                       <path d="M2.5 0.5C2.22 0.5 2 0.72 2 1V11C2 11.28 2.22 11.5 2.5 11.5H9.5C9.78 11.5 10 11.28 10 11V1C10 0.72 9.78 0.5 9.5 0.5H2.5ZM3 2H9V10H3V2Z" fill="white"/>
                     </svg>
                   </Box>
-                  <Typography className="text-white" style={{ fontSize: '0.9375rem' }}>
+                  <a
+                    href="tel:+16048804476"
+                    className="text-white hover:text-gray-300 transition-colors no-underline"
+                    style={{ fontSize: '0.9375rem' }}
+                  >
                     +1-604-880-4476
-                  </Typography>
+                  </a>
                 </Box>
 
                 {/* Email */}
@@ -254,9 +268,13 @@ export default function Footer() {
                       <path d="M1 2L6 6.5L11 2V10H1V2ZM1 0H11C11.55 0 12 0.45 12 1V11C12 11.55 11.55 12 11 12H1C0.45 12 0 11.55 0 11V1C0 0.45 0.45 0 1 0Z" fill="white"/>
                     </svg>
                   </Box>
-                  <Typography className="text-white" style={{ fontSize: '0.9375rem' }}>
+                  <a
+                    href={`mailto:${CONTACT_INFO.EMAIL}`}
+                    className="text-white hover:text-gray-300 transition-colors no-underline"
+                    style={{ fontSize: '0.9375rem' }}
+                  >
                     {CONTACT_INFO.EMAIL}
-                  </Typography>
+                  </a>
                 </Box>
               </Box>
             </Box>

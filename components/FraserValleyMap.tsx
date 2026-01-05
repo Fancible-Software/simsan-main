@@ -34,55 +34,76 @@ const locations = [
 export default function FraserValleyMap() {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<any>(null);
+  const isInitializedRef = useRef<boolean>(false);
 
   useEffect(() => {
-    if (!mapRef.current || mapInstanceRef.current) return;
+    // Prevent multiple initializations
+    if (!mapRef.current || isInitializedRef.current || mapInstanceRef.current) {
+      return;
+    }
 
     // Dynamically import Leaflet only on client side
     const initMap = async () => {
-      const L = await import("leaflet");
-      
-      // Fix for default marker icon issue in Next.js
-      delete (L.default as any).Icon.Default.prototype._getIconUrl;
-      L.default.Icon.Default.mergeOptions({
-        iconRetinaUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png",
-        iconUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png",
-        shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png",
-      });
+      // Double check after async import
+      if (!mapRef.current || isInitializedRef.current || mapInstanceRef.current) {
+        return;
+      }
 
-      // Initialize the map centered on Fraser Valley
-      const map = L.default.map(mapRef.current!).setView([49.2, -122.8], 10);
+      try {
+        const L = await import("leaflet");
+        
+        // Check if container already has a map instance
+        if (mapRef.current && (mapRef.current as any)._leaflet_id) {
+          return;
+        }
 
-      // Add OpenStreetMap tile layer
-      L.default.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        attribution: "© OpenStreetMap contributors",
-        maxZoom: 19,
-      }).addTo(map);
+        // Fix for default marker icon issue in Next.js
+        delete (L.default as any).Icon.Default.prototype._getIconUrl;
+        L.default.Icon.Default.mergeOptions({
+          iconRetinaUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png",
+          iconUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png",
+          shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png",
+        });
 
-      // Create custom icon
-      const customIcon = L.default.divIcon({
-        className: "custom-marker",
-        html: `<div style="background-color: ${colors.primary}; width: 24px; height: 24px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.3);"></div>`,
-        iconSize: [24, 24],
-        iconAnchor: [12, 12],
-        popupAnchor: [0, -12],
-      });
+        // Initialize the map centered on Fraser Valley
+        const map = L.default.map(mapRef.current!, {
+          preferCanvas: false,
+        }).setView([49.2, -122.8], 10);
 
-      // Add markers for each location
-      locations.forEach((location) => {
-        const marker = L.default
-          .marker([location.lat, location.lng], { icon: customIcon })
-          .addTo(map);
-        marker.bindPopup(`<b>${location.name}</b>`);
-      });
+        // Add OpenStreetMap tile layer
+        L.default.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          attribution: "© OpenStreetMap contributors",
+          maxZoom: 19,
+        }).addTo(map);
 
-      // Create bounds from all locations to fit them all in view
-      const bounds = L.default.latLngBounds(
-        locations.map((loc) => [loc.lat, loc.lng] as [number, number])
-      );
-      map.fitBounds(bounds, { padding: [50, 50] });
+        // Create custom icon
+        const customIcon = L.default.divIcon({
+          className: "custom-marker",
+          html: `<div style="background-color: ${colors.primary}; width: 24px; height: 24px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.3);"></div>`,
+          iconSize: [24, 24],
+          iconAnchor: [12, 12],
+          popupAnchor: [0, -12],
+        });
 
-      mapInstanceRef.current = map;
+        // Add markers for each location
+        locations.forEach((location) => {
+          const marker = L.default
+            .marker([location.lat, location.lng], { icon: customIcon })
+            .addTo(map);
+          marker.bindPopup(`<b>${location.name}</b>`);
+        });
+
+        // Create bounds from all locations to fit them all in view
+        const bounds = L.default.latLngBounds(
+          locations.map((loc) => [loc.lat, loc.lng] as [number, number])
+        );
+        map.fitBounds(bounds, { padding: [50, 50] });
+
+        mapInstanceRef.current = map;
+        isInitializedRef.current = true;
+      } catch (error) {
+        console.error("Error initializing map:", error);
+      }
     };
 
     initMap();
@@ -90,8 +111,13 @@ export default function FraserValleyMap() {
     // Cleanup function
     return () => {
       if (mapInstanceRef.current) {
-        mapInstanceRef.current.remove();
+        try {
+          mapInstanceRef.current.remove();
+        } catch (error) {
+          console.error("Error removing map:", error);
+        }
         mapInstanceRef.current = null;
+        isInitializedRef.current = false;
       }
     };
   }, []);

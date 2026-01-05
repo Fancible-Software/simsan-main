@@ -2,7 +2,7 @@
 import { useState, FormEvent, useMemo } from "react";
 import Box from "@mui/material/Box";
 import { colors } from "@/lib/colors";
-import { CONTACT_INFO } from "@/constants";
+import { CONTACT_INFO, SOCIAL_MEDIA } from "@/constants";
 import { createContact } from "@/lib/api/contact";
 import type { ContactCreateRequest } from "@/types";
 import Toast from "./Toast";
@@ -307,7 +307,7 @@ export default function ContactUs() {
             <Box className="flex items-center gap-4 justify-center sm:justify-start">
               {/* WhatsApp */}
               <a
-                href="https://wa.me/17782227988"
+                href={SOCIAL_MEDIA.WHATSAPP}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center hover:opacity-80 transition-opacity"
@@ -320,7 +320,7 @@ export default function ContactUs() {
 
               {/* Facebook */}
               <a
-                href="#"
+                href={SOCIAL_MEDIA.FACEBOOK}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center hover:opacity-80 transition-opacity"
@@ -333,7 +333,7 @@ export default function ContactUs() {
 
               {/* Instagram */}
               <a
-                href="#"
+                href={SOCIAL_MEDIA.INSTAGRAM}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center hover:opacity-80 transition-opacity"
