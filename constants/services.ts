@@ -126,27 +126,27 @@ export const SERVICES: Service[] = [
     ],
     area: "Greater Seattle & Portland Area"
   },
-  {
-    slug: "window-cleaning",
-    title: "Window Cleaning",
-    shortTitle: "Window",
-    description: "Crystal clear windows enhance your property's appearance and let in more natural light. Our professional window cleaning service removes dirt, grime, and streaks for spotless results every time.",
-    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective window cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. We don't use any chemicals or soaps to clean windows, ensuring a streak-free, crystal-clear finish that enhances your property's appearance.",
-    subheading: "Serving the Greater Seattle & Portland Area",
-    benefits: [
-      "Streak-free, crystal-clear results every time",
-      "Chemical-free cleaning methods for safety",
-      "Professional equipment and techniques",
-      "Flexible scheduling to fit your routine"
-    ],
-    heroImage: "/home-about-img1.png",
-    galleryImages: [
-      "/home-about-img1.png",
-      "/home-about-imp2.png",
-      "/homepage1.png"
-    ],
-    area: "Greater Seattle & Portland Area"
-  },
+  // {
+  //   slug: "window-cleaning",
+  //   title: "Window Cleaning",
+  //   shortTitle: "Window",
+  //   description: "Crystal clear windows enhance your property's appearance and let in more natural light. Our professional window cleaning service removes dirt, grime, and streaks for spotless results every time.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective window cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. We don't use any chemicals or soaps to clean windows, ensuring a streak-free, crystal-clear finish that enhances your property's appearance.",
+  //   subheading: "Serving the Greater Seattle & Portland Area",
+  //   benefits: [
+  //     "Streak-free, crystal-clear results every time",
+  //     "Chemical-free cleaning methods for safety",
+  //     "Professional equipment and techniques",
+  //     "Flexible scheduling to fit your routine"
+  //   ],
+  //   heroImage: "/home-about-img1.png",
+  //   galleryImages: [
+  //     "/home-about-img1.png",
+  //     "/home-about-imp2.png",
+  //     "/homepage1.png"
+  //   ],
+  //   area: "Greater Seattle & Portland Area"
+  // },
   {
     slug: "concrete-tile-roof-cleaning",
     title: "Concrete Tile Roof Cleaning",
@@ -312,27 +312,27 @@ export const SERVICES: Service[] = [
     ],
     area: "Greater Seattle & Portland Area"
   },
-  {
-    slug: "pressure-washing",
-    title: "Pressure Washing",
-    shortTitle: "Pressure",
-    description: "Restore your property's exterior surfaces to like-new condition. Our pressure washing service effectively removes mold, mildew, dirt, and stains from driveways, walkways, decks, and siding.",
-    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective pressure washing services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our pressure washing service restores surfaces to their original beauty, removing dirt, grime, and stains with precision and care.",
-    subheading: "Serving the Greater Seattle & Portland Area",
-    benefits: [
-      "Restores surfaces to like-new condition",
-      "Removes mold, mildew, dirt, and stains",
-      "Safe for driveways, walkways, decks, and siding",
-      "Flexible scheduling to fit your routine"
-    ],
-    heroImage: "/home-about-imp2.png",
-    galleryImages: [
-      "/home-about-img1.png",
-      "/home-about-imp2.png",
-      "/homepage1.png"
-    ],
-    area: "Greater Seattle & Portland Area"
-  },
+  // {
+  //   slug: "pressure-washing",
+  //   title: "Pressure Washing",
+  //   shortTitle: "Pressure",
+  //   description: "Restore your property's exterior surfaces to like-new condition. Our pressure washing service effectively removes mold, mildew, dirt, and stains from driveways, walkways, decks, and siding.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective pressure washing services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our pressure washing service restores surfaces to their original beauty, removing dirt, grime, and stains with precision and care.",
+  //   subheading: "Serving the Greater Seattle & Portland Area",
+  //   benefits: [
+  //     "Restores surfaces to like-new condition",
+  //     "Removes mold, mildew, dirt, and stains",
+  //     "Safe for driveways, walkways, decks, and siding",
+  //     "Flexible scheduling to fit your routine"
+  //   ],
+  //   heroImage: "/home-about-imp2.png",
+  //   galleryImages: [
+  //     "/home-about-img1.png",
+  //     "/home-about-imp2.png",
+  //     "/homepage1.png"
+  //   ],
+  //   area: "Greater Seattle & Portland Area"
+  // },
 ];
 
 export function getServiceBySlug(slug: string): Service | undefined {
