@@ -25,14 +25,14 @@ export const SERVICES: Service[] = [
       "No-mess guarantee — we leave your home clean and tidy",
       "Flexible scheduling to fit your routine"
     ],
-    heroImage: "/gutter_cleaning/simsan_fraser_gutter_cleaning_1.jpeg",
+    heroImage: "/gutter_cleaning/simsan_fraser_gutter_cleaning_1.webp",
     galleryImages: [
-      "/gutter_cleaning/simsan_fraser_gutter_cleaning_1.jpeg",
-      "/gutter_cleaning/simsan_fraser_gutter_cleaning_2.jpeg",
-      "/gutter_cleaning/simsan_fraser_gutter_cleaning_3.jpeg",
-      "/gutter_cleaning/simsan_fraser_gutter_cleaning_4.jpeg",
-      "/gutter_cleaning/simsan_fraser_gutter_cleaning_5.jpeg",
-      "/gutter_cleaning/simsan_fraser_gutter_cleaning_6.jpeg"
+      "/gutter_cleaning/simsan_fraser_gutter_cleaning_1.webp",
+      "/gutter_cleaning/simsan_fraser_gutter_cleaning_2.webp",
+      "/gutter_cleaning/simsan_fraser_gutter_cleaning_3.webp",
+      "/gutter_cleaning/simsan_fraser_gutter_cleaning_4.webp",
+      "/gutter_cleaning/simsan_fraser_gutter_cleaning_5.webp",
+      "/gutter_cleaning/simsan_fraser_gutter_cleaning_6.webp"
     ],
     area: "Greater Seattle & Portland Area"
   },
@@ -91,11 +91,11 @@ export const SERVICES: Service[] = [
       "Professional installation and maintenance",
       "Flexible scheduling to fit your routine"
     ],
-    heroImage: "/christmas_light_setup/simsan_fraser_christmas_light_setup_1.jpeg",
+    heroImage: "/christmas_light_setup/simsan_fraser_christmas_light_setup_1.webp",
     galleryImages: [
-      "/christmas_light_setup/simsan_fraser_christmas_light_setup_1.jpeg",
-      "/christmas_light_setup/simsan_fraser_christmas_light_setup_2.jpeg",
-      "/christmas_light_setup/simsan_fraser_christmas_light_setup_3.jpeg"
+      "/christmas_light_setup/simsan_fraser_christmas_light_setup_1.webp",
+      "/christmas_light_setup/simsan_fraser_christmas_light_setup_2.webp",
+      "/christmas_light_setup/simsan_fraser_christmas_light_setup_3.webp"
     ],
     area: "Greater Seattle & Portland Area"
   },
@@ -112,17 +112,17 @@ export const SERVICES: Service[] = [
       "Extends the life of your roof",
       "Flexible scheduling to fit your routine"
     ],
-    heroImage: "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_1.jpeg",
+    heroImage: "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_1.webp",
     galleryImages: [
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_1.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_2.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_3.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_4.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_5.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_6.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_7.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_8.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_9.jpeg"
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_1.webp",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_2.webp",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_3.webp",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_4.webp",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_5.webp",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_6.webp",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_7.webp",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_8.webp",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_9.webp"
     ],
     area: "Greater Seattle & Portland Area"
   },
@@ -160,23 +160,23 @@ export const SERVICES: Service[] = [
       "Extends the life of your concrete tile roof",
       "Flexible scheduling to fit your routine"
     ],
-    heroImage: "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_1.jpeg",
+    heroImage: "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_1.webp",
     galleryImages: [
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_1.jpeg",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_2.jpeg",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_3.jpeg",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_4.jpeg",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_5.jpeg",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_6.jpeg",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_7.jpeg",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_8.jpeg",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_9.jpeg",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_10.jpeg",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_11.jpeg",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_12.jpeg",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_13.jpeg",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_14.jpeg",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_15.jpeg"
+      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_1.webp",
+      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_2.webp",
+      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_3.webp",
+      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_4.webp",
+      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_5.webp",
+      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_6.webp",
+      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_7.webp",
+      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_8.webp",
+      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_9.webp",
+      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_10.webp",
+      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_11.webp",
+      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_12.webp",
+      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_13.webp",
+      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_14.webp",
+      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_15.webp"
     ],
     area: "Greater Seattle & Portland Area"
   },
@@ -193,23 +193,23 @@ export const SERVICES: Service[] = [
       "Extends the life of your flat roof",
       "Flexible scheduling to fit your routine"
     ],
-    heroImage: "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_1.jpeg",
+    heroImage: "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_1.webp",
     galleryImages: [
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_1.jpeg",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_2.jpeg",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_3.jpeg",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_4.jpeg",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_5.jpeg",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_6.jpeg",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_7.jpeg",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_8.jpeg",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_9.jpeg",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_10.jpeg",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_11.jpeg",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_12.jpeg",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_13.jpeg",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_14.jpeg",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_15.jpeg"
+      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_1.webp",
+      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_2.webp",
+      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_3.webp",
+      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_4.webp",
+      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_5.webp",
+      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_6.webp",
+      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_7.webp",
+      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_8.webp",
+      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_9.webp",
+      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_10.webp",
+      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_11.webp",
+      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_12.webp",
+      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_13.webp",
+      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_14.webp",
+      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_15.webp"
     ],
     area: "Greater Seattle & Portland Area"
   },
@@ -226,23 +226,89 @@ export const SERVICES: Service[] = [
       "Restores concrete floors to like-new condition",
       "Flexible scheduling to fit your routine"
     ],
-    heroImage: "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.jpeg",
+    heroImage: "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.webp",
     galleryImages: [
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.jpeg",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_2.jpeg",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_3.jpeg",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_4.jpeg",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_5.jpeg",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_6.jpeg",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_7.jpeg",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_8.jpeg",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_9.jpeg",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_10.jpeg",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_11.jpeg",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_12.jpeg",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_13.jpeg",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_14.jpeg",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_15.jpeg"
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.webp",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_2.webp",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_3.webp",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_4.webp",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_5.webp",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_6.webp",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_7.webp",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_8.webp",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_9.webp",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_10.webp",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_11.webp",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_12.webp",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_13.webp",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_14.webp",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_15.webp"
+    ],
+    area: "Greater Seattle & Portland Area"
+  },
+  {
+    slug: "roof-blow-and-debris-cleaning",
+    title: "Roof Blow & Debris Cleaning",
+    shortTitle: "Roof Blow & Debris",
+    description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective roof blow and debris cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+    subheading: "Serving the Greater Seattle & Portland Area",
+    benefits: [
+      "Professional cleaning removes leaves, needles, and debris",
+      "Prevents water backup and structural damage",
+      "Extends the life of your roof",
+      "Flexible scheduling to fit your routine"
+    ],
+    heroImage: "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_1.webp",
+    galleryImages: [
+      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_1.webp",
+      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_2.webp",
+      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_3.webp",
+      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_4.webp",
+      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_5.webp",
+      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_6.webp",
+      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_7.webp",
+      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_8.webp",
+      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_9.webp",
+      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_10.webp",
+      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_11.webp",
+      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_12.webp",
+      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_13.webp",
+      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_14.webp",
+      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_15.webp"
+    ],
+    area: "Greater Seattle & Portland Area"
+  },
+  {
+    slug: "spanish-tile-roof-cleaning",
+    title: "Spanish Tile Roof Cleaning",
+    shortTitle: "Spanish Tile",
+    description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective Spanish tile roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+    subheading: "Serving the Greater Seattle & Portland Area",
+    benefits: [
+      "Professional cleaning removes leaves, needles, and debris",
+      "Prevents water backup and structural damage",
+      "Extends the life of your Spanish tile roof",
+      "Flexible scheduling to fit your routine"
+    ],
+    heroImage: "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_1.webp",
+    galleryImages: [
+      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_1.webp",
+      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_2.webp",
+      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_3.webp",
+      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_4.webp",
+      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_5.webp",
+      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_6.webp",
+      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_7.webp",
+      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_8.webp",
+      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_9.webp",
+      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_10.webp",
+      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_11.webp",
+      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_12.webp",
+      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_13.webp",
+      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_14.webp",
+      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_15.webp"
     ],
     area: "Greater Seattle & Portland Area"
   },
@@ -267,72 +333,6 @@ export const SERVICES: Service[] = [
     ],
     area: "Greater Seattle & Portland Area"
   },
-  {
-    slug: "roof-blow-and-debris-cleaning",
-    title: "Roof Blow & Debris Cleaning",
-    shortTitle: "Roof Blow & Debris",
-    description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective roof blow and debris cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    subheading: "Serving the Greater Seattle & Portland Area",
-    benefits: [
-      "Professional cleaning removes leaves, needles, and debris",
-      "Prevents water backup and structural damage",
-      "Extends the life of your roof",
-      "Flexible scheduling to fit your routine"
-    ],
-    heroImage: "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_1.jpeg",
-    galleryImages: [
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_1.jpeg",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_2.jpeg",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_3.jpeg",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_4.jpeg",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_5.jpeg",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_6.jpeg",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_7.jpeg",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_8.jpeg",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_9.jpeg",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_10.jpeg",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_11.jpeg",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_12.jpeg",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_13.jpeg",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_14.jpeg",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_15.jpeg"
-    ],
-    area: "Greater Seattle & Portland Area"
-  },
-  {
-    slug: "spanish-tile-roof-cleaning",
-    title: "Spanish Tile Roof Cleaning",
-    shortTitle: "Spanish Tile",
-    description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective Spanish tile roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    subheading: "Serving the Greater Seattle & Portland Area",
-    benefits: [
-      "Professional cleaning removes leaves, needles, and debris",
-      "Prevents water backup and structural damage",
-      "Extends the life of your Spanish tile roof",
-      "Flexible scheduling to fit your routine"
-    ],
-    heroImage: "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_1.jpeg",
-    galleryImages: [
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_1.jpeg",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_2.jpeg",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_3.jpeg",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_4.jpeg",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_5.jpeg",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_6.jpeg",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_7.jpeg",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_8.jpeg",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_9.jpeg",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_10.jpeg",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_11.jpeg",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_12.jpeg",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_13.jpeg",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_14.jpeg",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_15.jpeg"
-    ],
-    area: "Greater Seattle & Portland Area"
-  }
 ];
 
 export function getServiceBySlug(slug: string): Service | undefined {
