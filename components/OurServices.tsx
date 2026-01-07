@@ -108,15 +108,13 @@ export default function OurServices() {
                 position: 'relative'
               }}
             >
-              <Link href="/services/window-cleaning" className="no-underline">
-                <h3 className="text-2xl font-extrabold mb-3 leading-snug hover:opacity-80 transition-opacity" style={{ color: colors.primary }}>
-                  Window Cleaning
-                </h3>
-              </Link>
+              <h3 className="text-2xl font-extrabold mb-3 leading-snug" style={{ color: colors.primary }}>
+                Cedar Roof Cleaning
+              </h3>
               <p className="text-gray-600 md:text-lg mb-5 flex-1" style={{ color: colors.text.primary }}>
-                Want your house to shine bright? Call us and get your windows cleaned quickly! We don&apos;t use any chemicals or soaps to clean windows.
+                Want your house to shine bright? Call us and get your Cedar Roof Cleaning quickly! We don&apos;t use any chemicals or soaps to clean windows.
               </p>
-              <Link href="/services/window-cleaning" className="font-bold text-lg block w-full pt-3 pb-1 mt-auto no-underline" style={{ color: colors.primary, background: 'none' }}>
+              <Link href="/services/cedar-roof-cleaning" className="font-bold text-lg block w-full pt-3 pb-1 mt-auto no-underline" style={{ color: colors.primary, background: 'none' }}>
                 LEARN MORE <span className="inline-block align-middle"><svg className="w-5 h-5 inline ml-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
               </Link>
             </Box>
@@ -157,15 +155,13 @@ export default function OurServices() {
                 position: 'relative'
               }}
             >
-              <Link href="/services/pressure-washing" className="no-underline">
-                <h3 className="text-2xl font-extrabold mb-3 leading-snug hover:opacity-80 transition-opacity" style={{ color: colors.primary }}>
-                  Pressure Washing
-                </h3>
-              </Link>
+              <h3 className="text-2xl font-extrabold mb-3 leading-snug" style={{ color: colors.primary }}>
+                Pressure Washing Floors
+              </h3>
               <p className="text-gray-600 md:text-lg mb-5 flex-1" style={{ color: colors.text.primary }}>
-                Pressure washing or power washing is the use of high-pressure water spray to remove loose paint, mold, grime, dust
+                Pressure Washing Floors or power washing is the use of high-pressure water spray to remove loose paint, mold, grime, dust
               </p>
-              <Link href="/services/pressure-washing" className="font-bold text-lg block w-full pt-3 pb-1 mt-auto no-underline" style={{ color: colors.primary, background: 'none' }}>
+              <Link href="/services/pressure-washing-floors" className="font-bold text-lg block w-full pt-3 pb-1 mt-auto no-underline" style={{ color: colors.primary, background: 'none' }}>
                 LEARN MORE <span className="inline-block align-middle"><svg className="w-5 h-5 inline ml-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
               </Link>
             </Box>

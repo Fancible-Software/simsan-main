@@ -16,8 +16,8 @@ const companyLinks = [
 
 const services = [
   { name: "Roof & Gutter Cleaning", slug: "roof-gutter-cleaning" },
-  { name: "Window Cleaning", slug: "window-cleaning" },
-  { name: "Pressure Washing", slug: "pressure-washing" },
+  { name: "Cedar Roof Cleaning", slug: "cedar-roof-cleaning" }, // Link to services page
+  { name: "Pressure Washing Floors", slug: "pressure-washing-floors" }, // Link to services page (multiple pressure washing services)
   { name: "Christmas Light & Decoration", slug: "christmas-lighting-decoration" },
 ];
 
