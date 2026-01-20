@@ -4,7 +4,8 @@ import Typography from "@mui/material/Typography";
 import { colors } from "@/lib/colors";
 import React, { useState, useEffect } from "react";
 
-const reviews = [
+// Fallback reviews in case API fails or is not configured
+const fallbackReviews = [
   {
     text:
       "I would highly recommend these gentlemen. Sandeep door knocked at the right time as we needed work done. The price was really reasonable and they cleaned the gutters, hand brushed the siding and windows.",
@@ -32,10 +33,51 @@ const reviews = [
   },
 ];
 
+interface Review {
+  text: string;
+  author: string;
+  rating?: number;
+  time?: number;
+  profilePhotoUrl?: string;
+}
+
 export default function CustomerReviews() {
+  const [reviews, setReviews] = useState<Review[]>(fallbackReviews);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardsToShow, setCardsToShow] = useState(1);
   const [isPaused, setIsPaused] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Fetch Google Reviews on component mount
+  useEffect(() => {
+    const fetchGoogleReviews = async () => {
+      try {
+        const response = await fetch('/api/google-reviews');
+        const data = await response.json();
+        
+        if (data.reviews && data.reviews.length > 0) {
+          // Transform Google reviews to match our format
+          const formattedReviews = data.reviews.map((review: any) => ({
+            text: review.text,
+            author: review.author,
+          }));
+          setReviews(formattedReviews);
+        } else {
+          // If no reviews from API, use fallback
+          console.log('No reviews from API, using fallback reviews');
+          setReviews(fallbackReviews);
+        }
+      } catch (error) {
+        console.error('Error fetching Google Reviews:', error);
+        // Use fallback reviews on error
+        setReviews(fallbackReviews);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchGoogleReviews();
+  }, []);
 
   // Determine how many cards to show based on screen size
   useEffect(() => {
@@ -114,7 +156,7 @@ export default function CustomerReviews() {
       </p>
       
       {/* External Review Links */}
-      <Box className="flex flex-wrap gap-4 justify-center mb-6">
+      {/* <Box className="flex flex-wrap gap-4 justify-center mb-6">
         <a
           href="https://www.google.com/maps/place/Simsan+Fraser+Maintenance+Ltd/@49.2864298,-123.7207669,9z/data=!3m1!4b1!4m6!3m5!1s0x8d64a713f8717419:0x4cb8cdfc07e644a8!8m2!3d49.2883054!4d-123.0614468!16s%2Fg%2F11sqq338yq?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D"
           target="_blank"
@@ -163,7 +205,7 @@ export default function CustomerReviews() {
           </svg>
           View Facebook Reviews
         </a>
-      </Box>
+      </Box> */}
       
       {/* Carousel Container */}
       <Box 

@@ -134,17 +134,17 @@ export default function AboutUsPage() {
         {
             Icon: TechniciansIcon,
             title: "Experienced & Skilled Technicians",
-            description: "Our technicians are trained, knowledgeable, and experienced in all areas of property maintenance"
+            description: "Our technicians are trained, knowledgeable and experienced in all areas of property maintenance"
         },
         {
             Icon: SafeMethodsIcon,
             title: "Safe, Professional Methods",
-            description: "We use advanced tools, safe cleaning methods, and high standards to deliver premium results every time"
+            description: "We use advanced tools, safe cleaning methods and high standards to deliver premium results every time"
         },
         {
             Icon: PricingIcon,
             title: "Affordable, Transparent Pricing",
-            description: "We believe in clear communication, fair pricing, and no hidden charges ever"
+            description: "We believe in clear communication, fair pricing and no hidden charges ever"
         },
         {
             Icon: LocalExpertsIcon,
@@ -154,12 +154,12 @@ export default function AboutUsPage() {
         {
             Icon: SafeMethodsIcon,
             title: "High-Quality Results, Every Time",
-            description: "We use advanced tools, safe cleaning methods, and high standards to deliver premium results every time"
+            description: "We use advanced tools, safe cleaning methods and high standards to deliver premium results every time"
         },
         {
             Icon: PricingIcon,
             title: "Honest, Friendly Service",
-            description: "We believe in clear communication, fair pricing, and no hidden charges ever"
+            description: "We believe in clear communication, fair pricing and no hidden charges ever"
         },
         {
             Icon: LocalExpertsIcon,
@@ -218,7 +218,7 @@ export default function AboutUsPage() {
                                 We specialize in <span className="font-bold">roof cleaning by hand, gutter cleaning, moss removal, Anti moss treatment, Window Washing, soft washing of the house, pressure washing of concrete surfaces, Christmas Lights Installation, Interior Exterior Painting and Epoxy Flooring</span> using proven, surface-safe techniques designed to extend the life of your property. Our focus is not just on making homes look clean - but on maintaining them properly and responsibly.
                             </p>
                             <p className="text-foreground mb-8 leading-relaxed">
-                                What sets us apart is our commitment to <span className="font-bold">quality workmanship, honest service and attention to detail</span>. We believe exterior maintenance should be done the right way, without shortcuts that can damage roofing, gutters, siding or any other surfaces. Every project begins with a clear assessment and ends with a thorough cleanup and visible results.
+                                What sets us apart is our commitment to <span className="font-bold">quality workmanship, honest service and attention to detail</span>. We believe exterior maintenance should be done the right way, without shortcuts that can damage roof, gutters, siding or any other surfaces. Every project begins with a clear assessment and ends with a thorough cleanup and visible results.
                             </p>
 
                             <p className="text-foreground mb-8 leading-relaxed">

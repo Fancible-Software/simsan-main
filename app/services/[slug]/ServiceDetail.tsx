@@ -130,6 +130,35 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                                 <p className="text-base md:text-lg leading-relaxed">
                                     {service.longDescription.split(".").slice(1).join(".").trim()}
                                 </p>
+
+                                <p className="text-base md:text-lg leading-relaxed">
+                                    {service.typesOfService?.length > 0 && (
+                                        <>
+                                            <h3
+                                                className="text-xl md:text-2xl font-bold mb-4"
+                                                style={{ color: colors.secondary }}
+                                            >
+                                                BELOW ARE THE TYPE OF ROOFS CLEANED BY US:
+                                            </h3>
+                                            <ul className="space-y-3" style={{ color: colors.secondary }}>
+                                                {service.typesOfService.map((type, index) => (
+                                                    <li key={index} className="flex items-start gap-3">
+                                                        <span
+                                                            className="text-xl font-bold mt-1"
+                                                            style={{ color: colors.secondary }}
+                                                        >
+                                                            •
+                                                        </span>
+                                                        <span className="text-base md:text-lg leading-relaxed" style={{ color: "#212121" }}>
+                                                            {type}
+                                                        </span>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </>
+                                    )}
+                                </p>
+
                             </Box>
 
                             {/* Benefits Section */}
@@ -204,10 +233,10 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                         </Box>
                     </Box>
                 </Box>
-            </Box>
+            </Box >
 
             {/* Care Plan Section */}
-            <Box className="bg-gray-50 py-12 md:py-16 lg:py-20">
+            < Box className="bg-gray-50 py-12 md:py-16 lg:py-20" >
                 <Box className="max-w-7xl mx-auto px-6 lg:px-8 xl:px-0">
                     <Box className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
                         {/* Left Column - Image */}
@@ -296,10 +325,10 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                         </Box>
                     </Box>
                 </Box>
-            </Box>
+            </Box >
 
             {/* Reliable Services Section */}
-            <Box className="bg-white py-12 md:py-16 lg:py-20">
+            < Box className="bg-white py-12 md:py-16 lg:py-20" >
                 <Box className="max-w-5xl mx-auto px-6 lg:px-8 xl:px-0">
                     {/* Main Heading */}
                     <h2
@@ -320,7 +349,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                     {/* Introductory Paragraph */}
                     <Box className="space-y-5 mb-8">
                         <p className="text-base md:text-lg leading-relaxed">
-                            Your roof and gutters are your home's first line of defense against water damage, especially in the Pacific Northwest's challenging climate. With wet seasons and dry summer debris, clogged gutters, moss buildup, and roof deterioration can become serious problems if not properly maintained.
+                            Your roof and gutters are your home's first line of defense against water damage, especially in the Pacific Northwest's challenging climate. With wet seasons and dry summer debris, clogged gutters, moss buildup and roof deterioration can become serious problems if not properly maintained.
                         </p>
 
                         <p className="text-base md:text-lg leading-relaxed">
@@ -381,7 +410,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                                 Gutter Whitening & Brightening
                             </h4>
                             <p className="text-base md:text-lg leading-relaxed" style={{ color: "#212121" }}>
-                                We safely remove exterior grime, stains, algae, and oxidation using specialized cleaners to restore your gutters' appearance and boost curb appeal—all without damaging the surface.
+                                We safely remove exterior grime, stains, algae and oxidation using specialized cleaners to restore your gutters' appearance and boost curb appeal—all without damaging the surface.
                             </p>
                         </Box>
 
@@ -394,7 +423,8 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                                 Moss Treatment & Removal
                             </h4>
                             <p className="text-base md:text-lg leading-relaxed" style={{ color: "#212121" }}>
-                                Moss is a major threat to Pacific Northwest roofs. Our team carefully removes moss and applies treatment to slow regrowth and protect your shingles.
+                                Moss is a major threat to lower mainland and fraser valley roofs. Our team carefully removes moss and applies treatment to slow regrowth and protect your shingles.
+
                             </p>
                         </Box>
                     </Box>
@@ -445,37 +475,38 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                         </Link>
                     </Box>
                 </Box>
-            </Box>
+            </Box >
 
             {/* FAQ Section */}
-            <FAQ
+            < FAQ
                 introText="Choosing a Gutter Cleaning provider is an important decision, and we want you to feel confident every step of the way. Below are some of the most common questions we get from homeowners just like you—covering everything from safety to service details. Don't see your question here? Just reach out—we're happy to help!"
-                items={[
-                    {
-                        question: "What can I expect on the day of service?",
-                        answer: "We'll call or text on the way to your home in Greater Seattle and Portland. You don't need to be home for outside work, but we'll knock on the door to greet you either way. We'll let you know if we have questions for you or if your home could benefit from any additional services. When finished, we will come to the door to chat before we leave. We can answer any other questions you may have, let you know if we encountered anything unusual while we worked, and offer recommendations for a service schedule going forward."
-                    },
-                    {
-                        question: "How often should I have my gutters cleaned?",
-                        answer: "We recommend cleaning your gutters at least twice a year—typically in the spring and fall. However, homes with heavy tree coverage, frequent storms, or moss-prone areas may benefit from more frequent cleanings (every 3-4 months). Our team can assess your specific situation and recommend a maintenance schedule that works best for your home."
-                    },
-                    {
-                        question: "Do I need to be home during the service?",
-                        answer: "No, you don't need to be home for outside work. We'll call or text when we're on our way, and we'll knock on your door when we arrive. If you're not home, we'll complete the work and leave a note or call you afterward to discuss any findings or recommendations."
-                    },
-                    {
-                        question: "What happens if you find damage during the service?",
-                        answer: "If we discover any damage or potential issues during our service, we'll document it and discuss it with you immediately. We can provide recommendations for repairs and, if needed, refer you to trusted professionals. Our priority is keeping your home safe and well-maintained."
-                    },
-                    {
-                        question: "Do you offer any guarantees on your work?",
-                        answer: "Yes! We stand behind our work with a 100% satisfaction guarantee. If you're not completely satisfied with our service, we'll return to make it right at no additional charge. Your satisfaction is our top priority."
-                    }
-                ]}
+                items={
+                    [
+                        {
+                            question: "What can I expect on the day of service?",
+                            answer: "We'll call or text on the way to your home in Greater Seattle and Portland. You don't need to be home for outside work, but we'll knock on the door to greet you either way. We'll let you know if we have questions for you or if your home could benefit from any additional services. When finished, we will come to the door to chat before we leave. We can answer any other questions you may have, let you know if we encountered anything unusual while we worked, and offer recommendations for a service schedule going forward."
+                        },
+                        {
+                            question: "How often should I have my gutters cleaned?",
+                            answer: "We recommend cleaning your gutters at least twice a year—typically in the spring and fall. However, homes with heavy tree coverage, frequent storms, or moss-prone areas may benefit from more frequent cleanings (every 3-4 months). Our team can assess your specific situation and recommend a maintenance schedule that works best for your home."
+                        },
+                        {
+                            question: "Do I need to be home during the service?",
+                            answer: "No, you don't need to be home for outside work. We'll call or text when we're on our way, and we'll knock on your door when we arrive. If you're not home, we'll complete the work and leave a note or call you afterward to discuss any findings or recommendations."
+                        },
+                        {
+                            question: "What happens if you find damage during the service?",
+                            answer: "If we discover any damage or potential issues during our service, we'll document it and discuss it with you immediately. We can provide recommendations for repairs and, if needed, refer you to trusted professionals. Our priority is keeping your home safe and well-maintained."
+                        },
+                        {
+                            question: "Do you offer any guarantees on your work?",
+                            answer: "Yes! We stand behind our work with a 100% satisfaction guarantee. If you're not completely satisfied with our service, we'll return to make it right at no additional charge. Your satisfaction is our top priority."
+                        }
+                    ]}
             />
 
             {/* Contact Us Section */}
-            <ContactUs />
+            < ContactUs />
         </>
     );
 }

@@ -239,7 +239,7 @@ export default function ContactUs() {
               We&apos;re just a message away!
             </p>
             <p className="text-base md:text-lg mb-8 leading-relaxed text-center sm:text-left" style={{ color: colors.text.primary }}>
-              Whether you have questions, need guidance, or want to book a service, our team is always ready to assist you quickly and professionally.
+              Whether you have questions, need guidance or want to book a service, our team is always ready to assist you quickly and professionally.
             </p>
 
             {/* Contact Details */}

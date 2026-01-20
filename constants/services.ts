@@ -9,6 +9,8 @@ export interface Service {
   heroImage: string;
   galleryImages: string[];
   area: string;
+  typesOfService: string[];
+  typeOfServiceTitle: string;
 }
 
 export const SERVICES: Service[] = [
@@ -17,10 +19,19 @@ export const SERVICES: Service[] = [
     title: "Roof & Gutter Cleaning",
     shortTitle: "Roof &",
     description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    longDescription: "Tired of climbing ladders and risking your safety to clean your roof and gutters? AA Window, Roof & Gutter Cleaning is here to help. For over 40 years, we've been the trusted name in the Pacific Northwest for reliable, professional roof and gutter cleaning services. Our trained technicians don't just clean — they inspect, protect, and extend the life of your roof and gutter system. We remove moss, leaves, and debris, ensure proper water flow, and handle minor repairs on the spot. And once we're done, we leave your property spotless.",
-    subheading: "Serving the Greater Seattle & Portland Area",
+    longDescription: "Tired of climbing ladders and risking your safety to clean your roof and gutters? Simsan Fraser Maintenance Roof & Gutter Cleaning is here to help. For over 4 years, we've been the trusted name in the lower mainland and fraser valley for reliable, professional roof and gutter cleaning services. Our trained technicians don't just clean — they inspect, protect and extend the life of your roof and gutter system. We remove moss, leaves and debris, ensure proper water flow and handle minor repairs on the spot. And once we're done, we leave your property spotless.",
+    subheading: "Serving the Lower Mainland and Fraser Valley Area",
+    typeOfServiceTitle: "BELOW ARE THE TYPE OF ROOFS CLEANED BY US",
+    typesOfService: [
+      "Asphalt Shingle Roof",
+      "Concrete Tile Roof",
+      "Spanish Tile Roof",
+      "Flat Roof",
+      "Rubber Roof",
+      "Cedar Roof"
+    ],
     benefits: [
-      "Experienced professionals with 40+ years of expertise",
+      "Experienced professionals with 4+ years of expertise",
       "Complete roof & gutter care — cleaning, inspection, moss removal, and minor repairs",
       "No-mess guarantee — we leave your home clean and tidy",
       "Flexible scheduling to fit your routine"
@@ -114,15 +125,52 @@ export const SERVICES: Service[] = [
     ],
     heroImage: "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_1.webp",
     galleryImages: [
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_1.webp",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_2.webp",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_3.webp",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_4.webp",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_5.webp",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_6.webp",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_7.webp",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_8.webp",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_9.webp"
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_1.jpeg",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_2.jpeg",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_3.jpeg",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_4.jpeg",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_5.jpeg",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_6.jpeg",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_7.jpeg",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_8.jpeg",
+      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_9.jpeg"
+    ],
+    area: "Greater Seattle & Portland Area"
+  },
+  {
+    slug: "cedar-roof-cleaning",
+    title: "Cedar Roof Cleaning",
+    shortTitle: "Cedar Roof",
+    description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective cedar roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+    subheading: "Serving the Greater Seattle & Portland Area",
+    benefits: [
+      "Professional cleaning removes leaves, needles, and debris",
+      "Prevents water backup and structural damage",
+      "Extends the life of your cedar roof",
+      "Flexible scheduling to fit your routine"
+    ],
+    heroImage: "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_1.jpeg",
+    galleryImages: [
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_1.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_2.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_3.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_4.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_5.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_6.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_7.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_8.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_9.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_10.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_11.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_12.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_13.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_14.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_15.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_16.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_17.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_18.jpeg",
+      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_19.jpeg"
     ],
     area: "Greater Seattle & Portland Area"
   },
@@ -228,21 +276,42 @@ export const SERVICES: Service[] = [
     ],
     heroImage: "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.webp",
     galleryImages: [
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_2.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_3.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_4.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_5.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_6.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_7.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_8.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_9.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_10.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_11.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_12.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_13.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_14.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_15.webp"
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.jpeg",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_2.jpeg",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_3.jpeg",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_4.jpeg",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_5.jpeg",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_6.jpeg",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_7.jpeg",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_8.jpeg",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_9.jpeg",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_10.jpeg",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_11.jpeg",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_12.jpeg",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_13.jpeg",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_14.jpeg",
+      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_15.jpeg"
+    ],
+    area: "Greater Seattle & Portland Area"
+  },
+  {
+    slug: "pressure-washing-floors",
+    title: "Pressure Washing Floors",
+    shortTitle: "Pressure Washing",
+    description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective pressure washing floors services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+    subheading: "Serving the Greater Seattle & Portland Area",
+    benefits: [
+      "Professional cleaning removes leaves, needles, and debris",
+      "Prevents water backup and structural damage",
+      "Restores floors to like-new condition",
+      "Flexible scheduling to fit your routine"
+    ],
+    heroImage: "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.jpeg",
+    galleryImages: [
+      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.jpeg",
+      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_2.jpeg",
+      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_3.jpeg"
     ],
     area: "Greater Seattle & Portland Area"
   },

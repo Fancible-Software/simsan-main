@@ -9,12 +9,10 @@ export interface GalleryImage {
 const categoryDisplayNames: Record<string, string> = {
   "asphalt-shingle-roof-cleaning": "Asphalt Shingle Roof Cleaning",
   "cedar-roof-cleaning": "Cedar Roof Cleaning",
-  "window-cleaning": "Window Cleaning",
   "christmas-lighting-decoration": "Christmas & Lighting Decoration",
   "concrete-tile-roof-cleaning": "Concrete Tile Roof Cleaning",
   "flat-roof-cleaning": "Flat Roof Cleaning",
   "roof-gutter-cleaning": "Roof Gutter Cleaning",
-  "pressure-washing": "Pressure Washing",
   "pressure-washing-concrete-floors": "Pressure Washing Concrete Floors",
   "pressure-washing-floors": "Pressure Washing Floors",
   "roof-blow-and-debris-cleaning": "Roof Blow & Debris Cleaning",
