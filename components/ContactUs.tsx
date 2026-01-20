@@ -358,7 +358,7 @@ export default function ContactUs() {
                 Contact us Today
               </h2>
               <p className="text-white md:text-lg mb-8 leading-relaxed text-center sm:text-left">
-                Have questions or need a service? We&apos;re here to help! Reach out to our team for quick support, bookings, or personalized assistance we&apos;d love to hear from you.
+                Have questions or need a service? We&apos;re here to help! Reach out to our team for quick support, bookings or personalized assistance we&apos;d love to hear from you.
               </p>
 
               {/* Contact Form */}

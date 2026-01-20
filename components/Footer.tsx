@@ -16,9 +16,13 @@ const companyLinks = [
 
 const services = [
   { name: "Roof & Gutter Cleaning", slug: "roof-gutter-cleaning" },
-  { name: "Window Cleaning", slug: "window-cleaning" },
-  { name: "Pressure Washing", slug: "pressure-washing" },
-  { name: "Christmas Light & Decoration", slug: "christmas-lighting-decoration" },
+  { name: "Window Washing", slug: "window-cleaning" },
+  { name: "House Soft Washing", slug: "pressure-washing" },
+  { name: "Christmas Light Setup", slug: "christmas-lighting-decoration" },
+  { name: "Pressue Washing Concrete & Wooden Surfaces", slug: "pressue-washing" },
+  { name: "Interior & Exterior Painting", slug: "painting" },
+  { name: "Epoxy Flooring", slug: "epoxy-flooring" },
+
 ];
 
 export default function Footer() {
@@ -58,19 +62,6 @@ export default function Footer() {
         </Box>
         <Box className="flex flex-col md:flex-row gap-3 w-full lg:w-auto justify-center md:justify-center lg:justify-start">
           <a
-            href="tel:+17782227988"
-            className="px-6 py-3 rounded-full bg-white text-center cursor-pointer hover:bg-gray-100 transition-colors no-underline"
-            style={{ minWidth: '200px' }}
-          >
-            <Typography
-              variant="body1"
-              className="font-semibold"
-              style={{ color: colors.text.primary }}
-            >
-              +1-778-222-7988
-            </Typography>
-          </a>
-          <a
             href="tel:+16048804476"
             className="px-6 py-3 rounded-full bg-white text-center cursor-pointer hover:bg-gray-100 transition-colors no-underline"
             style={{ minWidth: '200px' }}
@@ -81,6 +72,19 @@ export default function Footer() {
               style={{ color: colors.text.primary }}
             >
               +1-604-880-4476
+            </Typography>
+          </a>
+          <a
+            href="tel:+17782227988"
+            className="px-6 py-3 rounded-full bg-white text-center cursor-pointer hover:bg-gray-100 transition-colors no-underline"
+            style={{ minWidth: '200px' }}
+          >
+            <Typography
+              variant="body1"
+              className="font-semibold"
+              style={{ color: colors.text.primary }}
+            >
+              +1-778-222-7988
             </Typography>
           </a>
         </Box>
@@ -182,8 +186,8 @@ export default function Footer() {
               </Typography>
               <Box className="flex flex-col gap-3">
                 {services.map((service) => {
-                  const href = service.slug 
-                    ? `/services/${service.slug}` 
+                  const href = service.slug
+                    ? `/services/${service.slug}`
                     : "/our-services";
                   return (
                     <Link
@@ -231,7 +235,7 @@ export default function Footer() {
                     style={{ background: colors.primary }}
                   >
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                      <path d="M2.5 0.5C2.22 0.5 2 0.72 2 1V11C2 11.28 2.22 11.5 2.5 11.5H9.5C9.78 11.5 10 11.28 10 11V1C10 0.72 9.78 0.5 9.5 0.5H2.5ZM3 2H9V10H3V2Z" fill="white"/>
+                      <path d="M2.5 0.5C2.22 0.5 2 0.72 2 1V11C2 11.28 2.22 11.5 2.5 11.5H9.5C9.78 11.5 10 11.28 10 11V1C10 0.72 9.78 0.5 9.5 0.5H2.5ZM3 2H9V10H3V2Z" fill="white" />
                     </svg>
                   </Box>
                   <a
@@ -250,7 +254,7 @@ export default function Footer() {
                     style={{ background: colors.primary }}
                   >
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                      <path d="M2.5 0.5C2.22 0.5 2 0.72 2 1V11C2 11.28 2.22 11.5 2.5 11.5H9.5C9.78 11.5 10 11.28 10 11V1C10 0.72 9.78 0.5 9.5 0.5H2.5ZM3 2H9V10H3V2Z" fill="white"/>
+                      <path d="M2.5 0.5C2.22 0.5 2 0.72 2 1V11C2 11.28 2.22 11.5 2.5 11.5H9.5C9.78 11.5 10 11.28 10 11V1C10 0.72 9.78 0.5 9.5 0.5H2.5ZM3 2H9V10H3V2Z" fill="white" />
                     </svg>
                   </Box>
                   <a
@@ -269,7 +273,7 @@ export default function Footer() {
                     style={{ background: colors.primary }}
                   >
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                      <path d="M1 2L6 6.5L11 2V10H1V2ZM1 0H11C11.55 0 12 0.45 12 1V11C12 11.55 11.55 12 11 12H1C0.45 12 0 11.55 0 11V1C0 0.45 0.45 0 1 0Z" fill="white"/>
+                      <path d="M1 2L6 6.5L11 2V10H1V2ZM1 0H11C11.55 0 12 0.45 12 1V11C12 11.55 11.55 12 11 12H1C0.45 12 0 11.55 0 11V1C0 0.45 0.45 0 1 0Z" fill="white" />
                     </svg>
                   </Box>
                   <a

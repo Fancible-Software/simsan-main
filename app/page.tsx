@@ -39,7 +39,7 @@ export default function Home() {
             <span className="font-bold">Simsan Fraser Maintenance</span> Ltd provides reliable exterior cleaning and property maintenance for homeowners who value quality and care. 
           </p>
           <p className="text-center sm:text-left text-white text-base md:text-lg mb-4 leading-relaxed">
-            We specialize in <span className="font-bold">roof cleaning by hand, gutter cleaning, moss removal, Anti moss treatment, Window Washing soft washing of the house, pressure washing of concrete surfaces, Christmas Lights Installation, Interior Exterior Painting and Epoxy Flooring</span> using safe methods that protect your home while delivering visible results.
+            We specialize in <span className="font-bold">roof cleaning by hand, gutter cleaning, moss removal, Anti moss treatment, Window Washing, Soft washing of the house, pressure washing of concrete surfaces, Christmas Lights Installation, Interior Exterior Painting and Epoxy Flooring</span> using safe methods that protect your home while delivering visible results.
           </p>
           <p className="text-center sm:text-left text-white text-base md:text-lg mb-4 leading-relaxed">
             As a fully insured local company, we focus on honest pricing, clear communication and dependable service - every job, every time.
@@ -75,7 +75,7 @@ export default function Home() {
               About Us
             </p>
             <h2 className="text-center sm:text-left text-xl md:text-xl lg:text-xl font-extrabold leading-snug mb-4" style={{ color: colors.secondary }}>
-              Professional Window, Gutter, & Roof Cleaning
+              Professional Roof Cleaning, Gutter Cleaning, & Window Washing
             </h2>
             <p className="text-center sm:text-left text-gray-600 text-base md:text-lg leading-relaxed mb-4">
               <span className="font-bold">Simsan Fraser Maintenance</span> Ltd is a locally owned and operated exterior cleaning and property maintenance company dedicated to protecting and enhancing homes across the Lower Mainland and Fraser Valley.

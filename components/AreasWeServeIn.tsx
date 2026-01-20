@@ -49,16 +49,16 @@ export default function AreasWeServeIn() {
           {/* Left Section - Text Content */}
           <Box className="w-full lg:w-1/2 flex flex-col">
             {/* Main Heading */}
-            <Typography
+            {/* <Typography
               variant="h2"
               className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6"
               style={{ color: colors.text.primary }}
             >
               Areas We Serve in Fraser Valley
-            </Typography>
+            </Typography> */}
 
             {/* Introductory Paragraph */}
-            <Typography
+            {/* <Typography
               variant="body1"
               className="text-gray-700 leading-relaxed mb-8"
               style={{ fontSize: "1rem" }}
@@ -85,7 +85,7 @@ export default function AreasWeServeIn() {
                 contact us
               </Link>
               —we're always expanding our service area and may already be nearby.
-            </Typography>
+            </Typography> */}
 
             {/* Sub-heading */}
             <Box className="flex items-center gap-3 mb-6">

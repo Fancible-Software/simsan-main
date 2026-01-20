@@ -107,12 +107,63 @@ export default function CustomerReviews() {
         Customer Reviews
       </p>
       <p
-        
         className="text-center mb-8"
         style={{ fontSize: '1.1rem', color: colors.text.primary }}
       >
         See What Our Customers Say About Working With Us
       </p>
+      
+      {/* External Review Links */}
+      <Box className="flex flex-wrap gap-4 justify-center mb-6">
+        <a
+          href="https://www.google.com/maps/place/Simsan+Fraser+Maintenance+Ltd/@49.2864298,-123.7207669,9z/data=!3m1!4b1!4m6!3m5!1s0x8d64a713f8717419:0x4cb8cdfc07e644a8!8m2!3d49.2883054!4d-123.0614468!16s%2Fg%2F11sqq338yq?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-2 rounded-lg transition-all duration-200 hover:scale-105 shadow-md flex items-center gap-2"
+          style={{ 
+            background: colors.primary,
+            color: 'white',
+            textDecoration: 'none'
+          }}
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+          </svg>
+          View Google Reviews
+        </a>
+        <a
+          href="https://www.yelp.com/biz/YOUR_BUSINESS_NAME"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-2 rounded-lg transition-all duration-200 hover:scale-105 shadow-md flex items-center gap-2"
+          style={{ 
+            background: '#d32323',
+            color: 'white',
+            textDecoration: 'none'
+          }}
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M21.5 9.5c0-1.5-1.2-2.7-2.7-2.7h-1.8v-1.8c0-1.5-1.2-2.7-2.7-2.7H9.7c-1.5 0-2.7 1.2-2.7 2.7v1.8H5.2c-1.5 0-2.7 1.2-2.7 2.7v9.1c0 1.5 1.2 2.7 2.7 2.7h15.6c1.5 0 2.7-1.2 2.7-2.7v-9.1zm-2.7-1.2c.7 0 1.2.5 1.2 1.2v9.1c0 .7-.5 1.2-1.2 1.2H5.2c-.7 0-1.2-.5-1.2-1.2v-9.1c0-.7.5-1.2 1.2-1.2h1.8v1.8c0 1.5 1.2 2.7 2.7 2.7h4.6c1.5 0 2.7-1.2 2.7-2.7V8.3h1.8z"/>
+          </svg>
+          View Yelp Reviews
+        </a>
+        <a
+          href="https://www.facebook.com/YOUR_BUSINESS_PAGE/reviews"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-2 rounded-lg transition-all duration-200 hover:scale-105 shadow-md flex items-center gap-2"
+          style={{ 
+            background: '#1877f2',
+            color: 'white',
+            textDecoration: 'none'
+          }}
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+          View Facebook Reviews
+        </a>
+      </Box>
       
       {/* Carousel Container */}
       <Box 
