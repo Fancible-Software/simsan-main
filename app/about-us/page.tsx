@@ -373,7 +373,7 @@ export default function AboutUsPage() {
                             </div>
                             <h3 className="text-2xl font-bold text-foreground mb-4">Our Vision</h3>
                             <p className="leading-relaxed" style={{ color: '#212121' }}>
-                                Our mission is to deliver reliable, high-quality property maintenance and cleaning services that enhance the safety, appearance, and value of every home and business we work on. We aim to make property care simple and stress-free by providing honest communication, professional workmanship, and dependable results our clients can trust.
+                                To be the most trusted and respected exterior maintenance company in the Lower Mainland and Fraser Valley, setting the standard for quality, reliability and long-term property care while enhancing the value and longevity of every home we service.
                             </p>
                         </div>
 
@@ -384,7 +384,7 @@ export default function AboutUsPage() {
                             </div>
                             <h3 className="text-2xl font-bold text-foreground mb-4">Our Mission</h3>
                             <p className="leading-relaxed" style={{ color: '#212121' }}>
-                                Our mission is to deliver reliable, high-quality property maintenance and cleaning services that enhance the safety, appearance, and value of every home and business we work on. We aim to make property care simple and stress-free by providing honest communication, professional workmanship, and dependable results our clients can trust.
+                                Our mission is to protect and maintain our clients, properties through high-quality exterior cleaning and maintenance services delivered with integrity, professionalism and attention to detail. We are committed to dependable service, customer satisfaction and building lasting relationships within the communities we serve.
                             </p>
                         </div>
                     </div>

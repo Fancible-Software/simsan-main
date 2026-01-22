@@ -45,29 +45,98 @@ export const SERVICES: Service[] = [
       "/gutter_cleaning/simsan_fraser_gutter_cleaning_5.webp",
       "/gutter_cleaning/simsan_fraser_gutter_cleaning_6.webp"
     ],
-    area: "Greater Seattle & Portland Area"
+    area: "Lower Mainland and Fraser Valley Area"
   },
-  // {
-  //   slug: "window-washing",
-  //   title: "Window Washing",
-  //   shortTitle: "Window",
-  //   description: "Crystal clear windows enhance your property's appearance and let in more natural light. Our professional window cleaning service removes dirt, grime, and streaks for spotless results every time.",
-  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective window washing services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. We don't use any chemicals or soaps to clean windows, ensuring a streak-free, crystal-clear finish that enhances your property's appearance.",
-  //   subheading: "Serving the Greater Seattle & Portland Area",
-  //   benefits: [
-  //     "Streak-free, crystal-clear results every time",
-  //     "Chemical-free cleaning methods for safety",
-  //     "Professional equipment and techniques",
-  //     "Flexible scheduling to fit your routine"
-  //   ],
-  //   heroImage: "/home-about-img1.png",
-  //   galleryImages: [
-  //     "/home-about-img1.png",
-  //     "/home-about-imp2.png",
-  //     "/homepage1.png"
-  //   ],
-  //   area: "Greater Seattle & Portland Area"
-  // },
+  {
+    slug: "water-fed-pole-window-washing",
+    title: "Water-Fed Pole Window Washing",
+    shortTitle: "Water-Fed Pole",
+    description: "Our water-fed pole window washing service delivers a safer, more effective and environmentally friendly way to keep your windows crystal clear. Using extendable carbon-fiber poles and 100% purified, spot-free water, we clean your windows thoroughly—without ladders, harsh chemicals or streaks.",
+    longDescription: "Our water-fed pole window washing service delivers a safer, more effective and environmentally friendly way to keep your windows crystal clear. Using extendable carbon-fiber poles and 100% purified, spot-free water, we clean your windows thoroughly—without ladders, harsh chemicals or streaks. This advanced system allows us to safely wash windows up to several stories high while working from the ground. Soft-bristled brushes gently loosen dirt, pollen, and grime, while purified water rinses the glass clean and dries naturally without leaving residue. Water-fed pole cleaning is especially effective for regular maintenance, helping your windows stay cleaner for longer while protecting frames, seals and surrounding surfaces. At Simsan Fraser Maintenance Ltd, we combine professional equipment with trained technicians to ensure every window is cleaned with care and precision—leaving your home or business brighter, cleaner and more inviting.",
+    subheading: "Serving the Lower Mainland and Fraser Valley Area",
+    typeOfServiceTitle: "Why choose water-fed pole window cleaning?",
+    typesOfService: [
+      "Spot-free, streak-free results using purified water",
+      "Safe for high and hard-to-reach windows",
+      "No ladders or damage to siding, landscaping, or frames",
+      "Eco-friendly — no soaps or chemicals",
+      "Ideal for residential and commercial properties"
+    ],
+    benefits: [
+      "Spot-free, streak-free results using purified water",
+      "Safe for high and hard-to-reach windows",
+      "No ladders or damage to siding, landscaping, or frames",
+      "Eco-friendly — no soaps or chemicals",
+      "Ideal for residential and commercial properties"
+    ],
+    heroImage: "/home-about-img1.png",
+    galleryImages: [
+      "/home-about-img1.png",
+      "/home-about-imp2.png",
+      "/homepage1.png"
+    ],
+    area: "Lower Mainland and Fraser Valley Area"
+  },
+  {
+    slug: "vinyl-siding-soft-washing",
+    title: "Vinyl Siding Soft Washing",
+    shortTitle: "Vinyl Siding",
+    description: "Our vinyl siding soft washing service uses a water-fed pole brush system to safely and effectively clean your home's exterior without the risk of damage caused by high pressure. This method combines low-pressure water, soft-bristle brushes and professional-grade cleaning solutions to gently remove dirt, algae, mildew, pollen and environmental buildup from vinyl siding.",
+    longDescription: "Our vinyl siding soft washing service uses a water-fed pole brush system to safely and effectively clean your home's exterior without the risk of damage caused by high pressure. This method combines low-pressure water, soft-bristle brushes and professional-grade cleaning solutions to gently remove dirt, algae, mildew, pollen and environmental buildup from vinyl siding. Using a water-fed pole allows our technicians to clean upper-level siding safely from the ground, reducing the need for ladders while ensuring consistent, thorough coverage. The soft-bristle brush agitates grime without scratching, while the low-pressure rinse leaves your siding clean, bright, and refreshed. This method is especially effective in the Lower Mainland and Fraser Valley climate, where moisture promotes algae and mildew growth. Regular soft washing helps protect vinyl siding from long-term staining and deterioration while keeping your home looking its best year-round. At Simsan Fraser Maintenance Ltd, we provide professional vinyl siding soft washing services across Lower Mainland and Fraser Valley. Our experienced team uses industry-approved equipment and techniques to ensure safe, reliable and long-lasting results for your home.",
+    subheading: "Serving the Lower Mainland & Fraser Valley",
+    typeOfServiceTitle: "Why choose water-fed pole soft washing for vinyl siding?",
+    typesOfService: [
+      "Safe, low-pressure cleaning designed specifically for vinyl siding",
+      "Soft-bristle brushes prevent scratching or surface damage",
+      "Effectively removes algae, mildew, and organic staining",
+      "Ideal for multi-story homes and hard-to-reach areas",
+      "Helps restore curb appeal and extend siding lifespan"
+    ],
+    benefits: [
+      "Safe, low-pressure cleaning designed specifically for vinyl siding",
+      "Soft-bristle brushes prevent scratching or surface damage",
+      "Effectively removes algae, mildew, and organic staining",
+      "Ideal for multi-story homes and hard-to-reach areas",
+      "Helps restore curb appeal and extend siding lifespan"
+    ],
+    heroImage: "/home-about-img1.png",
+    galleryImages: [
+      "/home-about-img1.png",
+      "/home-about-imp2.png",
+      "/homepage1.png"
+    ],
+    area: "Lower Mainland and Fraser Valley Area"
+  },
+  {
+    slug: "stucco-exterior-wall-soft-washing",
+    title: "Stucco & Exterior Wall Soft Washing",
+    shortTitle: "Stucco & Exterior",
+    description: "Our stucco and exterior wall soft washing service is designed to safely clean delicate and textured surfaces using a pressure washer set to low pressure, combined with professional-grade, biodegradable cleaning solutions. This method effectively removes dirt, algae, mildew, moss and environmental staining without damaging the surface.",
+    longDescription: "Our stucco and exterior wall soft washing service is designed to safely clean delicate and textured surfaces using a pressure washer set to low pressure, combined with professional-grade, biodegradable cleaning solutions. This method effectively removes dirt, algae, mildew, moss and environmental staining without damaging the surface. Stucco, masonry, painted walls and other textured exteriors require a controlled approach. High pressure can cause erosion, cracks or water intrusion. Our soft washing process allows the cleaning solution to break down organic growth, while the low-pressure rinse gently washes it away—restoring the appearance of your walls while protecting their integrity. Soft washing is especially important in the wet climate of the Lower Mainland and Fraser Valley, where organic growth can quickly discolor stucco and exterior walls. Routine soft washing helps maintain your property's appearance and extends the life of your exterior surfaces. At Simsan Fraser Maintenance Ltd, we provide professional stucco and wall soft washing services across Lower Mainland and Fraser Valley area. Our trained technicians use proper pressure control and proven techniques to deliver safe, consistent and high-quality results.",
+    subheading: "Serving the Lower Mainland & Fraser Valley",
+    typeOfServiceTitle: "Surfaces we soft wash:",
+    typesOfService: [
+      "Stucco",
+      "Painted exterior walls",
+      "Concrete and masonry walls",
+      "EIFS (synthetic stucco)",
+      "Brick and block walls"
+    ],
+    benefits: [
+      "Low-pressure cleaning safe for delicate and textured surfaces",
+      "Effectively removes algae, mold, mildew, and grime",
+      "Longer-lasting results than high-pressure washing",
+      "Reduces risk of surface damage and water penetration",
+      "Improves curb appeal and protects exterior finishes"
+    ],
+    heroImage: "/home-about-img1.png",
+    galleryImages: [
+      "/home-about-img1.png",
+      "/home-about-imp2.png",
+      "/homepage1.png"
+    ],
+    area: "Lower Mainland and Fraser Valley Area"
+  },
   // {
   //   slug: "pressure-cleaning",
   //   title: "Pressure Cleaning",
@@ -91,16 +160,25 @@ export const SERVICES: Service[] = [
   // },
   {
     slug: "christmas-lighting-decoration",
-    title: "Christmas & Lighting Decoration",
-    shortTitle: "Christmas & Lighting",
-    description: "Transform your property into a winter wonderland with our professional holiday lighting installation. We handle design, installation, maintenance, and removal for a hassle-free festive season.",
-    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective Christmas lighting and decoration services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Nothing we love more than helping a family with a Christmas tree or a holiday look that will be cherished for years to come.",
-    subheading: "Serving the Greater Seattle & Portland Area",
+    title: "Christmas Light Installation",
+    shortTitle: "Christmas Light",
+    description: "Make your home shine this holiday season with professional Christmas light installation from Simsan Fraser Maintenance Ltd. Our team handles everything from design and setup to takedown, creating a festive display that will impress family, friends and neighbors—without the stress or risk of doing it yourself.",
+    longDescription: "Make your home shine this holiday season with professional Christmas light installation from Simsan Fraser Maintenance Ltd. Our team handles everything from design and setup to takedown, creating a festive display that will impress family, friends and neighbors—without the stress or risk of doing it yourself. We safely install LED string lights, icicle lights, roofline lights, trees, shrubs and more, ensuring your decorations are secure, evenly spaced and fully functional. Using professional equipment and techniques, we prevent damage to your roof, gutters and landscaping while creating a bright, festive atmosphere. Whether you want a classic, elegant or fully themed display, we bring your vision to life and make your home the highlight of the neighborhood. Our team serves Lower Mainland and Fraser Valley area, ensuring your holidays are bright, stress-free and magical.",
+    subheading: "Serving the Lower Mainland & Fraser Valley",
+    typeOfServiceTitle: "Our Christmas light services include:",
+    typesOfService: [
+      "Custom light design for homes and businesses",
+      "Professional installation on rooflines, eaves, trees and shrubs",
+      "Safe setup using ladders, poles, and harnesses as needed",
+      "Removal and storage after the holiday season (optional)",
+      "Energy-efficient LED lights for long-lasting sparkle"
+    ],
     benefits: [
-      "Complete design, installation, and removal service",
-      "Beautiful, safe, and eye-catching displays",
-      "Professional installation and maintenance",
-      "Flexible scheduling to fit your routine"
+      "Custom light design for homes and businesses",
+      "Professional installation on rooflines, eaves, trees and shrubs",
+      "Safe setup using ladders, poles, and harnesses as needed",
+      "Removal and storage after the holiday season (optional)",
+      "Energy-efficient LED lights for long-lasting sparkle"
     ],
     heroImage: "/christmas_light_setup/simsan_fraser_christmas_light_setup_1.webp",
     galleryImages: [
@@ -108,7 +186,7 @@ export const SERVICES: Service[] = [
       "/christmas_light_setup/simsan_fraser_christmas_light_setup_2.webp",
       "/christmas_light_setup/simsan_fraser_christmas_light_setup_3.webp"
     ],
-    area: "Greater Seattle & Portland Area"
+    area: "Lower Mainland and Fraser Valley Area"
   },
   {
     slug: "asphalt-shingle-roof-cleaning",
@@ -135,7 +213,9 @@ export const SERVICES: Service[] = [
       "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_8.jpeg",
       "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_9.jpeg"
     ],
-    area: "Greater Seattle & Portland Area"
+    area: "Greater Seattle & Portland Area",
+    typesOfService: [],
+    typeOfServiceTitle: ""
   },
   {
     slug: "cedar-roof-cleaning",
@@ -172,7 +252,9 @@ export const SERVICES: Service[] = [
       "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_18.jpeg",
       "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_19.jpeg"
     ],
-    area: "Greater Seattle & Portland Area"
+    area: "Greater Seattle & Portland Area",
+    typesOfService: [],
+    typeOfServiceTitle: ""
   },
   // {
   //   slug: "window-cleaning",
@@ -226,7 +308,9 @@ export const SERVICES: Service[] = [
       "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_14.webp",
       "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_15.webp"
     ],
-    area: "Greater Seattle & Portland Area"
+    area: "Greater Seattle & Portland Area",
+    typesOfService: [],
+    typeOfServiceTitle: ""
   },
   {
     slug: "flat-roof-cleaning",
@@ -259,20 +343,30 @@ export const SERVICES: Service[] = [
       "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_14.webp",
       "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_15.webp"
     ],
-    area: "Greater Seattle & Portland Area"
+    area: "Greater Seattle & Portland Area",
+    typesOfService: [],
+    typeOfServiceTitle: ""
   },
   {
     slug: "pressure-washing-concrete-floors",
-    title: "Pressure Washing Concrete Floors",
+    title: "Pressure Washing for Concrete & Wooden Surfaces",
     shortTitle: "Pressure Washing",
-    description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective pressure washing concrete floors services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    subheading: "Serving the Greater Seattle & Portland Area",
+    description: "Our pressure washing services for concrete and wooden surfaces are designed to safely restore the appearance of your outdoor areas while protecting the integrity of the surface. We use professional-grade pressure washing equipment with carefully controlled pressure levels to remove dirt, algae, moss, mildew, grease and buildup without causing damage.",
+    longDescription: "Our pressure washing services for concrete and wooden surfaces are designed to safely restore the appearance of your outdoor areas while protecting the integrity of the surface. We use professional-grade pressure washing equipment with carefully controlled pressure levels to remove dirt, algae, moss, mildew, grease and buildup without causing damage. Concrete surfaces such as driveways, sidewalks, patios, garage floors, and walkways benefit from pressure washing to remove stains and improve safety by reducing slippery algae and moss. For wooden surfaces like decks, fences and pergolas, we use lower pressure and proper techniques to clean effectively without splintering or etching the wood. Regular pressure washing is especially important in the Lower Mainland and Fraser Valley climate, where moisture promotes algae and organic growth. Routine cleaning helps protect your investment and keeps your property looking clean and well-maintained year-round. At Simsan Fraser Maintenance Ltd, we provide professional concrete and wood pressure washing services across Lower Mainland and Fraser Valley area, delivering consistent, high-quality results you can trust.",
+    subheading: "Serving the Lower Mainland & Fraser Valley",
+    typeOfServiceTitle: "Surfaces we pressure wash:",
+    typesOfService: [
+      "Concrete driveways, patios, sidewalks and slabs",
+      "Garage floors and parking areas",
+      "Wooden decks, fences, railings and stairs",
+      "Pool decks and outdoor living spaces"
+    ],
     benefits: [
-      "Professional cleaning removes leaves, needles, and debris",
-      "Prevents water backup and structural damage",
-      "Restores concrete floors to like-new condition",
-      "Flexible scheduling to fit your routine"
+      "Restores curb appeal and brightens outdoor spaces",
+      "Removes slippery algae, moss and mildew",
+      "Prepares surfaces for sealing or staining",
+      "Extends the life of concrete and wood",
+      "Improves safety and overall appearance"
     ],
     heroImage: "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.webp",
     galleryImages: [
@@ -292,7 +386,66 @@ export const SERVICES: Service[] = [
       "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_14.jpeg",
       "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_15.jpeg"
     ],
-    area: "Greater Seattle & Portland Area"
+    area: "Lower Mainland and Fraser Valley Area"
+  },
+  {
+    slug: "interior-exterior-painting",
+    title: "Interior & Exterior Painting Services",
+    shortTitle: "Painting Services",
+    description: "Our interior and exterior painting services are designed to refresh, protect and enhance your property with clean, professional results that last. Whether you're updating a single room or repainting the entire exterior of your home or business, we combine skilled craftsmanship, quality materials and attention to detail to deliver a flawless finish.",
+    longDescription: "Our interior and exterior painting services are designed to refresh, protect and enhance your property with clean, professional results that last. Whether you're updating a single room or repainting the entire exterior of your home or business, we combine skilled craftsmanship, quality materials and attention to detail to deliver a flawless finish. For interior painting, we focus on proper preparation, clean lines and minimal disruption to your space. From walls and ceilings to trim, doors and cabinets, we use premium paints and proven techniques to create smooth, long-lasting results that transform your interior. For exterior painting, we protect your property from the elements while improving curb appeal. Our process includes thorough surface preparation—such as washing, scraping, sanding and priming—to ensure the paint adheres properly and withstands the Lower Mainland and Fraser Valley climate. At Simsan Fraser Maintenance Ltd, we proudly provide interior and exterior painting services across Lower Mainland and Fraser Valley area. Our experienced painters deliver reliable, high-quality workmanship with respect for your home or business.",
+    subheading: "Serving the Lower Mainland & Fraser Valley",
+    typeOfServiceTitle: "Our painting services include:",
+    typesOfService: [
+      "Interior walls, ceilings, trim, doors and stairwells",
+      "Exterior siding, stucco, wood, brick and masonry",
+      "Residential and commercial painting",
+      "Surface preparation, patching and minor repairs",
+      "High-quality, durable paint products"
+    ],
+    benefits: [
+      "Enhances appearance and property value",
+      "Protects surfaces from moisture, wear and weather",
+      "Clean, consistent and long-lasting results",
+      "Saves time and avoids costly mistakes"
+    ],
+    heroImage: "/home-about-img1.png",
+    galleryImages: [
+      "/home-about-img1.png",
+      "/home-about-imp2.png",
+      "/homepage1.png"
+    ],
+    area: "Lower Mainland and Fraser Valley Area"
+  },
+  {
+    slug: "epoxy-flooring-installation",
+    title: "Epoxy Flooring Installation",
+    shortTitle: "Epoxy Flooring",
+    description: "Our epoxy flooring solutions provide a durable, attractive and long-lasting finish for both residential and commercial spaces. Epoxy is a high-performance coating applied over concrete, creating a seamless, non-porous surface that resists stains, chemicals, moisture and heavy wear.",
+    longDescription: "Our epoxy flooring solutions provide a durable, attractive and long-lasting finish for both residential and commercial spaces. Epoxy is a high-performance coating applied over concrete, creating a seamless, non-porous surface that resists stains, chemicals, moisture and heavy wear. Epoxy flooring is ideal for garages, basements, warehouses, workshops, retail spaces and industrial areas. With proper surface preparation and professional installation, epoxy floors not only enhance appearance but also protect concrete from cracking, dusting and deterioration. Our epoxy flooring systems are designed to perform well in the Lower Mainland and Fraser Valley climate, providing a clean, professional finish that stands up to daily use. At Simsan Fraser Maintenance Ltd, we provide professional epoxy flooring installation services across Lower Mainland and Fraser Valley area, using high-quality materials and proven installation methods for reliable results.",
+    subheading: "Durable, Seamless Floors in the Lower Mainland & Fraser Valley",
+    typeOfServiceTitle: "Epoxy flooring applications include:",
+    typesOfService: [
+      "Garage floors",
+      "Basements and utility rooms",
+      "Commercial and industrial floors",
+      "Workshops and warehouses",
+      "Retail and showroom spaces"
+    ],
+    benefits: [
+      "Extremely durable and long-lasting",
+      "Resistant to chemicals, oil, stains and moisture",
+      "Easy to clean and maintain",
+      "Slip-resistant options available",
+      "Enhances appearance and property value"
+    ],
+    heroImage: "/home-about-img1.png",
+    galleryImages: [
+      "/home-about-img1.png",
+      "/home-about-imp2.png",
+      "/homepage1.png"
+    ],
+    area: "Lower Mainland and Fraser Valley Area"
   },
   {
     slug: "pressure-washing-floors",
@@ -313,7 +466,9 @@ export const SERVICES: Service[] = [
       "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_2.jpeg",
       "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_3.jpeg"
     ],
-    area: "Greater Seattle & Portland Area"
+    area: "Greater Seattle & Portland Area",
+    typesOfService: [],
+    typeOfServiceTitle: ""
   },
   {
     slug: "roof-blow-and-debris-cleaning",
@@ -346,7 +501,9 @@ export const SERVICES: Service[] = [
       "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_14.webp",
       "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_15.webp"
     ],
-    area: "Greater Seattle & Portland Area"
+    area: "Greater Seattle & Portland Area",
+    typesOfService: [],
+    typeOfServiceTitle: ""
   },
   {
     slug: "spanish-tile-roof-cleaning",
@@ -379,7 +536,9 @@ export const SERVICES: Service[] = [
       "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_14.webp",
       "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_15.webp"
     ],
-    area: "Greater Seattle & Portland Area"
+    area: "Greater Seattle & Portland Area",
+    typesOfService: [],
+    typeOfServiceTitle: ""
   },
   // {
   //   slug: "pressure-washing",
