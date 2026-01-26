@@ -131,33 +131,31 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                                     {service.longDescription.split(".").slice(1).join(".").trim()}
                                 </p>
 
-                                <p className="text-base md:text-lg leading-relaxed">
-                                    {service.typesOfService?.length > 0 && (
-                                        <>
-                                            <h3
-                                                className="text-xl md:text-2xl font-bold mb-4"
-                                                style={{ color: colors.secondary }}
-                                            >
-                                                {service.typeOfServiceTitle || "BELOW ARE THE TYPE OF ROOFS CLEANED BY US:"}
-                                            </h3>
-                                            <ul className="space-y-3" style={{ color: colors.secondary }}>
-                                                {service.typesOfService.map((type, index) => (
-                                                    <li key={index} className="flex items-start gap-3">
-                                                        <span
-                                                            className="text-xl font-bold mt-1"
-                                                            style={{ color: colors.secondary }}
-                                                        >
-                                                            •
-                                                        </span>
-                                                        <span className="text-base md:text-lg leading-relaxed" style={{ color: "#212121" }}>
-                                                            {type}
-                                                        </span>
-                                                    </li>
-                                                ))}
-                                            </ul>
-                                        </>
-                                    )}
-                                </p>
+                                {service.typesOfService?.length > 0 && (
+                                    <Box>
+                                        <h3
+                                            className="text-xl md:text-2xl font-bold mb-4"
+                                            style={{ color: colors.secondary }}
+                                        >
+                                            {service.typeOfServiceTitle || "BELOW ARE THE TYPE OF ROOFS CLEANED BY US:"}
+                                        </h3>
+                                        <ul className="space-y-3" style={{ color: colors.secondary }}>
+                                            {service.typesOfService.map((type, index) => (
+                                                <li key={index} className="flex items-start gap-3">
+                                                    <span
+                                                        className="text-xl font-bold mt-1"
+                                                        style={{ color: colors.secondary }}
+                                                    >
+                                                        •
+                                                    </span>
+                                                    <span className="text-base md:text-lg leading-relaxed" style={{ color: "#212121" }}>
+                                                        {type}
+                                                    </span>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </Box>
+                                )}
 
                             </Box>
 
