@@ -37,8 +37,9 @@ interface Review {
   text: string;
   author: string;
   rating?: number;
-  time?: number;
-  profilePhotoUrl?: string;
+  link?: string;
+  date?: string;
+  thumbnail?: string;
 }
 
 export default function CustomerReviews() {
@@ -52,14 +53,18 @@ export default function CustomerReviews() {
   useEffect(() => {
     const fetchGoogleReviews = async () => {
       try {
-        const response = await fetch('/api/google-reviews');
+        const response = await fetch('/api/serp-google-review');
         const data = await response.json();
-        
+
         if (data.reviews && data.reviews.length > 0) {
           // Transform Google reviews to match our format
           const formattedReviews = data.reviews.map((review: any) => ({
             text: review.text,
             author: review.author,
+            rating: review.rating,
+            link: review.link,
+            date: review.date,
+            thumbnail: review.thumbnail,
           }));
           setReviews(formattedReviews);
         } else {
@@ -154,7 +159,7 @@ export default function CustomerReviews() {
       >
         See What Our Customers Say About Working With Us
       </p>
-      
+
       {/* External Review Links */}
       {/* <Box className="flex flex-wrap gap-4 justify-center mb-6">
         <a
@@ -206,9 +211,9 @@ export default function CustomerReviews() {
           View Facebook Reviews
         </a>
       </Box> */}
-      
+
       {/* Carousel Container */}
-      <Box 
+      <Box
         className="relative max-w-7xl w-full px-4 md:px-6 lg:px-8 overflow-hidden"
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
@@ -218,14 +223,14 @@ export default function CustomerReviews() {
           <button
             onClick={goToPrev}
             className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110 shadow-lg"
-            style={{ 
+            style={{
               background: colors.primary,
               color: 'white'
             }}
             aria-label="Previous review"
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M15 18l-6-6 6-6"/>
+              <path d="M15 18l-6-6 6-6" />
             </svg>
           </button>
         )}
@@ -235,14 +240,14 @@ export default function CustomerReviews() {
           <button
             onClick={goToNext}
             className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110 shadow-lg"
-            style={{ 
+            style={{
               background: colors.primary,
               color: 'white'
             }}
             aria-label="Next review"
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M9 18l6-6-6-6"/>
+              <path d="M9 18l6-6-6-6" />
             </svg>
           </button>
         )}
@@ -253,24 +258,20 @@ export default function CustomerReviews() {
             transform: `translateX(-${currentIndex * (100 / cardsToShow)}%)`,
           }}
         >
-          {reviews.map((rev, idx) => (
-            <Box
-              key={idx}
-              className="flex-shrink-0 px-2"
-              sx={{
-                width: {
-                  xs: '100%',      // Mobile: 1 card (100%)
-                  md: '50%',        // Tablet: 2 cards (50% each)
-                  lg: '33.333%',    // Desktop: 3 cards (33.333% each)
-                },
-              }}
-            >
+          {reviews.map((rev, idx) => {
+            const CardContent = (
               <Box
-                className="p-6 md:p-8 rounded-2xl border shadow-sm flex flex-col items-start relative border-[1.8px] h-full"
+                className="p-6 md:p-8 rounded-2xl border shadow-sm flex flex-col items-start relative border-[1.8px] h-full transition-all duration-200"
                 style={{
                   borderColor: colors.primary,
                   minHeight: 280,
                   background: colors.reviewCard,
+                }}
+                sx={{
+                  '&:hover': rev.link ? {
+                    transform: 'translateY(-4px)',
+                    boxShadow: '0 12px 24px rgba(0,0,0,0.15)',
+                  } : {},
                 }}
               >
                 {/* Quote icon - top right */}
@@ -284,27 +285,109 @@ export default function CustomerReviews() {
                     </g>
                   </svg>
                 </Box>
+                {/* Star rating */}
+                {rev.rating && (
+                  <Box className="flex gap-0.5 mb-2">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <svg
+                        key={i}
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill={i < rev.rating! ? colors.primary : '#e5e7eb'}
+                      >
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                      </svg>
+                    ))}
+                  </Box>
+                )}
                 {/* Review text */}
-                <Typography
-                  variant="body1"
-                  component="p"
-                  className="italic mb-8 mt-8"
-                  style={{ fontSize: '1.08rem', color: colors.text.primary, fontStyle: 'italic', lineHeight: 1.65 }}
-                >
-                  {`"${rev.text}"`}
-                </Typography>
-                {/* Author Name */}
-                <Typography
-                  variant="subtitle1"
-                  component="span"
-                  className="font-bold mt-auto text-[18px]"
-                  style={{ color: colors.primary }}
-                >
-                  {rev.author}
-                </Typography>
+                {(() => {
+                  const maxChars = 300;
+                  const isTruncated = rev.text.length > maxChars;
+                  const displayText = isTruncated
+                    ? rev.text.substring(0, maxChars).trim() + '...'
+                    : rev.text;
+                  return (
+                    <>
+                      <Typography
+                        variant="body1"
+                        component="p"
+                        className="italic mb-4 mt-4"
+                        style={{ fontSize: '1.08rem', color: colors.text.primary, fontStyle: 'italic', lineHeight: 1.65 }}
+                      >
+                        {`"${displayText}"`}
+                      </Typography>
+                      {isTruncated && rev.link && (
+                        <Typography
+                          variant="caption"
+                          component="span"
+                          className="mb-4"
+                          style={{ color: colors.primary, fontWeight: 500 }}
+                        >
+                          Read full review →
+                        </Typography>
+                      )}
+                    </>
+                  );
+                })()}
+                {/* Author Name + Link indicator */}
+                <Box className="mt-auto flex items-center justify-between w-full">
+                  <Typography
+                    variant="subtitle1"
+                    component="span"
+                    className="font-bold text-[18px]"
+                    style={{ color: colors.primary }}
+                  >
+                    {rev.author}
+                  </Typography>
+                  {rev.link && (
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke={colors.primary}
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                      <polyline points="15 3 21 3 21 9" />
+                      <line x1="10" y1="14" x2="21" y2="3" />
+                    </svg>
+                  )}
+                </Box>
               </Box>
-            </Box>
-          ))}
+            );
+
+            return (
+              <Box
+                key={`review-${idx}-${rev.author}`}
+                className="flex-shrink-0 px-2"
+                sx={{
+                  width: {
+                    xs: '100%',
+                    md: '50%',
+                    lg: '33.333%',
+                  },
+                }}
+              >
+                {rev.link ? (
+                  <a
+                    href={rev.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: 'none', display: 'block', height: '100%' }}
+                  >
+                    {CardContent}
+                  </a>
+                ) : (
+                  CardContent
+                )}
+              </Box>
+            );
+          })}
         </Box>
       </Box>
 
