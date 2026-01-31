@@ -19,9 +19,9 @@ const services = [
   { name: "Window Washing", slug: "window-washing" },
   { name: "Soft Washing", slug: "soft-washing" },
   { name: "Christmas Light Setup", slug: "christmas-lighting-decoration" },
-  { name: "Pressue Washing Concrete & Wooden Surfaces", slug: "pressue-washing" },
-  { name: "Interior & Exterior Painting", slug: "painting" },
-  { name: "Epoxy Flooring", slug: "epoxy-flooring" },
+  { name: "Pressure Washing Concrete & Wooden Surfaces", slug: "pressure-washing-concrete-floors" },
+  { name: "Interior & Exterior Painting", slug: "interior-exterior-painting" },
+  { name: "Epoxy Flooring", slug: "epoxy-flooring-installation" },
 
 ];
 

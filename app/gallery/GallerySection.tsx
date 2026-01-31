@@ -7,7 +7,6 @@ import HeroBanner, { BreadcrumbItem } from "@/components/HeroBanner";
 import { colors } from "@/lib/colors";
 import { SERVICES } from "@/constants/services";
 import type { GalleryImage } from "@/lib/gallery-types";
-import { getCategoryDisplayName } from "@/lib/gallery-types";
 
 interface GallerySectionProps {
   breadcrumbs: BreadcrumbItem[];
@@ -20,31 +19,60 @@ export default function GallerySection({ breadcrumbs, galleryImages }: GallerySe
   const [displayedCount, setDisplayedCount] = useState<number>(9);
   const [isLoadingMore, setIsLoadingMore] = useState<boolean>(false);
 
-  // Get unique categories from images and create filter options
-  const uniqueCategories = Array.from(
-    new Set(galleryImages.map((img) => img.category))
-  );
+  // Only show the 7 services from Footer
+  const footerServices = [
+    "roof-gutter-cleaning",
+    "window-washing",
+    "soft-washing",
+    "christmas-lighting-decoration",
+    "pressure-washing-concrete-floors",
+    "interior-exterior-painting",
+    "epoxy-flooring-installation",
+  ];
+  
+  // Map gallery categories to service slugs
+  // This allows us to show images from related categories under the correct service
+  const categoryToServiceMap: Record<string, string> = {
+    // Roof & Gutter Cleaning - includes all roof cleaning types
+    "roof-gutter-cleaning": "roof-gutter-cleaning",
+    "asphalt-shingle-roof-cleaning": "roof-gutter-cleaning",
+    "cedar-roof-cleaning": "roof-gutter-cleaning",
+    "concrete-tile-roof-cleaning": "roof-gutter-cleaning",
+    "flat-roof-cleaning": "roof-gutter-cleaning",
+    "spanish-tile-roof-cleaning": "roof-gutter-cleaning",
+    "roof-blow-and-debris-cleaning": "roof-gutter-cleaning",
+    // Other services
+    "christmas-lighting-decoration": "christmas-lighting-decoration",
+    "pressure-washing-concrete-floors": "pressure-washing-concrete-floors",
+    "pressure-washing-floors": "pressure-washing-concrete-floors",
+  };
   
   const filterOptions = [
     { id: "all", label: "All", slug: "all" },
-    ...SERVICES.map((service) => ({
+    ...SERVICES.filter((service) => footerServices.includes(service.slug)).map((service) => ({
       id: service.slug,
       label: service.title,
       slug: service.slug,
     })),
-    // Add categories that aren't in SERVICES
-    ...uniqueCategories
-      .filter((cat) => !SERVICES.some((s) => s.slug === cat))
-      .map((cat) => ({
-        id: cat,
-        label: getCategoryDisplayName(cat),
-        slug: cat,
-      })),
   ];
 
+  // Map gallery images to services and filter to only show the 7 services
+  const mappedGalleryImages = galleryImages
+    .map(img => {
+      const serviceSlug = categoryToServiceMap[img.category];
+      if (!serviceSlug || !footerServices.includes(serviceSlug)) {
+        return null;
+      }
+      return {
+        ...img,
+        category: serviceSlug, // Map to service slug
+      };
+    })
+    .filter((img): img is GalleryImage => img !== null);
+  
   const filteredImages = activeFilter === "all" 
-    ? galleryImages 
-    : galleryImages.filter(img => img.category === activeFilter);
+    ? mappedGalleryImages 
+    : mappedGalleryImages.filter(img => img.category === activeFilter);
 
   // Reset displayed count when filter changes
   useEffect(() => {
