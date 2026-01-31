@@ -460,11 +460,11 @@ export const SERVICES: Service[] = [
       "Restores floors to like-new condition",
       "Flexible scheduling to fit your routine"
     ],
-    heroImage: "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.jpeg",
+    heroImage: "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.webp",
     galleryImages: [
-      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.jpeg",
-      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_2.jpeg",
-      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_3.jpeg"
+      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.webp",
+      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_2.webp",
+      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_3.webp"
     ],
     area: "Greater Seattle & Portland Area",
     typesOfService: [],
