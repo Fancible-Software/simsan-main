@@ -48,8 +48,8 @@ export const SERVICES: Service[] = [
     area: "Lower Mainland and Fraser Valley Area"
   },
   {
-    slug: "water-fed-pole-window-washing",
-    title: "Water-Fed Pole Window Washing",
+    slug: "window-washing",
+    title: "Window Washing",
     shortTitle: "Water-Fed Pole",
     description: "Our water-fed pole window washing service delivers a safer, more effective and environmentally friendly way to keep your windows crystal clear. Using extendable carbon-fiber poles and 100% purified, spot-free water, we clean your windows thoroughly—without ladders, harsh chemicals or streaks.",
     longDescription: "Our water-fed pole window washing service delivers a safer, more effective and environmentally friendly way to keep your windows crystal clear. Using extendable carbon-fiber poles and 100% purified, spot-free water, we clean your windows thoroughly—without ladders, harsh chemicals or streaks. This advanced system allows us to safely wash windows up to several stories high while working from the ground. Soft-bristled brushes gently loosen dirt, pollen, and grime, while purified water rinses the glass clean and dries naturally without leaving residue. Water-fed pole cleaning is especially effective for regular maintenance, helping your windows stay cleaner for longer while protecting frames, seals and surrounding surfaces. At Simsan Fraser Maintenance Ltd, we combine professional equipment with trained technicians to ensure every window is cleaned with care and precision—leaving your home or business brighter, cleaner and more inviting.",
@@ -78,8 +78,8 @@ export const SERVICES: Service[] = [
     area: "Lower Mainland and Fraser Valley Area"
   },
   {
-    slug: "vinyl-siding-soft-washing",
-    title: "Vinyl Siding Soft Washing",
+    slug: "soft-washing",
+    title: "Soft Washing",
     shortTitle: "Vinyl Siding",
     description: "Our vinyl siding soft washing service uses a water-fed pole brush system to safely and effectively clean your home's exterior without the risk of damage caused by high pressure. This method combines low-pressure water, soft-bristle brushes and professional-grade cleaning solutions to gently remove dirt, algae, mildew, pollen and environmental buildup from vinyl siding.",
     longDescription: "Our vinyl siding soft washing service uses a water-fed pole brush system to safely and effectively clean your home's exterior without the risk of damage caused by high pressure. This method combines low-pressure water, soft-bristle brushes and professional-grade cleaning solutions to gently remove dirt, algae, mildew, pollen and environmental buildup from vinyl siding. Using a water-fed pole allows our technicians to clean upper-level siding safely from the ground, reducing the need for ladders while ensuring consistent, thorough coverage. The soft-bristle brush agitates grime without scratching, while the low-pressure rinse leaves your siding clean, bright, and refreshed. This method is especially effective in the Lower Mainland and Fraser Valley climate, where moisture promotes algae and mildew growth. Regular soft washing helps protect vinyl siding from long-term staining and deterioration while keeping your home looking its best year-round. At Simsan Fraser Maintenance Ltd, we provide professional vinyl siding soft washing services across Lower Mainland and Fraser Valley. Our experienced team uses industry-approved equipment and techniques to ensure safe, reliable and long-lasting results for your home.",
@@ -107,36 +107,36 @@ export const SERVICES: Service[] = [
     ],
     area: "Lower Mainland and Fraser Valley Area"
   },
-  {
-    slug: "stucco-exterior-wall-soft-washing",
-    title: "Stucco & Exterior Wall Soft Washing",
-    shortTitle: "Stucco & Exterior",
-    description: "Our stucco and exterior wall soft washing service is designed to safely clean delicate and textured surfaces using a pressure washer set to low pressure, combined with professional-grade, biodegradable cleaning solutions. This method effectively removes dirt, algae, mildew, moss and environmental staining without damaging the surface.",
-    longDescription: "Our stucco and exterior wall soft washing service is designed to safely clean delicate and textured surfaces using a pressure washer set to low pressure, combined with professional-grade, biodegradable cleaning solutions. This method effectively removes dirt, algae, mildew, moss and environmental staining without damaging the surface. Stucco, masonry, painted walls and other textured exteriors require a controlled approach. High pressure can cause erosion, cracks or water intrusion. Our soft washing process allows the cleaning solution to break down organic growth, while the low-pressure rinse gently washes it away—restoring the appearance of your walls while protecting their integrity. Soft washing is especially important in the wet climate of the Lower Mainland and Fraser Valley, where organic growth can quickly discolor stucco and exterior walls. Routine soft washing helps maintain your property's appearance and extends the life of your exterior surfaces. At Simsan Fraser Maintenance Ltd, we provide professional stucco and wall soft washing services across Lower Mainland and Fraser Valley area. Our trained technicians use proper pressure control and proven techniques to deliver safe, consistent and high-quality results.",
-    subheading: "Serving the Lower Mainland & Fraser Valley",
-    typeOfServiceTitle: "Surfaces we soft wash:",
-    typesOfService: [
-      "Stucco",
-      "Painted exterior walls",
-      "Concrete and masonry walls",
-      "EIFS (synthetic stucco)",
-      "Brick and block walls"
-    ],
-    benefits: [
-      "Low-pressure cleaning safe for delicate and textured surfaces",
-      "Effectively removes algae, mold, mildew, and grime",
-      "Longer-lasting results than high-pressure washing",
-      "Reduces risk of surface damage and water penetration",
-      "Improves curb appeal and protects exterior finishes"
-    ],
-    heroImage: "/home-about-img1.png",
-    galleryImages: [
-      "/home-about-img1.png",
-      "/home-about-imp2.png",
-      "/homepage1.png"
-    ],
-    area: "Lower Mainland and Fraser Valley Area"
-  },
+  // {
+  //   slug: "stucco-exterior-wall-soft-washing",
+  //   title: "Stucco & Exterior Wall Soft Washing",
+  //   shortTitle: "Stucco & Exterior",
+  //   description: "Our stucco and exterior wall soft washing service is designed to safely clean delicate and textured surfaces using a pressure washer set to low pressure, combined with professional-grade, biodegradable cleaning solutions. This method effectively removes dirt, algae, mildew, moss and environmental staining without damaging the surface.",
+  //   longDescription: "Our stucco and exterior wall soft washing service is designed to safely clean delicate and textured surfaces using a pressure washer set to low pressure, combined with professional-grade, biodegradable cleaning solutions. This method effectively removes dirt, algae, mildew, moss and environmental staining without damaging the surface. Stucco, masonry, painted walls and other textured exteriors require a controlled approach. High pressure can cause erosion, cracks or water intrusion. Our soft washing process allows the cleaning solution to break down organic growth, while the low-pressure rinse gently washes it away—restoring the appearance of your walls while protecting their integrity. Soft washing is especially important in the wet climate of the Lower Mainland and Fraser Valley, where organic growth can quickly discolor stucco and exterior walls. Routine soft washing helps maintain your property's appearance and extends the life of your exterior surfaces. At Simsan Fraser Maintenance Ltd, we provide professional stucco and wall soft washing services across Lower Mainland and Fraser Valley area. Our trained technicians use proper pressure control and proven techniques to deliver safe, consistent and high-quality results.",
+  //   subheading: "Serving the Lower Mainland & Fraser Valley",
+  //   typeOfServiceTitle: "Surfaces we soft wash:",
+  //   typesOfService: [
+  //     "Stucco",
+  //     "Painted exterior walls",
+  //     "Concrete and masonry walls",
+  //     "EIFS (synthetic stucco)",
+  //     "Brick and block walls"
+  //   ],
+  //   benefits: [
+  //     "Low-pressure cleaning safe for delicate and textured surfaces",
+  //     "Effectively removes algae, mold, mildew, and grime",
+  //     "Longer-lasting results than high-pressure washing",
+  //     "Reduces risk of surface damage and water penetration",
+  //     "Improves curb appeal and protects exterior finishes"
+  //   ],
+  //   heroImage: "/home-about-img1.png",
+  //   galleryImages: [
+  //     "/home-about-img1.png",
+  //     "/home-about-imp2.png",
+  //     "/homepage1.png"
+  //   ],
+  //   area: "Lower Mainland and Fraser Valley Area"
+  // },
   // {
   //   slug: "pressure-cleaning",
   //   title: "Pressure Cleaning",
@@ -188,74 +188,74 @@ export const SERVICES: Service[] = [
     ],
     area: "Lower Mainland and Fraser Valley Area"
   },
-  {
-    slug: "asphalt-shingle-roof-cleaning",
-    title: "Asphalt Shingle Roof Cleaning",
-    shortTitle: "Asphalt Shingle",
-    description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective asphalt shingle roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    subheading: "Serving the Greater Seattle & Portland Area",
-    benefits: [
-      "Professional cleaning removes leaves, needles, and debris",
-      "Prevents water backup and structural damage",
-      "Extends the life of your roof",
-      "Flexible scheduling to fit your routine"
-    ],
-    heroImage: "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_1.webp",
-    galleryImages: [
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_1.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_2.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_3.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_4.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_5.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_6.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_7.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_8.jpeg",
-      "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_9.jpeg"
-    ],
-    area: "Greater Seattle & Portland Area",
-    typesOfService: [],
-    typeOfServiceTitle: ""
-  },
-  {
-    slug: "cedar-roof-cleaning",
-    title: "Cedar Roof Cleaning",
-    shortTitle: "Cedar Roof",
-    description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective cedar roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    subheading: "Serving the Greater Seattle & Portland Area",
-    benefits: [
-      "Professional cleaning removes leaves, needles, and debris",
-      "Prevents water backup and structural damage",
-      "Extends the life of your cedar roof",
-      "Flexible scheduling to fit your routine"
-    ],
-    heroImage: "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_1.jpeg",
-    galleryImages: [
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_1.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_2.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_3.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_4.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_5.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_6.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_7.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_8.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_9.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_10.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_11.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_12.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_13.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_14.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_15.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_16.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_17.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_18.jpeg",
-      "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_19.jpeg"
-    ],
-    area: "Greater Seattle & Portland Area",
-    typesOfService: [],
-    typeOfServiceTitle: ""
-  },
+  // {
+  //   slug: "asphalt-shingle-roof-cleaning",
+  //   title: "Asphalt Shingle Roof Cleaning",
+  //   shortTitle: "Asphalt Shingle",
+  //   description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective asphalt shingle roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   subheading: "Serving the Greater Seattle & Portland Area",
+  //   benefits: [
+  //     "Professional cleaning removes leaves, needles, and debris",
+  //     "Prevents water backup and structural damage",
+  //     "Extends the life of your roof",
+  //     "Flexible scheduling to fit your routine"
+  //   ],
+  //   heroImage: "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_1.webp",
+  //   galleryImages: [
+  //     "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_1.jpeg",
+  //     "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_2.jpeg",
+  //     "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_3.jpeg",
+  //     "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_4.jpeg",
+  //     "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_5.jpeg",
+  //     "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_6.jpeg",
+  //     "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_7.jpeg",
+  //     "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_8.jpeg",
+  //     "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_9.jpeg"
+  //   ],
+  //   area: "Greater Seattle & Portland Area",
+  //   typesOfService: [],
+  //   typeOfServiceTitle: ""
+  // },
+  // {
+  //   slug: "cedar-roof-cleaning",
+  //   title: "Cedar Roof Cleaning",
+  //   shortTitle: "Cedar Roof",
+  //   description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective cedar roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   subheading: "Serving the Greater Seattle & Portland Area",
+  //   benefits: [
+  //     "Professional cleaning removes leaves, needles, and debris",
+  //     "Prevents water backup and structural damage",
+  //     "Extends the life of your cedar roof",
+  //     "Flexible scheduling to fit your routine"
+  //   ],
+  //   heroImage: "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_1.jpeg",
+  //   galleryImages: [
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_1.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_2.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_3.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_4.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_5.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_6.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_7.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_8.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_9.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_10.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_11.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_12.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_13.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_14.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_15.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_16.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_17.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_18.jpeg",
+  //     "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_19.jpeg"
+  //   ],
+  //   area: "Greater Seattle & Portland Area",
+  //   typesOfService: [],
+  //   typeOfServiceTitle: ""
+  // },
   // {
   //   slug: "window-cleaning",
   //   title: "Window Cleaning",
@@ -277,76 +277,76 @@ export const SERVICES: Service[] = [
   //   ],
   //   area: "Greater Seattle & Portland Area"
   // },
-  {
-    slug: "concrete-tile-roof-cleaning",
-    title: "Concrete Tile Roof Cleaning",
-    shortTitle: "Concrete Tile",
-    description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective concrete tile roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    subheading: "Serving the Greater Seattle & Portland Area",
-    benefits: [
-      "Professional cleaning removes leaves, needles, and debris",
-      "Prevents water backup and structural damage",
-      "Extends the life of your concrete tile roof",
-      "Flexible scheduling to fit your routine"
-    ],
-    heroImage: "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_1.webp",
-    galleryImages: [
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_1.webp",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_2.webp",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_3.webp",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_4.webp",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_5.webp",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_6.webp",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_7.webp",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_8.webp",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_9.webp",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_10.webp",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_11.webp",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_12.webp",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_13.webp",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_14.webp",
-      "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_15.webp"
-    ],
-    area: "Greater Seattle & Portland Area",
-    typesOfService: [],
-    typeOfServiceTitle: ""
-  },
-  {
-    slug: "flat-roof-cleaning",
-    title: "Flat Roof Cleaning",
-    shortTitle: "Flat Roof",
-    description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective flat roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    subheading: "Serving the Greater Seattle & Portland Area",
-    benefits: [
-      "Professional cleaning removes leaves, needles, and debris",
-      "Prevents water backup and structural damage",
-      "Extends the life of your flat roof",
-      "Flexible scheduling to fit your routine"
-    ],
-    heroImage: "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_1.webp",
-    galleryImages: [
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_1.webp",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_2.webp",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_3.webp",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_4.webp",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_5.webp",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_6.webp",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_7.webp",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_8.webp",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_9.webp",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_10.webp",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_11.webp",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_12.webp",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_13.webp",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_14.webp",
-      "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_15.webp"
-    ],
-    area: "Greater Seattle & Portland Area",
-    typesOfService: [],
-    typeOfServiceTitle: ""
-  },
+  // {
+  //   slug: "concrete-tile-roof-cleaning",
+  //   title: "Concrete Tile Roof Cleaning",
+  //   shortTitle: "Concrete Tile",
+  //   description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective concrete tile roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   subheading: "Serving the Greater Seattle & Portland Area",
+  //   benefits: [
+  //     "Professional cleaning removes leaves, needles, and debris",
+  //     "Prevents water backup and structural damage",
+  //     "Extends the life of your concrete tile roof",
+  //     "Flexible scheduling to fit your routine"
+  //   ],
+  //   heroImage: "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_1.webp",
+  //   galleryImages: [
+  //     "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_1.webp",
+  //     "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_2.webp",
+  //     "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_3.webp",
+  //     "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_4.webp",
+  //     "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_5.webp",
+  //     "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_6.webp",
+  //     "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_7.webp",
+  //     "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_8.webp",
+  //     "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_9.webp",
+  //     "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_10.webp",
+  //     "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_11.webp",
+  //     "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_12.webp",
+  //     "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_13.webp",
+  //     "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_14.webp",
+  //     "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_15.webp"
+  //   ],
+  //   area: "Greater Seattle & Portland Area",
+  //   typesOfService: [],
+  //   typeOfServiceTitle: ""
+  // },
+  // {
+  //   slug: "flat-roof-cleaning",
+  //   title: "Flat Roof Cleaning",
+  //   shortTitle: "Flat Roof",
+  //   description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective flat roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   subheading: "Serving the Greater Seattle & Portland Area",
+  //   benefits: [
+  //     "Professional cleaning removes leaves, needles, and debris",
+  //     "Prevents water backup and structural damage",
+  //     "Extends the life of your flat roof",
+  //     "Flexible scheduling to fit your routine"
+  //   ],
+  //   heroImage: "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_1.webp",
+  //   galleryImages: [
+  //     "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_1.webp",
+  //     "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_2.webp",
+  //     "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_3.webp",
+  //     "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_4.webp",
+  //     "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_5.webp",
+  //     "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_6.webp",
+  //     "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_7.webp",
+  //     "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_8.webp",
+  //     "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_9.webp",
+  //     "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_10.webp",
+  //     "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_11.webp",
+  //     "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_12.webp",
+  //     "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_13.webp",
+  //     "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_14.webp",
+  //     "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_15.webp"
+  //   ],
+  //   area: "Greater Seattle & Portland Area",
+  //   typesOfService: [],
+  //   typeOfServiceTitle: ""
+  // },
   {
     slug: "pressure-washing-concrete-floors",
     title: "Pressure Washing for Concrete & Wooden Surfaces",
@@ -447,99 +447,99 @@ export const SERVICES: Service[] = [
     ],
     area: "Lower Mainland and Fraser Valley Area"
   },
-  {
-    slug: "pressure-washing-floors",
-    title: "Pressure Washing Floors",
-    shortTitle: "Pressure Washing",
-    description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective pressure washing floors services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    subheading: "Serving the Greater Seattle & Portland Area",
-    benefits: [
-      "Professional cleaning removes leaves, needles, and debris",
-      "Prevents water backup and structural damage",
-      "Restores floors to like-new condition",
-      "Flexible scheduling to fit your routine"
-    ],
-    heroImage: "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.webp",
-    galleryImages: [
-      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.webp",
-      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_2.webp",
-      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_3.webp"
-    ],
-    area: "Greater Seattle & Portland Area",
-    typesOfService: [],
-    typeOfServiceTitle: ""
-  },
-  {
-    slug: "roof-blow-and-debris-cleaning",
-    title: "Roof Blow & Debris Cleaning",
-    shortTitle: "Roof Blow & Debris",
-    description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective roof blow and debris cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    subheading: "Serving the Greater Seattle & Portland Area",
-    benefits: [
-      "Professional cleaning removes leaves, needles, and debris",
-      "Prevents water backup and structural damage",
-      "Extends the life of your roof",
-      "Flexible scheduling to fit your routine"
-    ],
-    heroImage: "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_1.webp",
-    galleryImages: [
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_1.webp",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_2.webp",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_3.webp",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_4.webp",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_5.webp",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_6.webp",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_7.webp",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_8.webp",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_9.webp",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_10.webp",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_11.webp",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_12.webp",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_13.webp",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_14.webp",
-      "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_15.webp"
-    ],
-    area: "Greater Seattle & Portland Area",
-    typesOfService: [],
-    typeOfServiceTitle: ""
-  },
-  {
-    slug: "spanish-tile-roof-cleaning",
-    title: "Spanish Tile Roof Cleaning",
-    shortTitle: "Spanish Tile",
-    description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective Spanish tile roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-    subheading: "Serving the Greater Seattle & Portland Area",
-    benefits: [
-      "Professional cleaning removes leaves, needles, and debris",
-      "Prevents water backup and structural damage",
-      "Extends the life of your Spanish tile roof",
-      "Flexible scheduling to fit your routine"
-    ],
-    heroImage: "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_1.webp",
-    galleryImages: [
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_1.webp",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_2.webp",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_3.webp",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_4.webp",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_5.webp",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_6.webp",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_7.webp",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_8.webp",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_9.webp",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_10.webp",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_11.webp",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_12.webp",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_13.webp",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_14.webp",
-      "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_15.webp"
-    ],
-    area: "Greater Seattle & Portland Area",
-    typesOfService: [],
-    typeOfServiceTitle: ""
-  },
+  // {
+  //   slug: "pressure-washing-floors",
+  //   title: "Pressure Washing Floors",
+  //   shortTitle: "Pressure Washing",
+  //   description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective pressure washing floors services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   subheading: "Serving the Greater Seattle & Portland Area",
+  //   benefits: [
+  //     "Professional cleaning removes leaves, needles, and debris",
+  //     "Prevents water backup and structural damage",
+  //     "Restores floors to like-new condition",
+  //     "Flexible scheduling to fit your routine"
+  //   ],
+  //   heroImage: "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.webp",
+  //   galleryImages: [
+  //     "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.webp",
+  //     "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_2.webp",
+  //     "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_3.webp"
+  //   ],
+  //   area: "Greater Seattle & Portland Area",
+  //   typesOfService: [],
+  //   typeOfServiceTitle: ""
+  // },
+  // {
+  //   slug: "roof-blow-and-debris-cleaning",
+  //   title: "Roof Blow & Debris Cleaning",
+  //   shortTitle: "Roof Blow & Debris",
+  //   description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective roof blow and debris cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   subheading: "Serving the Greater Seattle & Portland Area",
+  //   benefits: [
+  //     "Professional cleaning removes leaves, needles, and debris",
+  //     "Prevents water backup and structural damage",
+  //     "Extends the life of your roof",
+  //     "Flexible scheduling to fit your routine"
+  //   ],
+  //   heroImage: "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_1.webp",
+  //   galleryImages: [
+  //     "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_1.webp",
+  //     "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_2.webp",
+  //     "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_3.webp",
+  //     "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_4.webp",
+  //     "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_5.webp",
+  //     "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_6.webp",
+  //     "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_7.webp",
+  //     "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_8.webp",
+  //     "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_9.webp",
+  //     "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_10.webp",
+  //     "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_11.webp",
+  //     "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_12.webp",
+  //     "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_13.webp",
+  //     "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_14.webp",
+  //     "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_15.webp"
+  //   ],
+  //   area: "Greater Seattle & Portland Area",
+  //   typesOfService: [],
+  //   typeOfServiceTitle: ""
+  // },
+  // {
+  //   slug: "spanish-tile-roof-cleaning",
+  //   title: "Spanish Tile Roof Cleaning",
+  //   shortTitle: "Spanish Tile",
+  //   description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective Spanish tile roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   subheading: "Serving the Greater Seattle & Portland Area",
+  //   benefits: [
+  //     "Professional cleaning removes leaves, needles, and debris",
+  //     "Prevents water backup and structural damage",
+  //     "Extends the life of your Spanish tile roof",
+  //     "Flexible scheduling to fit your routine"
+  //   ],
+  //   heroImage: "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_1.webp",
+  //   galleryImages: [
+  //     "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_1.webp",
+  //     "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_2.webp",
+  //     "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_3.webp",
+  //     "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_4.webp",
+  //     "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_5.webp",
+  //     "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_6.webp",
+  //     "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_7.webp",
+  //     "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_8.webp",
+  //     "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_9.webp",
+  //     "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_10.webp",
+  //     "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_11.webp",
+  //     "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_12.webp",
+  //     "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_13.webp",
+  //     "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_14.webp",
+  //     "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_15.webp"
+  //   ],
+  //   area: "Greater Seattle & Portland Area",
+  //   typesOfService: [],
+  //   typeOfServiceTitle: ""
+  // },
   // {
   //   slug: "pressure-washing",
   //   title: "Pressure Washing",

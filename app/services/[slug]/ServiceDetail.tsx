@@ -124,12 +124,25 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             </p>
 
                             <Box className="space-y-4 mb-8" style={{ color: "#212121" }}>
-                                <p className="text-base md:text-lg leading-relaxed">
-                                    {service.longDescription.split(".")[0]}.
-                                </p>
-                                <p className="text-base md:text-lg leading-relaxed">
-                                    {service.longDescription.split(".").slice(1).join(".").trim()}
-                                </p>
+                                {service.slug === "christmas-lighting-decoration" ? (
+                                    <>
+                                        <p className="text-base md:text-lg leading-relaxed">
+                                            Make your home shine this holiday season with professional Christmas light installation from Simsan Fraser Maintenance Ltd. Our team handles everything from design and setup to takedown, creating a festive display that will impress family, friends and neighbors—without the stress or risk of doing it yourself.
+                                        </p>
+                                        <p className="text-base md:text-lg leading-relaxed">
+                                            We safely install LED string lights, icicle lights, roofline lights, trees, shrubs and more, ensuring your decorations are secure, evenly spaced and fully functional. Using professional equipment and techniques, we prevent damage to your roof, gutters and landscaping while creating a bright, festive atmosphere.
+                                        </p>
+                                    </>
+                                ) : (
+                                    <>
+                                        <p className="text-base md:text-lg leading-relaxed">
+                                            {service.longDescription.split(".")[0]}.
+                                        </p>
+                                        <p className="text-base md:text-lg leading-relaxed">
+                                            {service.longDescription.split(".").slice(1).join(".").trim()}
+                                        </p>
+                                    </>
+                                )}
 
                                 {service.typesOfService?.length > 0 && (
                                     <Box>
@@ -157,32 +170,40 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                                     </Box>
                                 )}
 
+                                {service.slug === "christmas-lighting-decoration" && (
+                                    <p className="text-base md:text-lg leading-relaxed">
+                                        Whether you want a classic, elegant or fully themed display, we bring your vision to life and make your home the highlight of the neighborhood. Our team serves Lower Mainland and Fraser Valley area, ensuring your holidays are bright, stress-free and magical.
+                                    </p>
+                                )}
+
                             </Box>
 
-                            {/* Benefits Section */}
-                            <Box className="mb-8">
-                                <h3
-                                    className="text-xl md:text-2xl font-bold mb-4"
-                                    style={{ color: colors.primary }}
-                                >
-                                    Why Homeowners Choose Simsan Fraser Maintenance {service.title}:
-                                </h3>
-                                <ul className="space-y-3">
-                                    {service.benefits.map((benefit, index) => (
-                                        <li key={index} className="flex items-start gap-3">
-                                            <span
-                                                className="text-xl font-bold mt-1"
-                                                style={{ color: colors.primary }}
-                                            >
-                                                •
-                                            </span>
-                                            <span className="text-base md:text-lg leading-relaxed" style={{ color: "#212121" }}>
-                                                {benefit}
-                                            </span>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </Box>
+                            {/* Benefits Section - Hidden for Christmas Light Installation */}
+                            {service.slug !== "christmas-lighting-decoration" && (
+                                <Box className="mb-8">
+                                    <h3
+                                        className="text-xl md:text-2xl font-bold mb-4"
+                                        style={{ color: colors.primary }}
+                                    >
+                                        Why Homeowners Choose Simsan Fraser Maintenance {service.title}:
+                                    </h3>
+                                    <ul className="space-y-3">
+                                        {service.benefits.map((benefit, index) => (
+                                            <li key={index} className="flex items-start gap-3">
+                                                <span
+                                                    className="text-xl font-bold mt-1"
+                                                    style={{ color: colors.primary }}
+                                                >
+                                                    •
+                                                </span>
+                                                <span className="text-base md:text-lg leading-relaxed" style={{ color: "#212121" }}>
+                                                    {benefit}
+                                                </span>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </Box>
+                            )}
 
                             {/* CTA Button */}
                             <a
@@ -233,7 +254,8 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                 </Box>
             </Box >
 
-            {/* Care Plan Section */}
+            {/* Care Plan Section - Hidden for Christmas Light Installation */}
+            {service.slug !== "christmas-lighting-decoration" && (
             < Box className="bg-gray-50 py-12 md:py-16 lg:py-20" >
                 <Box className="max-w-7xl mx-auto px-6 lg:px-8 xl:px-0">
                     <Box className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
@@ -324,8 +346,10 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                     </Box>
                 </Box>
             </Box >
+            )}
 
-            {/* Reliable Services Section */}
+            {/* Reliable Services Section - Hidden for Christmas Light Installation */}
+            {service.slug !== "christmas-lighting-decoration" && (
             < Box className="bg-white py-12 md:py-16 lg:py-20" >
                 <Box className="max-w-5xl mx-auto px-6 lg:px-8 xl:px-0">
                     {/* Main Heading */}
@@ -474,14 +498,15 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                     </Box>
                 </Box>
             </Box >
+            )}
 
             {/* FAQ Section */}
             < FAQ
                 title={
-                    service.slug === "water-fed-pole-window-washing"
-                        ? "Frequently Asked Questions – Water-Fed Pole Window Washing"
-                        : service.slug === "vinyl-siding-soft-washing"
-                        ? "Frequently Asked Questions – Vinyl Siding Soft Washing (Water-Fed Pole System)"
+                    service.slug === "window-washing"
+                        ? "Frequently Asked Questions – Window Washing"
+                        : service.slug === "soft-washing"
+                        ? "Frequently Asked Questions – Soft Washing"
                         : service.slug === "stucco-exterior-wall-soft-washing"
                         ? "Frequently Asked Questions – Stucco & Exterior Wall Soft Washing"
                         : service.slug === "christmas-lighting-decoration"
@@ -495,8 +520,8 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                         : "Frequently Asked Questions"
                 }
                 introText={
-                    service.slug === "water-fed-pole-window-washing" ||
-                    service.slug === "vinyl-siding-soft-washing" ||
+                    service.slug === "window-washing" ||
+                    service.slug === "soft-washing" ||
                     service.slug === "stucco-exterior-wall-soft-washing" ||
                     service.slug === "christmas-lighting-decoration" ||
                     service.slug === "pressure-washing-concrete-floors" ||
@@ -506,7 +531,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                         : "Choosing a Gutter Cleaning provider is an important decision, and we want you to feel confident every step of the way. Below are some of the most common questions we get from homeowners just like you—covering everything from safety to service details. Don't see your question here? Just reach out—we're happy to help!"
                 }
                 items={
-                    service.slug === "water-fed-pole-window-washing"
+                    service.slug === "window-washing"
                         ? [
                             {
                                 question: "What is water-fed pole window cleaning?",
@@ -549,7 +574,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                                 answer: "Light rain usually doesn't affect the results, as purified water dries spot-free. However, we may reschedule during heavy rain, strong winds or freezing conditions to ensure safety and quality."
                             }
                         ]
-                        : service.slug === "vinyl-siding-soft-washing"
+                        : service.slug === "soft-washing"
                         ? [
                             {
                                 question: "What is vinyl siding soft washing with a water-fed pole?",

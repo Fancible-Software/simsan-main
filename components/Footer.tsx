@@ -16,8 +16,8 @@ const companyLinks = [
 
 const services = [
   { name: "Roof & Gutter Cleaning", slug: "roof-gutter-cleaning" },
-  { name: "Window Washing", slug: "window-cleaning" },
-  { name: "House Soft Washing", slug: "pressure-washing" },
+  { name: "Window Washing", slug: "window-washing" },
+  { name: "Soft Washing", slug: "soft-washing" },
   { name: "Christmas Light Setup", slug: "christmas-lighting-decoration" },
   { name: "Pressue Washing Concrete & Wooden Surfaces", slug: "pressue-washing" },
   { name: "Interior & Exterior Painting", slug: "painting" },
