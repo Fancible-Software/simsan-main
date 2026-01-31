@@ -18,6 +18,7 @@ import { SERVICES } from "@/constants/services";
 const serviceIcons: Record<string, React.ReactNode> = {
     "roof-gutter-cleaning": <RoofGutterIcon className="w-full h-full" />,
     "window-washing": <WindowWashingIcon className="w-full h-full" />,
+    "soft-washing": <PressureCleaningIcon className="w-full h-full" />,
     "pressure-cleaning": <PressureCleaningIcon className="w-full h-full" />,
     "christmas-lighting-decoration": <ChristmasDecorationIcon className="w-full h-full" />,
     "asphalt-shingle-roof-cleaning": <AsphaltShingleRoofCleaningIcon className="w-full h-full" />,

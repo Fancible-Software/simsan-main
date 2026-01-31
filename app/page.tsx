@@ -39,7 +39,7 @@ export default function Home() {
             <span className="font-bold">Simsan Fraser Maintenance</span> Ltd provides reliable exterior cleaning and property maintenance for homeowners who value quality and care. 
           </p>
           <p className="text-center sm:text-left text-white text-base md:text-lg mb-4 leading-relaxed">
-            We specialize in <span className="font-bold">roof cleaning by hand, gutter cleaning, moss removal, Anti moss treatment, Window Washing, Soft washing of the house, pressure washing of concrete surfaces, Christmas Lights Installation, Interior Exterior Painting and Epoxy Flooring</span> using safe methods that protect your home while delivering visible results.
+            We specialize in <span className="font-bold">roof cleaning by hand, gutter cleaning, moss removal, Anti moss treatment, Window Washing, Soft Washing, pressure washing of concrete surfaces, Christmas Lights Installation, Interior Exterior Painting and Epoxy Flooring</span> using safe methods that protect your home while delivering visible results.
           </p>
           <p className="text-center sm:text-left text-white text-base md:text-lg mb-4 leading-relaxed">
             As a fully insured local company, we focus on honest pricing, clear communication and dependable service - every job, every time.
@@ -81,7 +81,7 @@ export default function Home() {
               <span className="font-bold">Simsan Fraser Maintenance</span> Ltd is a locally owned and operated exterior cleaning and property maintenance company dedicated to protecting and enhancing homes across the Lower Mainland and Fraser Valley.
             </p>
             <p className="text-center sm:text-left text-gray-600 text-base md:text-lg leading-relaxed mb-4">
-              We specialize in <span className="font-bold">roof cleaning by hand, gutter cleaning, moss removal, Anti moss treatment, Window Washing, soft washing of the house, pressure washing of concrete surfaces, Christmas Lights Installation, Interior Exterior Painting and Epoxy Flooring</span> using proven, surface-safe techniques designed to extend the life of your property. Our focus is not just on making homes look clean - but on maintaining them properly and responsibly.
+              We specialize in <span className="font-bold">roof cleaning by hand, gutter cleaning, moss removal, Anti moss treatment, Window Washing, Soft Washing, pressure washing of concrete surfaces, Christmas Lights Installation, Interior Exterior Painting and Epoxy Flooring</span> using proven, surface-safe techniques designed to extend the life of your property. Our focus is not just on making homes look clean - but on maintaining them properly and responsibly.
             </p>
            
             <Link

@@ -215,7 +215,7 @@ export default function AboutUsPage() {
                             </p>
 
                             <p className="text-foreground mb-8 leading-relaxed">
-                                We specialize in <span className="font-bold">roof cleaning by hand, gutter cleaning, moss removal, Anti moss treatment, Window Washing, soft washing of the house, pressure washing of concrete surfaces, Christmas Lights Installation, Interior Exterior Painting and Epoxy Flooring</span> using proven, surface-safe techniques designed to extend the life of your property. Our focus is not just on making homes look clean - but on maintaining them properly and responsibly.
+                                We specialize in <span className="font-bold">roof cleaning by hand, gutter cleaning, moss removal, Anti moss treatment, Window Washing, Soft Washing, pressure washing of concrete surfaces, Christmas Lights Installation, Interior Exterior Painting and Epoxy Flooring</span> using proven, surface-safe techniques designed to extend the life of your property. Our focus is not just on making homes look clean - but on maintaining them properly and responsibly.
                             </p>
                             <p className="text-foreground mb-8 leading-relaxed">
                                 What sets us apart is our commitment to <span className="font-bold">quality workmanship, honest service and attention to detail</span>. We believe exterior maintenance should be done the right way, without shortcuts that can damage roof, gutters, siding or any other surfaces. Every project begins with a clear assessment and ends with a thorough cleanup and visible results.
