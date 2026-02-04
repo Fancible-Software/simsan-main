@@ -291,9 +291,9 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                                     Every home is unique—and so are your maintenance needs. That’s why our Roof & Gutter Cleaning plans are fully flexible. We start with what your home needs most and help you customize from there.
                                 </p>
                                 <p className="text-base md:text-lg leading-relaxed">
-                                    Most homeowners choose regular roof and gutter cleaning to prevent moss growth, water damage, and overflow issues. Our biannual service (every 6 months) is the most popular choice, but homes surrounded by trees or facing heavy rain may need more frequent cleaning.                                </p>
+                                    Most homeowners choose regular roof and gutter cleaning to prevent moss growth, water damage and overflow issues. Our biannual service (every 6 months) is the most popular choice, but homes surrounded by trees or facing heavy rain may need more frequent cleaning.                                </p>
                                 <p className="text-base md:text-lg leading-relaxed">
-                                    We’re your one-stop shop for proactive roof and gutter maintenance. Not sure where to start? We’ll help you build a plan that fits your home, your schedule, and your budget.
+                                    We’re your one-stop shop for proactive roof and gutter maintenance. Not sure where to start? We’ll help you build a plan that fits your home, your schedule and your budget.
                                 </p>
                             </Box>
 
@@ -461,7 +461,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                         </h3>
                         <ul className="space-y-3">
                             {[
-                                "Complete debris removal from roof surfaces, gutters, and downspouts",
+                                "Complete debris removal from roof surfaces, gutters and downspouts",
                                 "Moss removal and application of preventive treatment (if needed)",
                                 "Thorough inspection for potential damage or problem areas",
                                 "Flushing the entire gutter system to confirm proper water flow",
@@ -528,7 +528,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                     service.slug === "interior-exterior-painting" ||
                     service.slug === "epoxy-flooring-installation"
                         ? undefined
-                        : "Choosing a Gutter Cleaning provider is an important decision, and we want you to feel confident every step of the way. Below are some of the most common questions we get from homeowners just like you—covering everything from safety to service details. Don't see your question here? Just reach out—we're happy to help!"
+                        : "Choosing a Gutter Cleaning provider is an important decision and we want you to feel confident every step of the way. Below are some of the most common questions we get from homeowners just like you—covering everything from safety to service details. Don't see your question here? Just reach out—we're happy to help!"
                 }
                 items={
                     service.slug === "window-washing"
@@ -547,7 +547,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "Can you clean upper-floor windows with a water-fed pole?",
-                                answer: "Absolutely. Water-fed poles allow us to safely clean second-, third-, and multi-story windows without ladders, making it ideal for homes and commercial buildings throughout the Lower Mainland and Fraser Valley."
+                                answer: "Absolutely. Water-fed poles allow us to safely clean second-, third- and multi-story windows without ladders, making it ideal for homes and commercial buildings throughout the Lower Mainland and Fraser Valley."
                             },
                             {
                                 question: "Is water-fed pole window washing better than traditional methods?",
@@ -559,7 +559,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "How often should I have my windows cleaned?",
-                                answer: "Most homeowners in the Lower Mainland and Fraser Valley schedule window cleaning 2–4 times per year, depending on exposure to rain, dust, pollen, and nearby trees. Commercial properties may benefit from more frequent service."
+                                answer: "Most homeowners in the Lower Mainland and Fraser Valley schedule window cleaning 2–4 times per year, depending on exposure to rain, dust, pollen and nearby trees. Commercial properties may benefit from more frequent service."
                             },
                             {
                                 question: "Can water-fed pole cleaning remove heavy buildup?",
@@ -567,7 +567,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "Do you offer water-fed pole window cleaning for commercial properties?",
-                                answer: "Yes. We provide residential and commercial window cleaning services for offices, retail spaces, strata buildings, and more across Lower Mainland and Fraser Valley."
+                                answer: "Yes. We provide residential and commercial window cleaning services for offices, retail spaces, strata buildings and more across Lower Mainland and Fraser Valley."
                             },
                             {
                                 question: "Is water-fed pole window washing weather-dependent?",
@@ -578,15 +578,15 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                         ? [
                             {
                                 question: "What is vinyl siding soft washing with a water-fed pole?",
-                                answer: "It's a low-pressure exterior cleaning method that uses extendable water-fed poles with soft-bristle brushes and professional cleaning solutions to gently remove dirt, algae, mildew, and pollen from vinyl siding—without using damaging high pressure."
+                                answer: "It's a low-pressure exterior cleaning method that uses extendable water-fed poles with soft-bristle brushes and professional cleaning solutions to gently remove dirt, algae, mildew and pollen from vinyl siding—without using damaging high pressure."
                             },
                             {
                                 question: "Is the water-fed pole system safe for vinyl siding?",
-                                answer: "Yes. The system is specifically designed for delicate surfaces like vinyl siding. The soft-bristle brush and controlled water flow prevent scratching, cracking, or loosening of panels."
+                                answer: "Yes. The system is specifically designed for delicate surfaces like vinyl siding. The soft-bristle brush and controlled water flow prevent scratching, cracking or loosening of panels."
                             },
                             {
                                 question: "Will this method remove green algae and mildew?",
-                                answer: "Yes. Soft washing treats the root cause of staining by breaking down algae, mold, and mildew, not just rinsing the surface. This results in a cleaner appearance that lasts longer."
+                                answer: "Yes. Soft washing treats the root cause of staining by breaking down algae, mold and mildew, not just rinsing the surface. This results in a cleaner appearance that lasts longer."
                             },
                             {
                                 question: "Do you use high pressure on the siding?",
@@ -598,11 +598,11 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "Are the cleaning solutions safe?",
-                                answer: "Yes. We use biodegradable, exterior-safe cleaning solutions that are effective on grime and organic growth while being safe for landscaping, pets, and surrounding surfaces when applied properly."
+                                answer: "Yes. We use biodegradable, exterior-safe cleaning solutions that are effective on grime and organic growth while being safe for landscaping, pets and surrounding surfaces when applied properly."
                             },
                             {
                                 question: "How often should vinyl siding be soft washed?",
-                                answer: "In the Lower Mainland and Fraser Valley climate, most homes benefit from soft washing every 1–2 years, depending on shade, moisture, and nearby vegetation."
+                                answer: "In the Lower Mainland and Fraser Valley climate, most homes benefit from soft washing every 1–2 years, depending on shade, moisture and nearby vegetation."
                             },
                             {
                                 question: "Will soft washing damage paint or fade vinyl?",
@@ -621,11 +621,11 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                         ? [
                             {
                                 question: "What is soft washing for stucco and exterior walls?",
-                                answer: "Soft washing is a low-pressure cleaning method that uses a pressure washer set to safe levels along with professional, biodegradable cleaning solutions. It gently removes algae, mold, mildew, dirt, and stains without damaging stucco or other textured surfaces."
+                                answer: "Soft washing is a low-pressure cleaning method that uses a pressure washer set to safe levels along with professional, biodegradable cleaning solutions. It gently removes algae, mold, mildew, dirt and stains without damaging stucco or other textured surfaces."
                             },
                             {
                                 question: "Is pressure washing safe for stucco?",
-                                answer: "High-pressure washing is not recommended for stucco. However, when done correctly at low pressure, pressure washing as part of a soft washing process is safe and effective. We carefully control pressure to prevent cracking, erosion, or water intrusion."
+                                answer: "High-pressure washing is not recommended for stucco. However, when done correctly at low pressure, pressure washing as part of a soft washing process is safe and effective. We carefully control pressure to prevent cracking, erosion or water intrusion."
                             },
                             {
                                 question: "What types of walls can be soft washed?",
@@ -633,15 +633,15 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "Will soft washing remove mold and algae completely?",
-                                answer: "Yes. Soft washing doesn't just remove surface stains—it treats the root cause by killing mold, algae, and mildew. This helps keep walls cleaner for longer compared to high-pressure washing alone."
+                                answer: "Yes. Soft washing doesn't just remove surface stains—it treats the root cause by killing mold, algae and mildew. This helps keep walls cleaner for longer compared to high-pressure washing alone."
                             },
                             {
                                 question: "Do you use harsh chemicals?",
-                                answer: "No. We use biodegradable, industry-approved cleaning solutions that are effective yet safe for surrounding plants, pets, and the environment when applied correctly."
+                                answer: "No. We use biodegradable, industry-approved cleaning solutions that are effective yet safe for surrounding plants, pets and the environment when applied correctly."
                             },
                             {
                                 question: "How often should stucco and exterior walls be cleaned?",
-                                answer: "In the Lower Mainland and Fraser Valley, we recommend soft washing every 1–2 years, depending on shade, moisture, and exposure to organic growth."
+                                answer: "In the Lower Mainland and Fraser Valley, we recommend soft washing every 1–2 years, depending on shade, moisture and exposure to organic growth."
                             },
                             {
                                 question: "Will soft washing damage paint or finishes?",
@@ -657,26 +657,26 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "Do you offer stucco and wall soft washing for commercial properties?",
-                                answer: "Yes. We provide residential, commercial, and strata wall cleaning services throughout Lower Mainland and Fraser Valley areas."
+                                answer: "Yes. We provide residential, commercial and strata wall cleaning services throughout Lower Mainland and Fraser Valley areas."
                             }
                         ]
                         : service.slug === "christmas-lighting-decoration"
                         ? [
                             {
                                 question: "What does your Christmas light installation service include?",
-                                answer: "Our service includes design, professional installation, and optional takedown of your holiday lights. We install lights on roofs, eaves, gutters, trees, shrubs, and other exterior areas while ensuring safety and even placement."
+                                answer: "Our service includes design, professional installation and optional takedown of your holiday lights. We install lights on roofs, eaves, gutters, trees, shrubs and other exterior areas while ensuring safety and even placement."
                             },
                             {
-                                question: "Do you provide the Christmas lights, or do I need to supply them?",
+                                question: "Do you provide the Christmas lights or do I need to supply them?",
                                 answer: "We can work with your lights or provide high-quality, energy-efficient LED lights for your display. We also offer options for custom colors and themes to match your vision."
                             },
                             {
                                 question: "Is professional installation safe for my roof and gutters?",
-                                answer: "Yes. Our trained technicians use proper tools, ladders, and safety equipment to prevent damage to your roof, siding, gutters, and landscaping."
+                                answer: "Yes. Our trained technicians use proper tools, ladders and safety equipment to prevent damage to your roof, siding, gutters and landscaping."
                             },
                             {
                                 question: "Can you install lights on multi-story homes?",
-                                answer: "Absolutely. We safely install lights on multi-story homes, large trees, and hard-to-reach areas using specialized poles and safety equipment."
+                                answer: "Absolutely. We safely install lights on multi-story homes, large trees and hard-to-reach areas using specialized poles and safety equipment."
                             },
                             {
                                 question: "Do you remove the lights after the holidays?",
@@ -688,15 +688,15 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "Can you create a custom light display?",
-                                answer: "Yes. We can design classic, elegant, themed, or fully custom displays to make your home or business stand out during the holidays."
+                                answer: "Yes. We can design classic, elegant, themed or fully custom displays to make your home or business stand out during the holidays."
                             },
                             {
                                 question: "Are the lights energy-efficient?",
-                                answer: "Yes. We use LED lights that are long-lasting, bright, and energy-efficient, helping reduce electricity costs while keeping your display stunning."
+                                answer: "Yes. We use LED lights that are long-lasting, bright and energy-efficient, helping reduce electricity costs while keeping your display stunning."
                             },
                             {
                                 question: "Do you offer commercial Christmas light installation?",
-                                answer: "Yes. We provide professional installation for residential homes, businesses, office buildings, and commercial properties throughout the Lower Mainland & Fraser Valley."
+                                answer: "Yes. We provide professional installation for residential homes, businesses, office buildings and commercial properties throughout the Lower Mainland & Fraser Valley."
                             }
                         ]
                         : service.slug === "pressure-washing-concrete-floors"
@@ -813,21 +813,21 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "Is epoxy flooring suitable for commercial spaces?",
-                                answer: "Yes. Epoxy is widely used in commercial and industrial environments due to its strength, durability, and professional appearance."
+                                answer: "Yes. Epoxy is widely used in commercial and industrial environments due to its strength, durability and professional appearance."
                             }
                         ]
                         : [
                             {
                                 question: "What can I expect on the day of service?",
-                                answer: "We'll call or text on the way to your home in Lower Mainland or Fraser Valley. You don't need to be home for outside work, but we'll knock on the door to greet you either way. We'll let you know if we have questions for you or if your home could benefit from any additional services. When finished, we will come to the door to chat before we leave. We can answer any other questions you may have, let you know if we encountered anything unusual while we worked, and offer recommendations for a service schedule going forward."
+                                answer: "We'll call or text on the way to your home in Lower Mainland or Fraser Valley. You don't need to be home for outside work, but we'll knock on the door to greet you either way. We'll let you know if we have questions for you or if your home could benefit from any additional services. When finished, we will come to the door to chat before we leave. We can answer any other questions you may have, let you know if we encountered anything unusual while we worked and offer recommendations for a service schedule going forward."
                             },
                             {
                                 question: "How often should I have my gutters cleaned?",
-                                answer: "We recommend cleaning your gutters at least twice a year—typically in the spring and fall. However, homes with heavy tree coverage, frequent storms, or moss-prone areas may benefit from more frequent cleanings (every 3-4 months). Our team can assess your specific situation and recommend a maintenance schedule that works best for your home."
+                                answer: "We recommend cleaning your gutters at least twice a year—typically in the spring and fall. However, homes with heavy tree coverage, frequent storms or moss-prone areas may benefit from more frequent cleanings (every 3-4 months). Our team can assess your specific situation and recommend a maintenance schedule that works best for your home."
                             },
                             {
                                 question: "Do I need to be home during the service?",
-                                answer: "No, you don't need to be home for outside work. We'll call or text when we're on our way, and we'll knock on your door when we arrive. If you're not home, we'll complete the work and leave a note or call you afterward to discuss any findings or recommendations."
+                                answer: "No, you don't need to be home for outside work. We'll call or text when we're on our way and we'll knock on your door when we arrive. If you're not home, we'll complete the work and leave a note or call you afterward to discuss any findings or recommendations."
                             },
                             {
                                 question: "What happens if you find damage during the service?",

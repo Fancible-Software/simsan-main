@@ -15,6 +15,8 @@ const folderToCategoryMap: Record<string, string> = {
   pressure_washing_floor: "pressure-washing-floors",
   roof_blow_and_debris_cleaning: "roof-blow-and-debris-cleaning",
   spanish_tile_roof: "spanish-tile-roof-cleaning",
+  painting_services: "interior-exterior-painting",
+  epoxy_flooring: "epoxy-flooring-installation",
 };
 
 /**

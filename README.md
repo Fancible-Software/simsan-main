@@ -41,7 +41,7 @@ simsanfraser/
 ### Prerequisites
 
 - Node.js >= 20.9.0 (recommended)
-- npm, yarn, pnpm, or bun
+- npm, yarn, pnpm or bun
 
 ### Installation
 
@@ -85,7 +85,7 @@ By default, components in the `app` directory are Server Components, which means
 
 ### Client Components
 
-Components that use hooks, event handlers, or browser APIs should be marked with `"use client"` directive.
+Components that use hooks, event handlers or browser APIs should be marked with `"use client"` directive.
 
 ### MUI Integration
 

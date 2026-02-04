@@ -19,15 +19,15 @@ export default function RoofGutterCleaningPage() {
   const faqItems = [
     {
       question: "What can I expect on the day of service?",
-      answer: "We'll call or text on the way to your home in Lower Mainland or Fraser Valley. You don't need to be home for outside work, but we'll knock on the door to greet you either way. We'll let you know if we have questions for you or if your home could benefit from any additional services. When finished, we will come to the door to chat before we leave. We can answer any other questions you may have, let you know if we encountered anything unusual while we worked, and offer recommendations for a service schedule going forward."
+      answer: "We'll call or text on the way to your home in Lower Mainland or Fraser Valley. You don't need to be home for outside work, but we'll knock on the door to greet you either way. We'll let you know if we have questions for you or if your home could benefit from any additional services. When finished, we will come to the door to chat before we leave. We can answer any other questions you may have, let you know if we encountered anything unusual while we worked and offer recommendations for a service schedule going forward."
     },
     {
       question: "How often should I have my gutters cleaned?",
-      answer: "We recommend cleaning your gutters at least twice a year—typically in the spring and fall. However, homes with heavy tree coverage, frequent storms, or moss-prone areas may benefit from more frequent cleanings (every 3-4 months). Our team can assess your specific situation and recommend a maintenance schedule that works best for your home."
+      answer: "We recommend cleaning your gutters at least twice a year—typically in the spring and fall. However, homes with heavy tree coverage, frequent storms or moss-prone areas may benefit from more frequent cleanings (every 3-4 months). Our team can assess your specific situation and recommend a maintenance schedule that works best for your home."
     },
     {
       question: "Do I need to be home during the service?",
-      answer: "No, you don't need to be home for outside work. We'll call or text when we're on our way, and we'll knock on your door when we arrive. If you're not home, we'll complete the work and leave a note or call you afterward to discuss any findings or recommendations."
+      answer: "No, you don't need to be home for outside work. We'll call or text when we're on our way and we'll knock on your door when we arrive. If you're not home, we'll complete the work and leave a note or call you afterward to discuss any findings or recommendations."
     },
     {
       question: "What happens if you find damage during the service?",

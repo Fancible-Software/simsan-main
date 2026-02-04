@@ -228,24 +228,7 @@ export default function Footer() {
                   </Typography>
                 </Box> */}
 
-                {/* Phone 1 */}
-                <Box className="flex items-start gap-3 justify-center sm:justify-start">
-                  <Box
-                    className="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5"
-                    style={{ background: colors.primary }}
-                  >
-                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                      <path d="M2.5 0.5C2.22 0.5 2 0.72 2 1V11C2 11.28 2.22 11.5 2.5 11.5H9.5C9.78 11.5 10 11.28 10 11V1C10 0.72 9.78 0.5 9.5 0.5H2.5ZM3 2H9V10H3V2Z" fill="white" />
-                    </svg>
-                  </Box>
-                  <a
-                    href="tel:+17782227988"
-                    className="text-white hover:text-gray-300 transition-colors no-underline"
-                    style={{ fontSize: '0.9375rem' }}
-                  >
-                    +1-778-222-7988
-                  </a>
-                </Box>
+
 
                 {/* Phone 2 */}
                 <Box className="flex items-start gap-3 justify-center sm:justify-start">
@@ -263,6 +246,25 @@ export default function Footer() {
                     style={{ fontSize: '0.9375rem' }}
                   >
                     +1-604-880-4476
+                  </a>
+                </Box>
+
+                {/* Phone 1 */}
+                <Box className="flex items-start gap-3 justify-center sm:justify-start">
+                  <Box
+                    className="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5"
+                    style={{ background: colors.primary }}
+                  >
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                      <path d="M2.5 0.5C2.22 0.5 2 0.72 2 1V11C2 11.28 2.22 11.5 2.5 11.5H9.5C9.78 11.5 10 11.28 10 11V1C10 0.72 9.78 0.5 9.5 0.5H2.5ZM3 2H9V10H3V2Z" fill="white" />
+                    </svg>
+                  </Box>
+                  <a
+                    href="tel:+17782227988"
+                    className="text-white hover:text-gray-300 transition-colors no-underline"
+                    style={{ fontSize: '0.9375rem' }}
+                  >
+                    +1-778-222-7988
                   </a>
                 </Box>
 

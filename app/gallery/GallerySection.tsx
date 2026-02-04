@@ -42,9 +42,22 @@ export default function GallerySection({ breadcrumbs, galleryImages }: GallerySe
     "spanish-tile-roof-cleaning": "roof-gutter-cleaning",
     "roof-blow-and-debris-cleaning": "roof-gutter-cleaning",
     // Other services
+    "window-washing": "window-washing",
+    "window-cleaning": "window-washing",
+    "soft-washing": "soft-washing",
+    "vinyl-siding-soft-washing": "soft-washing",
+    "stucco-exterior-wall-soft-washing": "soft-washing",
     "christmas-lighting-decoration": "christmas-lighting-decoration",
     "pressure-washing-concrete-floors": "pressure-washing-concrete-floors",
     "pressure-washing-floors": "pressure-washing-concrete-floors",
+    // Painting services
+    "interior-exterior-painting": "interior-exterior-painting",
+    "interior-painting": "interior-exterior-painting",
+    "exterior-painting": "interior-exterior-painting",
+    "painting": "interior-exterior-painting",
+    // Epoxy flooring
+    "epoxy-flooring-installation": "epoxy-flooring-installation",
+    "epoxy-flooring": "epoxy-flooring-installation",
   };
   
   const filterOptions = [

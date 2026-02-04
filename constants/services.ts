@@ -18,7 +18,7 @@ export const SERVICES: Service[] = [
     slug: "roof-gutter-cleaning",
     title: "Roof & Gutter Cleaning",
     shortTitle: "Roof &",
-    description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+    description: "Clogged gutters can cause water to back up into your roof, walls and foundation. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
     longDescription: "Tired of climbing ladders and risking your safety to clean your roof and gutters? Simsan Fraser Maintenance Roof & Gutter Cleaning is here to help. For over 4 years, we've been the trusted name in the lower mainland and fraser valley for reliable, professional roof and gutter cleaning services. Our trained technicians don't just clean — they inspect, protect and extend the life of your roof and gutter system. We remove moss, leaves and debris, ensure proper water flow and handle minor repairs on the spot. And once we're done, we leave your property spotless.",
     subheading: "Serving the Lower Mainland and Fraser Valley Area",
     typeOfServiceTitle: "BELOW ARE THE TYPE OF ROOFS CLEANED BY US",
@@ -32,7 +32,7 @@ export const SERVICES: Service[] = [
     ],
     benefits: [
       "Experienced professionals with 4+ years of expertise",
-      "Complete roof & gutter care — cleaning, inspection, moss removal, and minor repairs",
+      "Complete roof & gutter care — cleaning, inspection, moss removal and minor repairs",
       "No-mess guarantee — we leave your home clean and tidy",
       "Flexible scheduling to fit your routine"
     ],
@@ -52,20 +52,20 @@ export const SERVICES: Service[] = [
     title: "Window Washing",
     shortTitle: "Water-Fed Pole",
     description: "Our water-fed pole window washing service delivers a safer, more effective and environmentally friendly way to keep your windows crystal clear. Using extendable carbon-fiber poles and 100% purified, spot-free water, we clean your windows thoroughly—without ladders, harsh chemicals or streaks.",
-    longDescription: "Our water-fed pole window washing service delivers a safer, more effective and environmentally friendly way to keep your windows crystal clear. Using extendable carbon-fiber poles and 100% purified, spot-free water, we clean your windows thoroughly—without ladders, harsh chemicals or streaks. This advanced system allows us to safely wash windows up to several stories high while working from the ground. Soft-bristled brushes gently loosen dirt, pollen, and grime, while purified water rinses the glass clean and dries naturally without leaving residue. Water-fed pole cleaning is especially effective for regular maintenance, helping your windows stay cleaner for longer while protecting frames, seals and surrounding surfaces. At Simsan Fraser Maintenance Ltd, we combine professional equipment with trained technicians to ensure every window is cleaned with care and precision—leaving your home or business brighter, cleaner and more inviting.",
+    longDescription: "Our water-fed pole window washing service delivers a safer, more effective and environmentally friendly way to keep your windows crystal clear. Using extendable carbon-fiber poles and 100% purified, spot-free water, we clean your windows thoroughly—without ladders, harsh chemicals or streaks. This advanced system allows us to safely wash windows up to several stories high while working from the ground. Soft-bristled brushes gently loosen dirt, pollen and grime, while purified water rinses the glass clean and dries naturally without leaving residue. Water-fed pole cleaning is especially effective for regular maintenance, helping your windows stay cleaner for longer while protecting frames, seals and surrounding surfaces. At Simsan Fraser Maintenance Ltd, we combine professional equipment with trained technicians to ensure every window is cleaned with care and precision—leaving your home or business brighter, cleaner and more inviting.",
     subheading: "Serving the Lower Mainland and Fraser Valley Area",
     typeOfServiceTitle: "Why choose water-fed pole window cleaning?",
     typesOfService: [
       "Spot-free, streak-free results using purified water",
       "Safe for high and hard-to-reach windows",
-      "No ladders or damage to siding, landscaping, or frames",
+      "No ladders or damage to siding, landscaping or frames",
       "Eco-friendly — no soaps or chemicals",
       "Ideal for residential and commercial properties"
     ],
     benefits: [
       "Spot-free, streak-free results using purified water",
       "Safe for high and hard-to-reach windows",
-      "No ladders or damage to siding, landscaping, or frames",
+      "No ladders or damage to siding, landscaping or frames",
       "Eco-friendly — no soaps or chemicals",
       "Ideal for residential and commercial properties"
     ],
@@ -82,20 +82,20 @@ export const SERVICES: Service[] = [
     title: "Soft Washing",
     shortTitle: "Vinyl Siding",
     description: "Our vinyl siding soft washing service uses a water-fed pole brush system to safely and effectively clean your home's exterior without the risk of damage caused by high pressure. This method combines low-pressure water, soft-bristle brushes and professional-grade cleaning solutions to gently remove dirt, algae, mildew, pollen and environmental buildup from vinyl siding.",
-    longDescription: "Our vinyl siding soft washing service uses a water-fed pole brush system to safely and effectively clean your home's exterior without the risk of damage caused by high pressure. This method combines low-pressure water, soft-bristle brushes and professional-grade cleaning solutions to gently remove dirt, algae, mildew, pollen and environmental buildup from vinyl siding. Using a water-fed pole allows our technicians to clean upper-level siding safely from the ground, reducing the need for ladders while ensuring consistent, thorough coverage. The soft-bristle brush agitates grime without scratching, while the low-pressure rinse leaves your siding clean, bright, and refreshed. This method is especially effective in the Lower Mainland and Fraser Valley climate, where moisture promotes algae and mildew growth. Regular soft washing helps protect vinyl siding from long-term staining and deterioration while keeping your home looking its best year-round. At Simsan Fraser Maintenance Ltd, we provide professional vinyl siding soft washing services across Lower Mainland and Fraser Valley. Our experienced team uses industry-approved equipment and techniques to ensure safe, reliable and long-lasting results for your home.",
+    longDescription: "Our vinyl siding soft washing service uses a water-fed pole brush system to safely and effectively clean your home's exterior without the risk of damage caused by high pressure. This method combines low-pressure water, soft-bristle brushes and professional-grade cleaning solutions to gently remove dirt, algae, mildew, pollen and environmental buildup from vinyl siding. Using a water-fed pole allows our technicians to clean upper-level siding safely from the ground, reducing the need for ladders while ensuring consistent, thorough coverage. The soft-bristle brush agitates grime without scratching, while the low-pressure rinse leaves your siding clean, bright and refreshed. This method is especially effective in the Lower Mainland and Fraser Valley climate, where moisture promotes algae and mildew growth. Regular soft washing helps protect vinyl siding from long-term staining and deterioration while keeping your home looking its best year-round. At Simsan Fraser Maintenance Ltd, we provide professional vinyl siding soft washing services across Lower Mainland and Fraser Valley. Our experienced team uses industry-approved equipment and techniques to ensure safe, reliable and long-lasting results for your home.",
     subheading: "Serving the Lower Mainland & Fraser Valley",
     typeOfServiceTitle: "Why choose water-fed pole soft washing for vinyl siding?",
     typesOfService: [
       "Safe, low-pressure cleaning designed specifically for vinyl siding",
       "Soft-bristle brushes prevent scratching or surface damage",
-      "Effectively removes algae, mildew, and organic staining",
+      "Effectively removes algae, mildew and organic staining",
       "Ideal for multi-story homes and hard-to-reach areas",
       "Helps restore curb appeal and extend siding lifespan"
     ],
     benefits: [
       "Safe, low-pressure cleaning designed specifically for vinyl siding",
       "Soft-bristle brushes prevent scratching or surface damage",
-      "Effectively removes algae, mildew, and organic staining",
+      "Effectively removes algae, mildew and organic staining",
       "Ideal for multi-story homes and hard-to-reach areas",
       "Helps restore curb appeal and extend siding lifespan"
     ],
@@ -124,7 +124,7 @@ export const SERVICES: Service[] = [
   //   ],
   //   benefits: [
   //     "Low-pressure cleaning safe for delicate and textured surfaces",
-  //     "Effectively removes algae, mold, mildew, and grime",
+  //     "Effectively removes algae, mold, mildew and grime",
   //     "Longer-lasting results than high-pressure washing",
   //     "Reduces risk of surface damage and water penetration",
   //     "Improves curb appeal and protects exterior finishes"
@@ -141,13 +141,13 @@ export const SERVICES: Service[] = [
   //   slug: "pressure-cleaning",
   //   title: "Pressure Cleaning",
   //   shortTitle: "Pressure",
-  //   description: "Restore your property's exterior surfaces to like-new condition. Our pressure cleaning service effectively removes mold, mildew, dirt, and stains from driveways, walkways, decks, and siding.",
-  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective pressure cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our pressure washing service restores surfaces to their original beauty, removing dirt, grime, and stains with precision and care.",
+  //   description: "Restore your property's exterior surfaces to like-new condition. Our pressure cleaning service effectively removes mold, mildew, dirt and stains from driveways, walkways, decks and siding.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective pressure cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our pressure washing service restores surfaces to their original beauty, removing dirt, grime and stains with precision and care.",
   //   subheading: "Serving the Greater Seattle & Portland Area",
   //   benefits: [
   //     "Restores surfaces to like-new condition",
-  //     "Removes mold, mildew, dirt, and stains",
-  //     "Safe for driveways, walkways, decks, and siding",
+  //     "Removes mold, mildew, dirt and stains",
+  //     "Safe for driveways, walkways, decks and siding",
   //     "Flexible scheduling to fit your routine"
   //   ],
   //   heroImage: "/home-about-imp2.png",
@@ -169,14 +169,14 @@ export const SERVICES: Service[] = [
     typesOfService: [
       "Custom light design for homes and businesses",
       "Professional installation on rooflines, eaves, trees and shrubs",
-      "Safe setup using ladders, poles, and harnesses as needed",
+      "Safe setup using ladders, poles and harnesses as needed",
       "Removal and storage after the holiday season (optional)",
       "Energy-efficient LED lights for long-lasting sparkle"
     ],
     benefits: [
       "Custom light design for homes and businesses",
       "Professional installation on rooflines, eaves, trees and shrubs",
-      "Safe setup using ladders, poles, and harnesses as needed",
+      "Safe setup using ladders, poles and harnesses as needed",
       "Removal and storage after the holiday season (optional)",
       "Energy-efficient LED lights for long-lasting sparkle"
     ],
@@ -192,11 +192,11 @@ export const SERVICES: Service[] = [
   //   slug: "asphalt-shingle-roof-cleaning",
   //   title: "Asphalt Shingle Roof Cleaning",
   //   shortTitle: "Asphalt Shingle",
-  //   description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective asphalt shingle roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   description: "Clogged gutters can cause water to back up into your roof, walls and foundation. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective asphalt shingle roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
   //   subheading: "Serving the Greater Seattle & Portland Area",
   //   benefits: [
-  //     "Professional cleaning removes leaves, needles, and debris",
+  //     "Professional cleaning removes leaves, needles and debris",
   //     "Prevents water backup and structural damage",
   //     "Extends the life of your roof",
   //     "Flexible scheduling to fit your routine"
@@ -221,11 +221,11 @@ export const SERVICES: Service[] = [
   //   slug: "cedar-roof-cleaning",
   //   title: "Cedar Roof Cleaning",
   //   shortTitle: "Cedar Roof",
-  //   description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective cedar roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   description: "Clogged gutters can cause water to back up into your roof, walls and foundation. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective cedar roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
   //   subheading: "Serving the Greater Seattle & Portland Area",
   //   benefits: [
-  //     "Professional cleaning removes leaves, needles, and debris",
+  //     "Professional cleaning removes leaves, needles and debris",
   //     "Prevents water backup and structural damage",
   //     "Extends the life of your cedar roof",
   //     "Flexible scheduling to fit your routine"
@@ -260,7 +260,7 @@ export const SERVICES: Service[] = [
   //   slug: "window-cleaning",
   //   title: "Window Cleaning",
   //   shortTitle: "Window",
-  //   description: "Crystal clear windows enhance your property's appearance and let in more natural light. Our professional window cleaning service removes dirt, grime, and streaks for spotless results every time.",
+  //   description: "Crystal clear windows enhance your property's appearance and let in more natural light. Our professional window cleaning service removes dirt, grime and streaks for spotless results every time.",
   //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective window cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. We don't use any chemicals or soaps to clean windows, ensuring a streak-free, crystal-clear finish that enhances your property's appearance.",
   //   subheading: "Serving the Greater Seattle & Portland Area",
   //   benefits: [
@@ -281,11 +281,11 @@ export const SERVICES: Service[] = [
   //   slug: "concrete-tile-roof-cleaning",
   //   title: "Concrete Tile Roof Cleaning",
   //   shortTitle: "Concrete Tile",
-  //   description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective concrete tile roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   description: "Clogged gutters can cause water to back up into your roof, walls and foundation. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective concrete tile roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
   //   subheading: "Serving the Greater Seattle & Portland Area",
   //   benefits: [
-  //     "Professional cleaning removes leaves, needles, and debris",
+  //     "Professional cleaning removes leaves, needles and debris",
   //     "Prevents water backup and structural damage",
   //     "Extends the life of your concrete tile roof",
   //     "Flexible scheduling to fit your routine"
@@ -316,11 +316,11 @@ export const SERVICES: Service[] = [
   //   slug: "flat-roof-cleaning",
   //   title: "Flat Roof Cleaning",
   //   shortTitle: "Flat Roof",
-  //   description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective flat roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   description: "Clogged gutters can cause water to back up into your roof, walls and foundation. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective flat roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
   //   subheading: "Serving the Greater Seattle & Portland Area",
   //   benefits: [
-  //     "Professional cleaning removes leaves, needles, and debris",
+  //     "Professional cleaning removes leaves, needles and debris",
   //     "Prevents water backup and structural damage",
   //     "Extends the life of your flat roof",
   //     "Flexible scheduling to fit your routine"
@@ -352,7 +352,7 @@ export const SERVICES: Service[] = [
     title: "Pressure Washing for Concrete & Wooden Surfaces",
     shortTitle: "Pressure Washing",
     description: "Our pressure washing services for concrete and wooden surfaces are designed to safely restore the appearance of your outdoor areas while protecting the integrity of the surface. We use professional-grade pressure washing equipment with carefully controlled pressure levels to remove dirt, algae, moss, mildew, grease and buildup without causing damage.",
-    longDescription: "Our pressure washing services for concrete and wooden surfaces are designed to safely restore the appearance of your outdoor areas while protecting the integrity of the surface. We use professional-grade pressure washing equipment with carefully controlled pressure levels to remove dirt, algae, moss, mildew, grease and buildup without causing damage. Concrete surfaces such as driveways, sidewalks, patios, garage floors, and walkways benefit from pressure washing to remove stains and improve safety by reducing slippery algae and moss. For wooden surfaces like decks, fences and pergolas, we use lower pressure and proper techniques to clean effectively without splintering or etching the wood. Regular pressure washing is especially important in the Lower Mainland and Fraser Valley climate, where moisture promotes algae and organic growth. Routine cleaning helps protect your investment and keeps your property looking clean and well-maintained year-round. At Simsan Fraser Maintenance Ltd, we provide professional concrete and wood pressure washing services across Lower Mainland and Fraser Valley area, delivering consistent, high-quality results you can trust.",
+    longDescription: "Our pressure washing services for concrete and wooden surfaces are designed to safely restore the appearance of your outdoor areas while protecting the integrity of the surface. We use professional-grade pressure washing equipment with carefully controlled pressure levels to remove dirt, algae, moss, mildew, grease and buildup without causing damage. Concrete surfaces such as driveways, sidewalks, patios, garage floors and walkways benefit from pressure washing to remove stains and improve safety by reducing slippery algae and moss. For wooden surfaces like decks, fences and pergolas, we use lower pressure and proper techniques to clean effectively without splintering or etching the wood. Regular pressure washing is especially important in the Lower Mainland and Fraser Valley climate, where moisture promotes algae and organic growth. Routine cleaning helps protect your investment and keeps your property looking clean and well-maintained year-round. At Simsan Fraser Maintenance Ltd, we provide professional concrete and wood pressure washing services across Lower Mainland and Fraser Valley area, delivering consistent, high-quality results you can trust.",
     subheading: "Serving the Lower Mainland & Fraser Valley",
     typeOfServiceTitle: "Surfaces we pressure wash:",
     typesOfService: [
@@ -368,23 +368,11 @@ export const SERVICES: Service[] = [
       "Extends the life of concrete and wood",
       "Improves safety and overall appearance"
     ],
-    heroImage: "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.webp",
+    heroImage: "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.webp",
     galleryImages: [
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_2.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_3.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_4.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_5.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_6.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_7.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_8.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_9.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_10.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_11.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_12.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_13.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_14.webp",
-      "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_15.webp"
+      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.webp",
+      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_2.webp",
+      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_3.webp"
     ],
     area: "Lower Mainland and Fraser Valley Area"
   },
@@ -409,11 +397,11 @@ export const SERVICES: Service[] = [
       "Clean, consistent and long-lasting results",
       "Saves time and avoids costly mistakes"
     ],
-    heroImage: "/home-about-img1.png",
+    heroImage: "/painting_services/simsan_paiting_services_1.jpg",
     galleryImages: [
-      "/home-about-img1.png",
-      "/home-about-imp2.png",
-      "/homepage1.png"
+      "/painting_services/simsan_paiting_services_1.jpg",
+      "/painting_services/simsan_paiting_services_2.jpg",
+      "/painting_services/simsan_paiting_services_3.jpg"
     ],
     area: "Lower Mainland and Fraser Valley Area"
   },
@@ -451,11 +439,11 @@ export const SERVICES: Service[] = [
   //   slug: "pressure-washing-floors",
   //   title: "Pressure Washing Floors",
   //   shortTitle: "Pressure Washing",
-  //   description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective pressure washing floors services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   description: "Clogged gutters can cause water to back up into your roof, walls and foundation. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective pressure washing floors services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
   //   subheading: "Serving the Greater Seattle & Portland Area",
   //   benefits: [
-  //     "Professional cleaning removes leaves, needles, and debris",
+  //     "Professional cleaning removes leaves, needles and debris",
   //     "Prevents water backup and structural damage",
   //     "Restores floors to like-new condition",
   //     "Flexible scheduling to fit your routine"
@@ -474,11 +462,11 @@ export const SERVICES: Service[] = [
   //   slug: "roof-blow-and-debris-cleaning",
   //   title: "Roof Blow & Debris Cleaning",
   //   shortTitle: "Roof Blow & Debris",
-  //   description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective roof blow and debris cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   description: "Clogged gutters can cause water to back up into your roof, walls and foundation. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective roof blow and debris cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
   //   subheading: "Serving the Greater Seattle & Portland Area",
   //   benefits: [
-  //     "Professional cleaning removes leaves, needles, and debris",
+  //     "Professional cleaning removes leaves, needles and debris",
   //     "Prevents water backup and structural damage",
   //     "Extends the life of your roof",
   //     "Flexible scheduling to fit your routine"
@@ -509,11 +497,11 @@ export const SERVICES: Service[] = [
   //   slug: "spanish-tile-roof-cleaning",
   //   title: "Spanish Tile Roof Cleaning",
   //   shortTitle: "Spanish Tile",
-  //   description: "Clogged gutters can cause water to back up into your roof, walls, and foundation. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
-  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective Spanish tile roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles, and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   description: "Clogged gutters can cause water to back up into your roof, walls and foundation. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective Spanish tile roof cleaning services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
   //   subheading: "Serving the Greater Seattle & Portland Area",
   //   benefits: [
-  //     "Professional cleaning removes leaves, needles, and debris",
+  //     "Professional cleaning removes leaves, needles and debris",
   //     "Prevents water backup and structural damage",
   //     "Extends the life of your Spanish tile roof",
   //     "Flexible scheduling to fit your routine"
@@ -544,13 +532,13 @@ export const SERVICES: Service[] = [
   //   slug: "pressure-washing",
   //   title: "Pressure Washing",
   //   shortTitle: "Pressure",
-  //   description: "Restore your property's exterior surfaces to like-new condition. Our pressure washing service effectively removes mold, mildew, dirt, and stains from driveways, walkways, decks, and siding.",
-  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective pressure washing services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our pressure washing service restores surfaces to their original beauty, removing dirt, grime, and stains with precision and care.",
+  //   description: "Restore your property's exterior surfaces to like-new condition. Our pressure washing service effectively removes mold, mildew, dirt and stains from driveways, walkways, decks and siding.",
+  //   longDescription: "Since 1985, Simsan Fraser Maintenance Cleaning has been committed to providing the best, most effective pressure washing services in the Pacific Northwest. With 40+ years of expertise, our team arrives promptly and gets the job done right the first time—backed by a 100% satisfaction guarantee. Our pressure washing service restores surfaces to their original beauty, removing dirt, grime and stains with precision and care.",
   //   subheading: "Serving the Greater Seattle & Portland Area",
   //   benefits: [
   //     "Restores surfaces to like-new condition",
-  //     "Removes mold, mildew, dirt, and stains",
-  //     "Safe for driveways, walkways, decks, and siding",
+  //     "Removes mold, mildew, dirt and stains",
+  //     "Safe for driveways, walkways, decks and siding",
   //     "Flexible scheduling to fit your routine"
   //   ],
   //   heroImage: "/home-about-imp2.png",

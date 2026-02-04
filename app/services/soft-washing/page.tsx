@@ -19,15 +19,15 @@ export default function SoftWashingPage() {
   const faqItems = [
     {
       question: "What is vinyl siding soft washing with a water-fed pole?",
-      answer: "It's a low-pressure exterior cleaning method that uses extendable water-fed poles with soft-bristle brushes and professional cleaning solutions to gently remove dirt, algae, mildew, and pollen from vinyl siding—without using damaging high pressure."
+      answer: "It's a low-pressure exterior cleaning method that uses extendable water-fed poles with soft-bristle brushes and professional cleaning solutions to gently remove dirt, algae, mildew and pollen from vinyl siding—without using damaging high pressure."
     },
     {
       question: "Is the water-fed pole system safe for vinyl siding?",
-      answer: "Yes. The system is specifically designed for delicate surfaces like vinyl siding. The soft-bristle brush and controlled water flow prevent scratching, cracking, or loosening of panels."
+      answer: "Yes. The system is specifically designed for delicate surfaces like vinyl siding. The soft-bristle brush and controlled water flow prevent scratching, cracking or loosening of panels."
     },
     {
       question: "Will this method remove green algae and mildew?",
-      answer: "Yes. Soft washing treats the root cause of staining by breaking down algae, mold, and mildew, not just rinsing the surface. This results in a cleaner appearance that lasts longer."
+      answer: "Yes. Soft washing treats the root cause of staining by breaking down algae, mold and mildew, not just rinsing the surface. This results in a cleaner appearance that lasts longer."
     },
     {
       question: "Do you use high pressure on the siding?",
@@ -39,11 +39,11 @@ export default function SoftWashingPage() {
     },
     {
       question: "Are the cleaning solutions safe?",
-      answer: "Yes. We use biodegradable, exterior-safe cleaning solutions that are effective on grime and organic growth while being safe for landscaping, pets, and surrounding surfaces when applied properly."
+      answer: "Yes. We use biodegradable, exterior-safe cleaning solutions that are effective on grime and organic growth while being safe for landscaping, pets and surrounding surfaces when applied properly."
     },
     {
       question: "How often should vinyl siding be soft washed?",
-      answer: "In the Lower Mainland and Fraser Valley climate, most homes benefit from soft washing every 1–2 years, depending on shade, moisture, and nearby vegetation."
+      answer: "In the Lower Mainland and Fraser Valley climate, most homes benefit from soft washing every 1–2 years, depending on shade, moisture and nearby vegetation."
     },
     {
       question: "Will soft washing damage paint or fade vinyl?",

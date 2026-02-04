@@ -14,7 +14,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Simsan Fraser Maintenance",
-  description: "Modern Next.js application with SSR, Tailwind CSS, and Material-UI",
+  description: "Modern Next.js application with SSR, Tailwind CSS and Material-UI",
 };
 
 export default function RootLayout({

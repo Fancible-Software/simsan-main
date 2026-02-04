@@ -60,8 +60,8 @@ export default function HowItWorks() {
                 style={{ fontSize: "1rem", marginLeft: "72px" }}
               >
                 Call us at{" "}
-                <a href="tel:+17782227988" style={{ color: colors.primary, fontWeight: 600, textDecoration: 'none' }}>+1-778-222-7988</a>{" "}
                 <a href="tel:+16048804476" style={{ color: colors.primary, fontWeight: 600, textDecoration: 'none' }}>+1-604-880-4476</a>{" "}
+                <a href="tel:+17782227988" style={{ color: colors.primary, fontWeight: 600, textDecoration: 'none' }}>+1-778-222-7988</a>{" "}
                 or fill out a form and we will provide a free estimate.
               </Typography>
             </Box>
@@ -90,7 +90,7 @@ export default function HowItWorks() {
                 className="text-gray-700 leading-relaxed"
                 style={{ fontSize: "1rem", marginLeft: "72px" }}
               >
-                Our technicians live in the neighborhoods throughout the service area and often times we can complete your services within a few hours or days of your call.
+                Our technicians live in the neighborhoods throughout the service area and often times we can complete your services with in a few hours or days of your call.
               </Typography>
             </Box>
 

@@ -326,14 +326,14 @@ export default function AboutUsPage() {
                             className="font-bold text-[1.14rem] mb-4 xl:mb-5"
                             style={{ color: '#ffb23b', lineHeight: 1.25, marginTop: 0 }}
                         >
-                            We don’t believe in one-size-fits-all solutions.<br />Every property is unique, and so are your needs. That’s why we focus on:
+                            We don’t believe in one-size-fits-all solutions.<br />Every property is unique and so are your needs. That’s why we focus on:
                         </p>
                         <Box className="mb-1 xl:mb-2">
                             <p className="font-bold mb-1 mt-3" style={{ color: '#fd5e27', fontSize: 17 }}>
                                 Quality First
                             </p>
                             <p className="mb-3" style={{ color: '#595b5b', fontSize: 15, lineHeight: 1.65 }}>
-                                Every service is performed with precision and attention to detail. Whether it’s your roof, driveway, patio, or windows — we ensure results that you can clearly see.
+                                Every service is performed with precision and attention to detail. Whether it’s your roof, driveway, patio or windows — we ensure results that you can clearly see.
                             </p>
                             <p className="font-bold mb-1 mt-3" style={{ color: '#fd5e27', fontSize: 17 }}>
                                 Honest Pricing
@@ -361,7 +361,7 @@ export default function AboutUsPage() {
 
                     {/* Subheading */}
                     <p className="text-secondary text-lg md:text-xl font-semibold leading-relaxed mb-16 max-w-4xl mx-auto">
-                        We are driven by a commitment to quality, reliability, and customer satisfaction. Every project we take on inspires us to deliver better service, exceed expectations, and continuously improve the way we care for your property.
+                        We are driven by a commitment to quality, reliability and customer satisfaction. Every project we take on inspires us to deliver better service, exceed expectations and continuously improve the way we care for your property.
                     </p>
 
                     {/* Vision & Mission Grid */}

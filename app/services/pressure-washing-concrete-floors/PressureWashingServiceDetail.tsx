@@ -121,7 +121,7 @@ export default function PressureWashingServiceDetail({ breadcrumbs }: ServiceDet
                                     Our pressure washing services for concrete and wooden surfaces are designed to safely restore the appearance of your outdoor areas while protecting the integrity of the surface. We use professional-grade pressure washing equipment with carefully controlled pressure levels to remove dirt, algae, moss, mildew, grease and buildup without causing damage.
                                 </p>
                                 <p className="text-base md:text-lg leading-relaxed">
-                                    Concrete surfaces such as driveways, sidewalks, patios, garage floors, and walkways benefit from pressure washing to remove stains and improve safety by reducing slippery algae and moss. For wooden surfaces like decks, fences and pergolas, we use lower pressure and proper techniques to clean effectively without splintering or etching the wood.
+                                    Concrete surfaces such as driveways, sidewalks, patios, garage floors and walkways benefit from pressure washing to remove stains and improve safety by reducing slippery algae and moss. For wooden surfaces like decks, fences and pergolas, we use lower pressure and proper techniques to clean effectively without splintering or etching the wood.
                                 </p>
 
                                 {/* Surfaces List */}

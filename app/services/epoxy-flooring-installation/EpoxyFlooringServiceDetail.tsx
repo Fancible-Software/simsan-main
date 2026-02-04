@@ -277,7 +277,7 @@ export default function EpoxyFlooringServiceDetail({ breadcrumbs }: ServiceDetai
                     },
                     {
                         question: "Is epoxy flooring suitable for commercial spaces?",
-                        answer: "Yes. Epoxy is widely used in commercial and industrial environments due to its strength, durability, and professional appearance."
+                        answer: "Yes. Epoxy is widely used in commercial and industrial environments due to its strength, durability and professional appearance."
                     }
                 ]}
             />

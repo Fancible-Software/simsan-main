@@ -139,7 +139,7 @@ export default function ChristmasLightServiceDetail({ breadcrumbs }: ServiceDeta
                                         {[
                                             "Custom light design for homes and businesses",
                                             "Professional installation on rooflines, eaves, trees and shrubs",
-                                            "Safe setup using ladders, poles, and harnesses as needed",
+                                            "Safe setup using ladders, poles and harnesses as needed",
                                             "Removal and storage after the holiday season (optional)",
                                             "Energy-efficient LED lights for long-lasting sparkle"
                                         ].map((type, index) => (
@@ -218,19 +218,19 @@ export default function ChristmasLightServiceDetail({ breadcrumbs }: ServiceDeta
                 items={[
                     {
                         question: "What does your Christmas light installation service include?",
-                        answer: "Our service includes design, professional installation, and optional takedown of your holiday lights. We install lights on roofs, eaves, gutters, trees, shrubs, and other exterior areas while ensuring safety and even placement."
+                        answer: "Our service includes design, professional installation and optional takedown of your holiday lights. We install lights on roofs, eaves, gutters, trees, shrubs and other exterior areas while ensuring safety and even placement."
                     },
                     {
-                        question: "Do you provide the Christmas lights, or do I need to supply them?",
+                        question: "Do you provide the Christmas lights or do I need to supply them?",
                         answer: "We can work with your lights or provide high-quality, energy-efficient LED lights for your display. We also offer options for custom colors and themes to match your vision."
                     },
                     {
                         question: "Is professional installation safe for my roof and gutters?",
-                        answer: "Yes. Our trained technicians use proper tools, ladders, and safety equipment to prevent damage to your roof, siding, gutters, and landscaping."
+                        answer: "Yes. Our trained technicians use proper tools, ladders and safety equipment to prevent damage to your roof, siding, gutters and landscaping."
                     },
                     {
                         question: "Can you install lights on multi-story homes?",
-                        answer: "Absolutely. We safely install lights on multi-story homes, large trees, and hard-to-reach areas using specialized poles and safety equipment."
+                        answer: "Absolutely. We safely install lights on multi-story homes, large trees and hard-to-reach areas using specialized poles and safety equipment."
                     },
                     {
                         question: "Do you remove the lights after the holidays?",
@@ -242,15 +242,15 @@ export default function ChristmasLightServiceDetail({ breadcrumbs }: ServiceDeta
                     },
                     {
                         question: "Can you create a custom light display?",
-                        answer: "Yes. We can design classic, elegant, themed, or fully custom displays to make your home or business stand out during the holidays."
+                        answer: "Yes. We can design classic, elegant, themed or fully custom displays to make your home or business stand out during the holidays."
                     },
                     {
                         question: "Are the lights energy-efficient?",
-                        answer: "Yes. We use LED lights that are long-lasting, bright, and energy-efficient, helping reduce electricity costs while keeping your display stunning."
+                        answer: "Yes. We use LED lights that are long-lasting, bright and energy-efficient, helping reduce electricity costs while keeping your display stunning."
                     },
                     {
                         question: "Do you offer commercial Christmas light installation?",
-                        answer: "Yes. We provide professional installation for residential homes, businesses, office buildings, and commercial properties throughout the Lower Mainland & Fraser Valley."
+                        answer: "Yes. We provide professional installation for residential homes, businesses, office buildings and commercial properties throughout the Lower Mainland & Fraser Valley."
                     }
                 ]}
             />

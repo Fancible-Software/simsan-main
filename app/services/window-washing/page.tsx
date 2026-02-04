@@ -31,7 +31,7 @@ export default function WindowWashingPage() {
     },
     {
       question: "Can you clean upper-floor windows with a water-fed pole?",
-      answer: "Absolutely. Water-fed poles allow us to safely clean second-, third-, and multi-story windows without ladders, making it ideal for homes and commercial buildings throughout the Lower Mainland and Fraser Valley."
+      answer: "Absolutely. Water-fed poles allow us to safely clean second-, third- and multi-story windows without ladders, making it ideal for homes and commercial buildings throughout the Lower Mainland and Fraser Valley."
     },
     {
       question: "Is water-fed pole window washing better than traditional methods?",
@@ -43,7 +43,7 @@ export default function WindowWashingPage() {
     },
     {
       question: "How often should I have my windows cleaned?",
-      answer: "Most homeowners in the Lower Mainland and Fraser Valley schedule window cleaning 2–4 times per year, depending on exposure to rain, dust, pollen, and nearby trees. Commercial properties may benefit from more frequent service."
+      answer: "Most homeowners in the Lower Mainland and Fraser Valley schedule window cleaning 2–4 times per year, depending on exposure to rain, dust, pollen and nearby trees. Commercial properties may benefit from more frequent service."
     },
     {
       question: "Can water-fed pole cleaning remove heavy buildup?",
@@ -51,7 +51,7 @@ export default function WindowWashingPage() {
     },
     {
       question: "Do you offer water-fed pole window cleaning for commercial properties?",
-      answer: "Yes. We provide residential and commercial window cleaning services for offices, retail spaces, strata buildings, and more across Lower Mainland and Fraser Valley."
+      answer: "Yes. We provide residential and commercial window cleaning services for offices, retail spaces, strata buildings and more across Lower Mainland and Fraser Valley."
     },
     {
       question: "Is water-fed pole window washing weather-dependent?",

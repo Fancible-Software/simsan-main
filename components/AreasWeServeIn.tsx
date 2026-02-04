@@ -77,7 +77,7 @@ export default function AreasWeServeIn() {
               >
                 Surrey, BC
               </Link>
-              , and surrounding communities. If you don't see your area listed, please{" "}
+               and surrounding communities. If you don't see your area listed, please{" "}
               <Link
                 href="/contact"
                 style={{ color: colors.primary, textDecoration: "none", fontWeight: 600 }}

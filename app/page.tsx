@@ -97,17 +97,17 @@ export default function Home() {
           </Box>
 
           {/* Right Images - Full width on mobile, side by side on desktop */}
-          <Box className="w-full lg:flex-1 flex flex-col sm:flex-row gap-6 justify-center items-center sm:items-start px-6 sm:px-0">
-            <Box className="w-full sm:flex-1">
+          <Box className="w-full lg:flex-1 flex flex-col sm:flex-row gap-6 justify-center items-start px-6 sm:px-0">
+            <Box className="w-full sm:flex-1 max-w-none sm:max-w-[280px] lg:max-w-[320px] flex-shrink-0">
               <Image
-                src="/home-about-img1.png"
-                alt="Roof cleaning service"
+                src="/window-washing/window-washing-1.jpg"
+                alt="Window Washing service"
                 width={320}
                 height={400}
                 className="w-full h-auto rounded-2xl object-cover shadow-lg"
               />
             </Box>
-            <Box className="w-full sm:flex-1 max-w-none sm:max-w-[280px] lg:max-w-[320px] mt-0 sm:mt-12 lg:mt-[120px]">
+            <Box className="w-full sm:flex-1 max-w-none sm:max-w-[280px] lg:max-w-[320px] flex-shrink-0">
               <Image
                 src="/home-about-imp2.png"
                 alt="Gutter cleaning service"
