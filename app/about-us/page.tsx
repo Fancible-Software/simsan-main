@@ -251,18 +251,18 @@ export default function AboutUsPage() {
                             <div className="flex gap-4 h-[500px] sm:flex-row flex-col">
                                 <div className="flex-1 rounded-2xl overflow-hidden shadow-lg">
                                     <img
-                                        src="/home-about-img1.png"
+                                        src="/new/roof_cleaning/roof_cleaning_1.webp"
                                         alt="Roof with moss and leaves needing maintenance"
                                         className="w-full h-full object-cover"
                                     />
                                 </div>
-                                <div className="flex-1 rounded-2xl overflow-hidden shadow-lg">
+                                {/* <div className="flex-1 rounded-2xl overflow-hidden shadow-lg">
                                     <img
                                         src="/home-about-img1.png"
                                         alt="Close-up of roof shingles with debris"
                                         className="w-full h-full object-cover"
                                     />
-                                </div>
+                                </div> */}
                             </div>
                             {/* Third Image Below */}
                             <div className="w-full rounded-2xl overflow-hidden shadow-lg h-[300px]">
@@ -305,7 +305,7 @@ export default function AboutUsPage() {
                     {/* Left: Big Image */}
                     <Box className="flex-1 flex items-center justify-center">
                         <img
-                            src="/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_1.webp"
+                            src="/painting_services/simsan_paiting_services_1.jpg"
                             alt="Roof cleaning in progress"
                             className="w-full max-w-md rounded-[36px] object-cover"
                             style={{ height: '355px', minWidth: 200, filter: 'brightness(1.1)' }}
