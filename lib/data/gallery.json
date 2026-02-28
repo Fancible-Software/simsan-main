@@ -365,7 +365,12 @@
     "alt": "Concrete Tile Roof Cleaning",
     "category": "concrete-tile-roof-cleaning"
   },
- 
+  {
+    "id": "62",
+    "src": "/epoxy_flooring/epoxy_flooring.jpg",
+    "alt": "epoxy-flooring-installation",
+    "category": "epoxy-flooring-installation"
+  },
   {
     "id": "63",
     "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_1.webp",
@@ -518,24 +523,40 @@
   },
   {
     "id": "88",
-    "src": "/new/roof_cleaning/roof_cleaning_1.webp",
+    "src": "/gutter_cleaning/simsan_fraser_gutter_cleaning_1.webp",
     "alt": "Roof Gutter Cleaning",
     "category": "roof-gutter-cleaning"
   },
   {
     "id": "89",
-    "src": "/new/roof_cleaning/roof_cleaning_2.webp",
+    "src": "/gutter_cleaning/simsan_fraser_gutter_cleaning_2.webp",
     "alt": "Roof Gutter Cleaning",
     "category": "roof-gutter-cleaning"
   },
   {
     "id": "90",
-    "src": "/new/roof_cleaning/roof_cleaning_3.webp",
+    "src": "/gutter_cleaning/simsan_fraser_gutter_cleaning_3.webp",
     "alt": "Roof Gutter Cleaning",
     "category": "roof-gutter-cleaning"
   },
-  
- 
+  {
+    "id": "91",
+    "src": "/gutter_cleaning/simsan_fraser_gutter_cleaning_4.webp",
+    "alt": "Roof Gutter Cleaning",
+    "category": "roof-gutter-cleaning"
+  },
+  {
+    "id": "92",
+    "src": "/gutter_cleaning/simsan_fraser_gutter_cleaning_5.webp",
+    "alt": "Roof Gutter Cleaning",
+    "category": "roof-gutter-cleaning"
+  },
+  {
+    "id": "93",
+    "src": "/gutter_cleaning/simsan_fraser_gutter_cleaning_6.webp",
+    "alt": "Roof Gutter Cleaning",
+    "category": "roof-gutter-cleaning"
+  },
   {
     "id": "94",
     "src": "/painting_services/painting_services.jpg",
@@ -652,41 +673,40 @@
   },
   {
     "id": "113",
-    "src": "/new/pressure_washing/pressure_washing_1.webp",
-    "alt": "Pressure Washing Floors",
-    "category": "pressure-washing-floors"
+    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_16.webp",
+    "alt": "Pressure Washing Concrete Floors",
+    "category": "pressure-washing-concrete-floors"
   },
   {
     "id": "114",
-    "src": "/new/pressure_washing/pressure_washing_2.webp",
-    "alt": "Pressure Washing Floors",
-    "category": "pressure-washing-floors"
+    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_17.webp",
+    "alt": "Pressure Washing Concrete Floors",
+    "category": "pressure-washing-concrete-floors"
   },
   {
     "id": "115",
-    "src": "/new/pressure_washing/pressure_washing_3.webp",
-    "alt": "Pressure Washing Floors",
-    "category": "pressure-washing-floors"
-  },  
+    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_18.webp",
+    "alt": "Pressure Washing Concrete Floors",
+    "category": "pressure-washing-concrete-floors"
+  },
   {
     "id": "116",
-    "src": "/new/pressure_washing/pressure_washing_4.webp",
+    "src": "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.webp",
     "alt": "Pressure Washing Floors",
     "category": "pressure-washing-floors"
   },
   {
     "id": "117",
-    "src": "/new/pressure_washing/pressure_washing_5.webp",
+    "src": "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_2.webp",
     "alt": "Pressure Washing Floors",
     "category": "pressure-washing-floors"
   },
   {
     "id": "118",
-    "src": "/new/pressure_washing/pressure_washing_6.webp",
+    "src": "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_3.webp",
     "alt": "Pressure Washing Floors",
     "category": "pressure-washing-floors"
   },
-  
   {
     "id": "119",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_1.webp",
@@ -974,42 +994,5 @@
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_21.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
-  },
-  {
-    "id": "167",
-    "src": "/new/epoxy_flooring/epoxy_flooring_1.webp",
-    "alt": "epoxy-flooring-installation",
-    "category": "epoxy-flooring-installation"
-  },
-  {
-    "id": "168",
-    "src": "/new/epoxy_flooring/epoxy_flooring_2.webp",
-    "alt": "epoxy-flooring-installation",
-    "category": "epoxy-flooring-installation"
-  },
-  {
-    "id": "169",
-    "src": "/new/epoxy_flooring/epoxy_flooring_3.webp",
-    "alt": "epoxy-flooring-installation",
-    "category": "epoxy-flooring-installation"
-  },
-  {
-    "id": "170",
-    "src": "/new/soft_washing/soft_washing_1.webp",
-    "alt": "Soft Washing",
-    "category": "soft-washing"
-  },
-  {
-    "id": "171",
-    "src": "/new/soft_washing/soft_washing_2.webp",
-    "alt": "Soft Washing",
-    "category": "soft-washing"
-  },
-  {
-    "id": "172",
-    "src": "/window-washing/window-washing-1.jpg",
-    "alt": "Window Washing",
-    "category": "window-washing"
   }
-  
 ]
