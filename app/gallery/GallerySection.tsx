@@ -48,7 +48,7 @@ export default function GallerySection({ breadcrumbs, galleryImages }: GallerySe
     "vinyl-siding-soft-washing": "soft-washing",
     "stucco-exterior-wall-soft-washing": "soft-washing",
     "christmas-lighting-decoration": "christmas-lighting-decoration",
-    // "pressure-washing-concrete-floors": "pressure-washing-concrete-floors",
+    "pressure-washing-concrete-floors": "pressure-washing-concrete-floors",
     "pressure-washing-floors": "pressure-washing-concrete-floors",
     // Painting services
     "interior-exterior-painting": "interior-exterior-painting",
