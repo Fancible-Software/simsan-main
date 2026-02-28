@@ -36,14 +36,12 @@ export const SERVICES: Service[] = [
       "No-mess guarantee — we leave your home clean and tidy",
       "Flexible scheduling to fit your routine"
     ],
-    heroImage: "/gutter_cleaning/simsan_fraser_gutter_cleaning_1.webp",
+    heroImage: "/new/roof_cleaning/roof_cleaning_1.webp",
     galleryImages: [
-      "/gutter_cleaning/simsan_fraser_gutter_cleaning_1.webp",
-      "/gutter_cleaning/simsan_fraser_gutter_cleaning_2.webp",
-      "/gutter_cleaning/simsan_fraser_gutter_cleaning_3.webp",
-      "/gutter_cleaning/simsan_fraser_gutter_cleaning_4.webp",
-      "/gutter_cleaning/simsan_fraser_gutter_cleaning_5.webp",
-      "/gutter_cleaning/simsan_fraser_gutter_cleaning_6.webp"
+      "/new/roof_cleaning/roof_cleaning_1.webp",
+      "/new/roof_cleaning/roof_cleaning_2.webp",
+      "/new/roof_cleaning/roof_cleaning_3.webp",
+      "/new/roof_cleaning/roof_cleaning_4.jpg"
     ],
     area: "Lower Mainland and Fraser Valley Area"
   },
@@ -69,7 +67,7 @@ export const SERVICES: Service[] = [
       "Eco-friendly — no soaps or chemicals",
       "Ideal for residential and commercial properties"
     ],
-    heroImage: "/home-about-img1.png",
+    heroImage: "/window-washing/window-washing-1.jpg",
     galleryImages: [
       "/home-about-img1.png",
       "/home-about-imp2.png",
@@ -99,7 +97,7 @@ export const SERVICES: Service[] = [
       "Ideal for multi-story homes and hard-to-reach areas",
       "Helps restore curb appeal and extend siding lifespan"
     ],
-    heroImage: "/home-about-img1.png",
+    heroImage: "/new/soft_washing/soft_washing_1.webp",
     galleryImages: [
       "/home-about-img1.png",
       "/home-about-imp2.png",
@@ -427,7 +425,7 @@ export const SERVICES: Service[] = [
       "Slip-resistant options available",
       "Enhances appearance and property value"
     ],
-    heroImage: "/home-about-img1.png",
+    heroImage: "/new/epoxy_flooring/epoxy_flooring_2.webp",
     galleryImages: [
       "/home-about-img1.png",
       "/home-about-imp2.png",

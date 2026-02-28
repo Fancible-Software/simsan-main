@@ -7,25 +7,23 @@ import React, { useState } from "react";
 
 const images = [
   {
-    src: "/asphalt_shingle_roof_cleaning/simsan_fraser_asphalt_shingle_roof_cleaning_1.webp",
+    src: "/new/epoxy_flooring/epoxy_flooring_2.webp",
+    alt: "Epoxy Flooring Installation"
+  },
+  {
+    src: "/new/roof_cleaning/roof_cleaning_1.webp",
     alt: "Asphalt Shingle Roof Cleaning"
   },
+  
   {
-    src: "/cedar_roof_cleaning/simsan_fraser_main_cedar_roof_cleaning_1.webp",
-    alt: "Cedar Roof Cleaning"
+    src: "/new/soft_washing/soft_washing_1.webp",
+    alt: "Soft Washing"
   },
   {
-    src: "/concrete_tile_roof_cleaning/simsan_fraser_concrete_tile_roof_cleaning_1.webp",
-    alt: "Concrete Tile Roof Cleaning"
+    src: "/new/pressure_washing/pressure_washing_1.webp",
+    alt: "Pressure Washing"
   },
-  {
-    src: "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_1.webp",
-    alt: "Flat Roof Cleaning"
-  },
-  {
-    src: "/gutter_cleaning/simsan_fraser_gutter_cleaning_1.webp",
-    alt: "Gutter Cleaning"
-  }
+  
 ];
 
 export default function OurWorkCarousel() {
