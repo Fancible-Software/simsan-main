@@ -36,12 +36,11 @@ export const SERVICES: Service[] = [
       "No-mess guarantee — we leave your home clean and tidy",
       "Flexible scheduling to fit your routine"
     ],
-    heroImage: "/new/roof_cleaning/roof_cleaning_1.webp",
+    heroImage: "/flat_roof_cleaning/roof_cleaning_1.webp",
     galleryImages: [
-      "/new/roof_cleaning/roof_cleaning_1.webp",
-      "/new/roof_cleaning/roof_cleaning_2.webp",
-      "/new/roof_cleaning/roof_cleaning_3.webp",
-      "/new/roof_cleaning/roof_cleaning_4.jpg"
+      "/flat_roof_cleaning/roof_cleaning_1.webp",
+      "/flat_roof_cleaning/roof_cleaning_2.webp",
+      "/flat_roof_cleaning/roof_cleaning_3.webp"
     ],
     area: "Lower Mainland and Fraser Valley Area"
   },
@@ -67,11 +66,9 @@ export const SERVICES: Service[] = [
       "Eco-friendly — no soaps or chemicals",
       "Ideal for residential and commercial properties"
     ],
-    heroImage: "/window-washing/window-washing-1.jpg",
+    heroImage: "/window_washing/window-washing-1.jpg",
     galleryImages: [
-      "/home-about-img1.png",
-      "/home-about-imp2.png",
-      "/homepage1.png"
+      "/window_washing/window-washing-1.jpg",
     ],
     area: "Lower Mainland and Fraser Valley Area"
   },
@@ -97,11 +94,10 @@ export const SERVICES: Service[] = [
       "Ideal for multi-story homes and hard-to-reach areas",
       "Helps restore curb appeal and extend siding lifespan"
     ],
-    heroImage: "/new/soft_washing/soft_washing_1.webp",
+    heroImage: "/soft_washing/soft_washing_1.webp",
     galleryImages: [
-      "/home-about-img1.png",
-      "/home-about-imp2.png",
-      "/homepage1.png"
+      "/soft_washing/soft_washing_1.webp",
+     
     ],
     area: "Lower Mainland and Fraser Valley Area"
   },
@@ -366,11 +362,15 @@ export const SERVICES: Service[] = [
       "Extends the life of concrete and wood",
       "Improves safety and overall appearance"
     ],
-    heroImage: "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.webp",
+    heroImage: "/pressure_washing/pressure_washing_1.webp",
     galleryImages: [
-      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.webp",
-      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_2.webp",
-      "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_3.webp"
+      "/pressure_washing/pressure_washing_1.webp",
+      "/pressure_washing/pressure_washing_2.webp",
+      "/pressure_washing/pressure_washing_3.webp",
+      "/pressure_washing/pressure_washing_4.webp",
+      "/pressure_washing/pressure_washing_5.webp",
+      "/pressure_washing/pressure_washing_6.webp",
+      "/pressure_washing/pressure_washing_7.webp",
     ],
     area: "Lower Mainland and Fraser Valley Area"
   },
@@ -425,11 +425,11 @@ export const SERVICES: Service[] = [
       "Slip-resistant options available",
       "Enhances appearance and property value"
     ],
-    heroImage: "/new/epoxy_flooring/epoxy_flooring_2.webp",
+    heroImage: "/epoxy_flooring/epoxy_flooring_2.webp",
     galleryImages: [
-      "/home-about-img1.png",
-      "/home-about-imp2.png",
-      "/homepage1.png"
+      "/epoxy_flooring/epoxy_flooring_1.webp",
+      "/epoxy_flooring/epoxy_flooring_2.webp",
+      "/epoxy_flooring/epoxy_flooring_3.webp",
     ],
     area: "Lower Mainland and Fraser Valley Area"
   },

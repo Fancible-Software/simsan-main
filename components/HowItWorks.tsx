@@ -14,7 +14,7 @@ export default function HowItWorks() {
           <Box className="w-full lg:w-1/2 flex-shrink-0">
             <Box className="relative rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/new/epoxy_flooring/epoxy_flooring_1.webp"
+                src="/epoxy_flooring/epoxy_flooring_1.webp"
                 alt="Professional roof cleaning service"
                 width={600}
                 height={600}

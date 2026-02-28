@@ -367,632 +367,446 @@
   },
   {
     "id": "62",
-    "src": "/epoxy_flooring/epoxy_flooring.jpg",
+    "src": "/epoxy_flooring/epoxy_flooring_1.webp",
     "alt": "epoxy-flooring-installation",
     "category": "epoxy-flooring-installation"
   },
   {
     "id": "63",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_1.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
+    "src": "/epoxy_flooring/epoxy_flooring_2.webp",
+    "alt": "epoxy-flooring-installation",
+    "category": "epoxy-flooring-installation"
   },
   {
     "id": "64",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_2.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
+    "src": "/epoxy_flooring/epoxy_flooring_3.webp",
+    "alt": "epoxy-flooring-installation",
+    "category": "epoxy-flooring-installation"
   },
   {
     "id": "65",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_3.webp",
+    "src": "/flat_roof_cleaning/roof_cleaning_1.webp",
     "alt": "Flat Roof Cleaning",
     "category": "flat-roof-cleaning"
   },
   {
     "id": "66",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_4.webp",
+    "src": "/flat_roof_cleaning/roof_cleaning_2.webp",
     "alt": "Flat Roof Cleaning",
     "category": "flat-roof-cleaning"
   },
   {
     "id": "67",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_5.webp",
+    "src": "/flat_roof_cleaning/roof_cleaning_3.webp",
     "alt": "Flat Roof Cleaning",
     "category": "flat-roof-cleaning"
   },
   {
     "id": "68",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_6.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "69",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_7.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "70",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_8.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "71",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_9.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "72",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_10.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "73",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_11.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "74",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_12.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "75",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_13.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "76",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_14.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "77",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_15.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "78",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_16.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "79",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_17.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "80",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_18.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "81",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_19.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "82",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_20.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "83",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_21.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "84",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_22.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "85",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_23.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "86",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_24.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "87",
-    "src": "/flat_roof_cleaning/simsan_fraser_flat_roof_cleaning_25.webp",
-    "alt": "Flat Roof Cleaning",
-    "category": "flat-roof-cleaning"
-  },
-  {
-    "id": "88",
     "src": "/gutter_cleaning/simsan_fraser_gutter_cleaning_1.webp",
     "alt": "Roof Gutter Cleaning",
     "category": "roof-gutter-cleaning"
   },
   {
-    "id": "89",
+    "id": "69",
     "src": "/gutter_cleaning/simsan_fraser_gutter_cleaning_2.webp",
     "alt": "Roof Gutter Cleaning",
     "category": "roof-gutter-cleaning"
   },
   {
-    "id": "90",
+    "id": "70",
     "src": "/gutter_cleaning/simsan_fraser_gutter_cleaning_3.webp",
     "alt": "Roof Gutter Cleaning",
     "category": "roof-gutter-cleaning"
   },
   {
-    "id": "91",
+    "id": "71",
     "src": "/gutter_cleaning/simsan_fraser_gutter_cleaning_4.webp",
     "alt": "Roof Gutter Cleaning",
     "category": "roof-gutter-cleaning"
   },
   {
-    "id": "92",
+    "id": "72",
     "src": "/gutter_cleaning/simsan_fraser_gutter_cleaning_5.webp",
     "alt": "Roof Gutter Cleaning",
     "category": "roof-gutter-cleaning"
   },
   {
-    "id": "93",
+    "id": "73",
     "src": "/gutter_cleaning/simsan_fraser_gutter_cleaning_6.webp",
     "alt": "Roof Gutter Cleaning",
     "category": "roof-gutter-cleaning"
   },
   {
-    "id": "94",
+    "id": "74",
     "src": "/painting_services/painting_services.jpg",
     "alt": "interior-exterior-painting",
     "category": "interior-exterior-painting"
   },
   {
-    "id": "95",
+    "id": "75",
     "src": "/painting_services/simsan_paiting_services_1.jpg",
     "alt": "interior-exterior-painting",
     "category": "interior-exterior-painting"
   },
   {
-    "id": "96",
+    "id": "76",
     "src": "/painting_services/simsan_paiting_services_2.jpg",
     "alt": "interior-exterior-painting",
     "category": "interior-exterior-painting"
   },
   {
-    "id": "97",
+    "id": "77",
     "src": "/painting_services/simsan_paiting_services_3.jpg",
     "alt": "interior-exterior-painting",
     "category": "interior-exterior-painting"
   },
   {
-    "id": "98",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.webp",
+    "id": "78",
+    "src": "/pressure_washing/pressure_washing_1.webp",
     "alt": "Pressure Washing Concrete Floors",
     "category": "pressure-washing-concrete-floors"
   },
   {
-    "id": "99",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_2.webp",
+    "id": "79",
+    "src": "/pressure_washing/pressure_washing_2.webp",
     "alt": "Pressure Washing Concrete Floors",
     "category": "pressure-washing-concrete-floors"
   },
   {
-    "id": "100",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_3.webp",
+    "id": "80",
+    "src": "/pressure_washing/pressure_washing_3.webp",
     "alt": "Pressure Washing Concrete Floors",
     "category": "pressure-washing-concrete-floors"
   },
   {
-    "id": "101",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_4.webp",
+    "id": "81",
+    "src": "/pressure_washing/pressure_washing_4.webp",
     "alt": "Pressure Washing Concrete Floors",
     "category": "pressure-washing-concrete-floors"
   },
   {
-    "id": "102",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_5.webp",
+    "id": "82",
+    "src": "/pressure_washing/pressure_washing_5.webp",
     "alt": "Pressure Washing Concrete Floors",
     "category": "pressure-washing-concrete-floors"
   },
   {
-    "id": "103",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_6.webp",
+    "id": "83",
+    "src": "/pressure_washing/pressure_washing_6.webp",
     "alt": "Pressure Washing Concrete Floors",
     "category": "pressure-washing-concrete-floors"
   },
   {
-    "id": "104",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_7.webp",
+    "id": "84",
+    "src": "/pressure_washing/pressure_washing_7.webp",
     "alt": "Pressure Washing Concrete Floors",
     "category": "pressure-washing-concrete-floors"
   },
   {
-    "id": "105",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_8.webp",
-    "alt": "Pressure Washing Concrete Floors",
-    "category": "pressure-washing-concrete-floors"
-  },
-  {
-    "id": "106",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_9.webp",
-    "alt": "Pressure Washing Concrete Floors",
-    "category": "pressure-washing-concrete-floors"
-  },
-  {
-    "id": "107",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_10.webp",
-    "alt": "Pressure Washing Concrete Floors",
-    "category": "pressure-washing-concrete-floors"
-  },
-  {
-    "id": "108",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_11.webp",
-    "alt": "Pressure Washing Concrete Floors",
-    "category": "pressure-washing-concrete-floors"
-  },
-  {
-    "id": "109",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_12.webp",
-    "alt": "Pressure Washing Concrete Floors",
-    "category": "pressure-washing-concrete-floors"
-  },
-  {
-    "id": "110",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_13.webp",
-    "alt": "Pressure Washing Concrete Floors",
-    "category": "pressure-washing-concrete-floors"
-  },
-  {
-    "id": "111",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_14.webp",
-    "alt": "Pressure Washing Concrete Floors",
-    "category": "pressure-washing-concrete-floors"
-  },
-  {
-    "id": "112",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_15.webp",
-    "alt": "Pressure Washing Concrete Floors",
-    "category": "pressure-washing-concrete-floors"
-  },
-  {
-    "id": "113",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_16.webp",
-    "alt": "Pressure Washing Concrete Floors",
-    "category": "pressure-washing-concrete-floors"
-  },
-  {
-    "id": "114",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_17.webp",
-    "alt": "Pressure Washing Concrete Floors",
-    "category": "pressure-washing-concrete-floors"
-  },
-  {
-    "id": "115",
-    "src": "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_18.webp",
-    "alt": "Pressure Washing Concrete Floors",
-    "category": "pressure-washing-concrete-floors"
-  },
-  {
-    "id": "116",
-    "src": "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_1.webp",
-    "alt": "Pressure Washing Floors",
-    "category": "pressure-washing-floors"
-  },
-  {
-    "id": "117",
-    "src": "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_2.webp",
-    "alt": "Pressure Washing Floors",
-    "category": "pressure-washing-floors"
-  },
-  {
-    "id": "118",
-    "src": "/pressure_washing_floor/simsan_fraser_pressure_washing_floor_3.webp",
-    "alt": "Pressure Washing Floors",
-    "category": "pressure-washing-floors"
-  },
-  {
-    "id": "119",
+    "id": "85",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_1.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "120",
+    "id": "86",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_2.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "121",
+    "id": "87",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_3.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "122",
+    "id": "88",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_4.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "123",
+    "id": "89",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_5.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "124",
+    "id": "90",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_6.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "125",
+    "id": "91",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_7.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "126",
+    "id": "92",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_8.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "127",
+    "id": "93",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_9.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "128",
+    "id": "94",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_10.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "129",
+    "id": "95",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_11.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "130",
+    "id": "96",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_12.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "131",
+    "id": "97",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_13.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "132",
+    "id": "98",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_14.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "133",
+    "id": "99",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_15.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "134",
+    "id": "100",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_16.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "135",
+    "id": "101",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_17.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "136",
+    "id": "102",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_18.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "137",
+    "id": "103",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_19.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "138",
+    "id": "104",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_20.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "139",
+    "id": "105",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_21.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "140",
+    "id": "106",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_22.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "141",
+    "id": "107",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_23.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "142",
+    "id": "108",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_24.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "143",
+    "id": "109",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_25.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "144",
+    "id": "110",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_26.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "145",
+    "id": "111",
     "src": "/roof_blow_and_debris_cleaning/simsan_fraser_roof_blow_and_debris_cleaning_27.webp",
     "alt": "Roof Blow & Debris Cleaning",
     "category": "roof-blow-and-debris-cleaning"
   },
   {
-    "id": "146",
+    "id": "112",
+    "src": "/soft_washing/soft_washing_1.webp",
+    "alt": "soft-washing",
+    "category": "soft-washing"
+  },
+  {
+    "id": "113",
+    "src": "/soft_washing/soft_washing_2.webp",
+    "alt": "soft-washing",
+    "category": "soft-washing"
+  },
+  {
+    "id": "114",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_1.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "147",
+    "id": "115",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_2.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "148",
+    "id": "116",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_3.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "149",
+    "id": "117",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_4.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "150",
+    "id": "118",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_5.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "151",
+    "id": "119",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_6.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "152",
+    "id": "120",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_7.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "153",
+    "id": "121",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_8.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "154",
+    "id": "122",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_9.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "155",
+    "id": "123",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_10.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "156",
+    "id": "124",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_11.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "157",
+    "id": "125",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_12.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "158",
+    "id": "126",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_13.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "159",
+    "id": "127",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_14.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "160",
+    "id": "128",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_15.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "161",
+    "id": "129",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_16.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "162",
+    "id": "130",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_17.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "163",
+    "id": "131",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_18.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "164",
+    "id": "132",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_19.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "165",
+    "id": "133",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_20.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
   },
   {
-    "id": "166",
+    "id": "134",
     "src": "/spanish_tile_roof/simsan_fraser_maintaince_spanish_tile_roof_cleaning_21.webp",
     "alt": "Spanish Tile Roof Cleaning",
     "category": "spanish-tile-roof-cleaning"
+  },
+  {
+    "id": "135",
+    "src": "/window_washing/window-washing-1.jpg",
+    "alt": "window-washing",
+    "category": "window-washing"
   }
 ]

@@ -34,11 +34,11 @@ export default function GallerySection({ breadcrumbs, galleryImages }: GallerySe
   // This allows us to show images from related categories under the correct service
   const categoryToServiceMap: Record<string, string> = {
     // Roof & Gutter Cleaning - includes all roof cleaning types
-    "roof-gutter-cleaning": "roof-gutter-cleaning",
+    // "roof-gutter-cleaning": "roof-gutter-cleaning",
     // "asphalt-shingle-roof-cleaning": "roof-gutter-cleaning",
     // "cedar-roof-cleaning": "roof-gutter-cleaning",
     // "concrete-tile-roof-cleaning": "roof-gutter-cleaning",
-    // "flat-roof-cleaning": "roof-gutter-cleaning",
+    "flat-roof-cleaning": "roof-gutter-cleaning",
     // "spanish-tile-roof-cleaning": "roof-gutter-cleaning",
     // "roof-blow-and-debris-cleaning": "roof-gutter-cleaning",
     // Other services
@@ -50,6 +50,7 @@ export default function GallerySection({ breadcrumbs, galleryImages }: GallerySe
     "christmas-lighting-decoration": "christmas-lighting-decoration",
     "pressure-washing-concrete-floors": "pressure-washing-concrete-floors",
     "pressure-washing-floors": "pressure-washing-concrete-floors",
+    "pressure-washing": "pressure-washing-concrete-floors",
     // Painting services
     "interior-exterior-painting": "interior-exterior-painting",
     "interior-painting": "interior-exterior-painting",

@@ -7,20 +7,20 @@ import React, { useState } from "react";
 
 const images = [
   {
-    src: "/new/epoxy_flooring/epoxy_flooring_2.webp",
+    src: "/epoxy_flooring/epoxy_flooring_2.webp",
     alt: "Epoxy Flooring Installation"
   },
   {
-    src: "/new/roof_cleaning/roof_cleaning_1.webp",
+    src: "/flat_roof_cleaning/roof_cleaning_1.webp",
     alt: "Asphalt Shingle Roof Cleaning"
   },
   
   {
-    src: "/new/soft_washing/soft_washing_1.webp",
+    src: "/soft_washing/soft_washing_1.webp",
     alt: "Soft Washing"
   },
   {
-    src: "/new/pressure_washing/pressure_washing_1.webp",
+    src: "/pressure_washing/pressure_washing_1.webp",
     alt: "Pressure Washing"
   },
   

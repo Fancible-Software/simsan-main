@@ -11,12 +11,15 @@ const folderToCategoryMap: Record<string, string> = {
   concrete_tile_roof_cleaning: "concrete-tile-roof-cleaning",
   flat_roof_cleaning: "flat-roof-cleaning",
   gutter_cleaning: "roof-gutter-cleaning",
-  pressure_washing_concrete_floors: "pressure-washing-concrete-floors",
-  pressure_washing_floor: "pressure-washing-floors",
+  // pressure_washing_concrete_floors: "pressure-washing-concrete-floors",
+  pressure_washing: "pressure-washing-concrete-floors",
+  soft_washing: "soft-washing",
+  // pressure_washing_floor: "pressure-washing-floors",
   roof_blow_and_debris_cleaning: "roof-blow-and-debris-cleaning",
   spanish_tile_roof: "spanish-tile-roof-cleaning",
   painting_services: "interior-exterior-painting",
   epoxy_flooring: "epoxy-flooring-installation",
+  window_washing: "window-washing",
 };
 
 /**
