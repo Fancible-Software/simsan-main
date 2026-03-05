@@ -96,24 +96,14 @@ export default function Home() {
             </Link>
           </Box>
 
-          {/* Right Images - Full width on mobile, side by side on desktop */}
-          <Box className="w-full lg:flex-1 flex flex-col sm:flex-row gap-6 justify-center items-start px-6 sm:px-0">
-            <Box className="w-full sm:flex-1 max-w-none sm:max-w-[280px] lg:max-w-[320px] flex-shrink-0">
+          {/* Right Image */}
+          <Box className="w-full lg:flex-1 px-6 sm:px-0">
+            <Box className="relative w-full rounded-2xl overflow-hidden shadow-lg" style={{ height: "480px" }}>
               <Image
-                src="/window-washing/window-washing-1.jpg"
-                alt="Window Washing service"
-                width={320}
-                height={400}
-                className="w-full h-auto rounded-2xl object-cover shadow-lg"
-              />
-            </Box>
-            <Box className="w-full sm:flex-1 max-w-none sm:max-w-[280px] lg:max-w-[320px] flex-shrink-0">
-              <Image
-                src="/home-about-imp2.png"
-                alt="Gutter cleaning service"
-                width={320}
-                height={400}
-                className="w-full h-auto rounded-2xl object-cover shadow-lg"
+                src="/pressure_washing/pressure_washing_6.webp"
+                alt="Pressure Washing service"
+                fill
+                className="object-cover"
               />
             </Box>
           </Box>

@@ -22,11 +22,11 @@ export default function WhyChooseUs() {
               />
               {/* 100% Satisfaction Badge */}
               <Box
-                className="absolute bottom-4 right-4 w-36 h-36 rounded-full flex flex-col items-center justify-center shadow-2xl z-10"
+                className="absolute bottom-4 right-4 w-20 h-20 sm:w-28 sm:h-28 md:w-36 md:h-36 rounded-full flex flex-col items-center justify-center shadow-2xl z-10"
                 style={{ backgroundColor: colors.primary }}
               >
-                <span className="text-white text-3xl font-extrabold leading-none mb-1">100%</span>
-                <span className="text-white text-[10px] font-bold uppercase text-center px-2 leading-tight">
+                <span className="text-white text-lg sm:text-2xl md:text-3xl font-extrabold leading-none mb-1">100%</span>
+                <span className="text-white text-[7px] sm:text-[9px] md:text-[10px] font-bold uppercase text-center px-1 sm:px-2 leading-tight">
                   SATISFACTION<br />GUARANTEED
                 </span>
               </Box>
