@@ -19,9 +19,8 @@ interface ServiceDetailProps {
 export default function PressureWashingServiceDetail({ breadcrumbs }: ServiceDetailProps) {
     const heroImage = "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.webp";
     const galleryImages = [
-        "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_1.webp",
-        "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_2.webp",
-        "/pressure_washing_concrete_floors/simsan_fraser_pressure_washing_concrete_floors_3.webp"
+        "/pressure_washing/pressure_washing_1.webp",
+        "/pressure_washing/pressure_washing_6.webp",
     ];
 
     return (
@@ -209,7 +208,7 @@ export default function PressureWashingServiceDetail({ breadcrumbs }: ServiceDet
                         {/* Right Column - Image Gallery */}
                         <Box className="flex-1">
                             <Box className="grid grid-cols-2 gap-4">
-                                <Box className="relative w-full h-48 md:h-64 lg:h-80 rounded-lg overflow-hidden">
+                                <Box className="relative w-full h-64 md:h-80 lg:h-[480px] rounded-lg col-span-2 overflow-hidden">
                                     <Image
                                         src={galleryImages[0]}
                                         alt="Pressure Washing - Image 1"
@@ -217,7 +216,7 @@ export default function PressureWashingServiceDetail({ breadcrumbs }: ServiceDet
                                         className="object-cover"
                                     />
                                 </Box>
-                                <Box className="relative w-full h-48 md:h-64 lg:h-80 rounded-lg overflow-hidden">
+                                <Box className="relative w-full h-48 md:h-80 lg:h-[480px] col-span-2 rounded-lg overflow-hidden">
                                     <Image
                                         src={galleryImages[1]}
                                         alt="Pressure Washing - Image 2"
@@ -225,14 +224,14 @@ export default function PressureWashingServiceDetail({ breadcrumbs }: ServiceDet
                                         className="object-cover"
                                     />
                                 </Box>
-                                <Box className="relative w-full h-48 md:h-64 lg:h-80 col-span-2 rounded-lg overflow-hidden">
+                                {/* <Box className="relative w-full h-48 md:h-64 lg:h-80 col-span-2 rounded-lg overflow-hidden">
                                     <Image
                                         src={galleryImages[2]}
                                         alt="Pressure Washing - Image 3"
                                         fill
                                         className="object-cover"
                                     />
-                                </Box>
+                                </Box> */}
                             </Box>
                         </Box>
                     </Box>

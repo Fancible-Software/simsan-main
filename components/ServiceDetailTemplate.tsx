@@ -198,30 +198,37 @@ export default function ServiceDetailTemplate({
 
                         <Box className="flex-1">
                             <Box className="grid grid-cols-2 gap-4">
+                                {service.galleryImages[0] && 
                                 <Box className="relative w-full h-48 md:h-64 lg:h-80 rounded-lg overflow-hidden">
                                     <Image
-                                        src={service.galleryImages[0] || "/home-about-img1.png"}
+                                        src={service.galleryImages[0]}
                                         alt={`${service.title} - Image 1`}
                                         fill
                                         className="object-cover"
                                     />
                                 </Box>
+                                }
+                                {service.galleryImages[1] && 
                                 <Box className="relative w-full h-48 md:h-64 lg:h-80 rounded-lg overflow-hidden">
                                     <Image
-                                        src={service.galleryImages[1] || "/home-about-imp2.png"}
+                                        src={service.galleryImages[1]}
                                         alt={`${service.title} - Image 2`}
                                         fill
                                         className="object-cover"
                                     />
                                 </Box>
+                                }
+                                {service.galleryImages[2] && 
+
                                 <Box className="relative w-full h-48 md:h-64 lg:h-80 col-span-2 rounded-lg overflow-hidden">
                                     <Image
-                                        src={service.galleryImages[2] || "/homepage1.png"}
+                                        src={service.galleryImages[2]}
                                         alt={`${service.title} - Image 3`}
                                         fill
                                         className="object-cover"
                                     />
                                 </Box>
+                                }
                             </Box>
                         </Box>
                     </Box>

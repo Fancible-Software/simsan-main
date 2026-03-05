@@ -194,8 +194,8 @@ export default function GallerySection({ breadcrumbs, galleryImages }: GallerySe
       <HeroBanner
         title="Our Work Gallery"
         breadcrumbs={breadcrumbs}
-        backgroundImage="/home-about-imp2.png"
-        minHeight="260px"
+        backgroundImage="simsan_fraser_main.jpg"
+        minHeight="360px"
       />
 
       {/* Filter Buttons Section */}

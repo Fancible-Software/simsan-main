@@ -17,11 +17,11 @@ interface ServiceDetailProps {
 }
 
 export default function InteriorExteriorPaintingServiceDetail({ breadcrumbs }: ServiceDetailProps) {
-    const heroImage = "/home-about-img1.png";
+    const heroImage = "/painting_services/interior_exterior_painting_5.jpg";
     const galleryImages = [
-        "/home-about-img1.png",
-        "/home-about-imp2.png",
-        "/homepage1.png"
+        "/painting_services/interior_exterior_painting_4.jpg",
+        "/painting_services/interior_exterior_painting_5.jpg",
+       
     ];
 
     return (
@@ -209,7 +209,7 @@ export default function InteriorExteriorPaintingServiceDetail({ breadcrumbs }: S
                         {/* Right Column - Image Gallery */}
                         <Box className="flex-1">
                             <Box className="grid grid-cols-2 gap-4">
-                                <Box className="relative w-full h-48 md:h-64 lg:h-80 rounded-lg overflow-hidden">
+                                <Box className="relative w-full h-48 md:h-80 lg:h-[480px] col-span-2 rounded-lg overflow-hidden">
                                     <Image
                                         src={galleryImages[0]}
                                         alt="Interior & Exterior Painting - Image 1"
@@ -217,7 +217,7 @@ export default function InteriorExteriorPaintingServiceDetail({ breadcrumbs }: S
                                         className="object-cover"
                                     />
                                 </Box>
-                                <Box className="relative w-full h-48 md:h-64 lg:h-80 rounded-lg overflow-hidden">
+                                <Box className="relative w-full h-48 md:h-80 lg:h-[480px] col-span-2 rounded-lg overflow-hidden">
                                     <Image
                                         src={galleryImages[1]}
                                         alt="Interior & Exterior Painting - Image 2"
@@ -225,14 +225,7 @@ export default function InteriorExteriorPaintingServiceDetail({ breadcrumbs }: S
                                         className="object-cover"
                                     />
                                 </Box>
-                                <Box className="relative w-full h-48 md:h-64 lg:h-80 col-span-2 rounded-lg overflow-hidden">
-                                    <Image
-                                        src={galleryImages[2]}
-                                        alt="Interior & Exterior Painting - Image 3"
-                                        fill
-                                        className="object-cover"
-                                    />
-                                </Box>
+                                
                             </Box>
                         </Box>
                     </Box>

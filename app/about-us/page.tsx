@@ -196,8 +196,8 @@ export default function AboutUsPage() {
             <HeroBanner
                 title="About Us"
                 breadcrumbs={breadcrumbs}
-                backgroundImage="/homepage1.png"
-                minHeight="240px"
+                backgroundImage="simsan_fraser_main.jpg"
+                minHeight="360px"
             />
 
             {/* Main content card */}
@@ -251,7 +251,7 @@ export default function AboutUsPage() {
                             <div className="flex gap-4 h-[500px] sm:flex-row flex-col">
                                 <div className="flex-1 rounded-2xl overflow-hidden shadow-lg">
                                     <img
-                                        src="/new/roof_cleaning/roof_cleaning_1.webp"
+                                        src="/flat_roof_cleaning/roof_cleaning_1.webp"
                                         alt="Roof with moss and leaves needing maintenance"
                                         className="w-full h-full object-cover"
                                     />

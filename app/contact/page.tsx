@@ -19,8 +19,8 @@ export default function ContactPage() {
         <HeroBanner
           title="Get In Touch With us"
           breadcrumbs={breadcrumbs}
-          backgroundImage="/home-about-imp2.png"
-          minHeight="260px"
+          backgroundImage="simsan_fraser_main.jpg"
+          minHeight="360px"
         />
 
         {/* Contact Us Section */}

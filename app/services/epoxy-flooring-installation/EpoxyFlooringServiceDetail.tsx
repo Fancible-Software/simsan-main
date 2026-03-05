@@ -17,11 +17,11 @@ interface ServiceDetailProps {
 }
 
 export default function EpoxyFlooringServiceDetail({ breadcrumbs }: ServiceDetailProps) {
-    const heroImage = "/home-about-img1.png";
+    const heroImage = "/epoxy_flooring/epoxy_flooring_1.webp";
     const galleryImages = [
-        "/home-about-img1.png",
-        "/home-about-imp2.png",
-        "/homepage1.png"
+        "/epoxy_flooring/epoxy_flooring_1.webp",
+        "/epoxy_flooring/epoxy_flooring_2.webp",
+        "/epoxy_flooring/epoxy_flooring_3.webp"
     ];
 
     return (

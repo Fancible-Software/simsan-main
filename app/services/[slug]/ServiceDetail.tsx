@@ -231,18 +231,21 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                                     />
                                 </Box>
                                 {/* Top Right Image */}
-                                <Box className="relative w-full h-48 md:h-64 lg:h-80 rounded-lg overflow-hidden">
-                                    <Image
-                                        src={service.galleryImages[1] || "/home-about-imp2.png"}
-                                        alt={`${service.title} - Image 2`}
-                                        fill
-                                        className="object-cover"
-                                    />
-                                </Box>
+                                {service.galleryImages[1] && 
+                                    <Box className="relative w-full h-48 md:h-64 lg:h-80 rounded-lg overflow-hidden">
+                                        <Image
+                                            src={service.galleryImages[1]}
+                                            alt={`${service.title} - Image 2`}
+                                            fill
+                                            className="object-cover"
+                                        />
+                                    </Box>  
+                                }
+                                
                                 {/* Bottom Full Width Image */}
                                 <Box className="relative w-full h-48 md:h-64 lg:h-80 col-span-2 rounded-lg overflow-hidden">
                                     <Image
-                                        src={service.galleryImages[2] || "/homepage1.png"}
+                                        src={service.galleryImages[2]}
                                         alt={`${service.title} - Image 3`}
                                         fill
                                         className="object-cover"
@@ -263,7 +266,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                         <Box className="flex-1 w-full">
                             <Box className="relative w-full h-[300px] md:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden">
                                 <Image
-                                    src={service.galleryImages[0] || "/home-about-img1.png"}
+                                    src={service.galleryImages[3]}
                                     alt={`${service.title} - Care Plan`}
                                     fill
                                     className="object-cover"

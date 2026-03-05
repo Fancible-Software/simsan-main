@@ -3,89 +3,77 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import { colors } from "@/lib/colors";
-import Link from "next/link";
 import FraserValleyMap from "@/components/FraserValleyMap";
 
 // Service areas organized for display
 const serviceAreas = [
-  "Abbotsford",
-  "Anmore",
-  "Belcarra",
-  "Bowen Island",
-  "Burnaby",
-  "Chilliwack",
-  "Coquitlam",
-  "Delta",
-  "Hope",
-  "Langley",
-  "Lions Bay",
-  "Maple Ridge",
-  "Mission",
-  "New Westminster",
-  "North Vancouver",
-  "Pitt Meadows",
-  "Port Coquitlam",
-  "Port Moody",
-  "Richmond",
-  "Surrey",
-  "Vancouver",
-  "West Vancouver",
-  "White Rock",
+  {
+    title: "LOWER MAINLAND AND FRASER VALLEY",
+    cities: [
+      "Anmore",
+      "Belcarra",
+      "Bowen Island",
+      "Burnaby",
+      "Chilliwack",
+      "Coquitlam",
+      "Delta",
+      "Hope",
+      "Langley",
+      "Lions Bay",
+      "Maple Ridge",
+      "Mission",
+      "New Westminster",
+      "North Vancouver",
+      "Pitt Meadows",
+      "Port Coquitlam",
+      "Port Moody",
+      "Richmond",
+      "Surrey",
+      "Vancouver",
+      "West Vancouver",
+      "White Rock",
+    ],
+  },
+  {
+    title: "VANCOUVER ISLAND",
+    cities: [
+      "Victoria",
+      "Nanaimo",
+      "Campbell River",
+      "Courtenay",
+      "Port Alberni",
+      "Parksville",
+      "Qualicum Beach",
+      "Duncan",
+      "Ladysmith",
+    ],
+  },
 ];
 
-export default function AreasWeServeIn() {
-  // Split cities into 3 columns
-  const column1 = serviceAreas.slice(0, Math.ceil(serviceAreas.length / 3));
-  const column2 = serviceAreas.slice(
-    Math.ceil(serviceAreas.length / 3),
-    Math.ceil((serviceAreas.length * 2) / 3)
-  );
-  const column3 = serviceAreas.slice(Math.ceil((serviceAreas.length * 2) / 3));
+const ChevronIcon = () => (
+  <svg
+    width="12"
+    height="12"
+    viewBox="0 0 12 12"
+    fill="none"
+  >
+    <path
+      d="M4.5 1.5L9 6L4.5 10.5"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
 
+export default function AreasWeServeIn() {
   return (
     <Box className="w-full bg-white">
       <Box className="max-w-7xl mx-auto px-6 lg:px-8 xl:px-0 py-12 lg:py-16">
         <Box className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
           {/* Left Section - Text Content */}
           <Box className="w-full lg:w-1/2 flex flex-col">
-            {/* Main Heading */}
-            {/* <Typography
-              variant="h2"
-              className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6"
-              style={{ color: colors.text.primary }}
-            >
-              Areas We Serve in Fraser Valley
-            </Typography> */}
-
-            {/* Introductory Paragraph */}
-            {/* <Typography
-              variant="body1"
-              className="text-gray-700 leading-relaxed mb-8"
-              style={{ fontSize: "1rem" }}
-            >
-              Simsan Fraser Maintenance proudly provides exterior cleaning services to homes and businesses in{" "}
-              <Link
-                href="/contact"
-                style={{ color: colors.primary, textDecoration: "none", fontWeight: 600 }}
-              >
-                Vancouver, BC
-              </Link>
-              ,{" "}
-              <Link
-                href="/contact"
-                style={{ color: colors.primary, textDecoration: "none", fontWeight: 600 }}
-              >
-                Surrey, BC
-              </Link>
-               and surrounding communities. If you don't see your area listed, please{" "}
-              <Link
-                href="/contact"
-                style={{ color: colors.primary, textDecoration: "none", fontWeight: 600 }}
-              >
-                contact us
-              </Link>
-              —we're always expanding our service area and may already be nearby.
-            </Typography> */}
 
             {/* Sub-heading */}
             <Box className="flex items-center gap-3 mb-6">
@@ -107,109 +95,48 @@ export default function AreasWeServeIn() {
               </Box>
             </Box>
 
-            {/* City List - Three Columns */}
-            <Box className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-3">
-              {/* Column 1 */}
-              <Box className="flex flex-col gap-3">
-                {column1.map((city, index) => (
-                  <Box key={index} className="flex items-center gap-2">
-                    <Box
-                      className="flex-shrink-0"
-                      style={{ color: colors.primary }}
-                    >
-                      <svg
-                        width="12"
-                        height="12"
-                        viewBox="0 0 12 12"
-                        fill="none"
-                        style={{ color: colors.primary }}
-                      >
-                        <path
-                          d="M4.5 1.5L9 6L4.5 10.5"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </Box>
-                    <Typography
-                      variant="body2"
-                      style={{ color: colors.text.primary, fontSize: "0.9375rem" }}
-                    >
-                      {city}
-                    </Typography>
-                  </Box>
-                ))}
-              </Box>
+            {/* Two groups, each with a title and cities in columns */}
+            <Box className="flex flex-col gap-8">
+              {serviceAreas.map((group) => {
+                const colSize = Math.ceil(group.cities.length / 3);
+                const col1 = group.cities.slice(0, colSize);
+                const col2 = group.cities.slice(colSize, colSize * 2);
+                const col3 = group.cities.slice(colSize * 2);
 
-              {/* Column 2 */}
-              <Box className="flex flex-col gap-3">
-                {column2.map((city, index) => (
-                  <Box key={index} className="flex items-center gap-2">
-                    <Box
-                      className="flex-shrink-0"
-                      style={{ color: colors.primary }}
-                    >
-                      <svg
-                        width="12"
-                        height="12"
-                        viewBox="0 0 12 12"
-                        fill="none"
-                        style={{ color: colors.primary }}
-                      >
-                        <path
-                          d="M4.5 1.5L9 6L4.5 10.5"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </Box>
+                return (
+                  <Box key={group.title}>
+                    {/* Group Title */}
                     <Typography
                       variant="body2"
-                      style={{ color: colors.text.primary, fontSize: "0.9375rem" }}
+                      className="font-bold mb-5"
+                      style={{ color: colors.text.primary, fontSize: "0.9375rem", marginBottom: "10px", fontWeight: 700 }}
                     >
-                      {city}
+                      {group.title}
                     </Typography>
-                  </Box>
-                ))}
-              </Box>
 
-              {/* Column 3 */}
-              <Box className="flex flex-col gap-3">
-                {column3.map((city, index) => (
-                  <Box key={index} className="flex items-center gap-2">
-                    <Box
-                      className="flex-shrink-0"
-                      style={{ color: colors.primary }}
-                    >
-                      <svg
-                        width="12"
-                        height="12"
-                        viewBox="0 0 12 12"
-                        fill="none"
-                        style={{ color: colors.primary }}
-                      >
-                        <path
-                          d="M4.5 1.5L9 6L4.5 10.5"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
+                    {/* Cities in 3 columns */}
+                    <Box className="grid grid-cols-2 sm:grid-cols-3 gap-x-6 gap-y-2">
+                      {[col1, col2, col3].map((col, colIndex) => (
+                        <Box key={colIndex} className="flex flex-col gap-2">
+                          {col.map((city, index) => (
+                            <Box key={index} className="flex items-center gap-2" style={{ color: colors.primary }}>
+                              <Box className="flex-shrink-0">
+                                <ChevronIcon />
+                              </Box>
+                              <Typography
+                                variant="body2"
+                                style={{ color: colors.text.primary, fontSize: "0.9375rem" }}
+                              >
+                                {city}
+                              </Typography>
+                            </Box>
+                          ))}
+                        </Box>
+                      ))}
                     </Box>
-                    <Typography
-                      variant="body2"
-                      style={{ color: colors.text.primary, fontSize: "0.9375rem" }}
-                    >
-                      {city}
-                    </Typography>
                   </Box>
-                ))}
-              </Box>
+                );
+              })}
             </Box>
           </Box>
 

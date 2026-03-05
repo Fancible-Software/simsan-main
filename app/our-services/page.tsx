@@ -18,8 +18,8 @@ const Index = () => {
                 <HeroBanner
                     title="Our Services"
                     breadcrumbs={breadcrumbs}
-                    backgroundImage="/homepage1.png"
-                    minHeight="260px"
+                    backgroundImage="simsan_fraser_main.jpg"
+                    minHeight="360px"
                 />
                 {/* Services Section */}
                 <ServiceSection />
