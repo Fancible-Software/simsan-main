@@ -14,7 +14,7 @@ export default function WhyChooseUs() {
           <Box className="flex-1 relative">
             <Box className="relative rounded-l-[32px] overflow-hidden sm:mb-0 mb-8">
               <Image
-                src="/painting_services/painting_services.jpg"
+                src="/epoxy_flooring/epoxy_flooring_3.webp"
                 alt="Professional cleaning service"
                 width={500}
                 height={950}
