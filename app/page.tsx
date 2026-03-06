@@ -75,7 +75,7 @@ export default function Home() {
               About Us
             </p>
             <h2 className="text-center sm:text-left text-xl md:text-xl lg:text-xl font-extrabold leading-snug mb-4" style={{ color: colors.secondary }}>
-              Professional Roof Cleaning, Gutter Cleaning, & Window Washing
+              Professional Roof Cleaning, Gutter Cleaning & Window Washing
             </h2>
             <p className="text-center sm:text-left text-gray-600 text-base md:text-lg leading-relaxed mb-4">
               <span className="font-bold">Simsan Fraser Maintenance</span> Ltd is a locally owned and operated exterior cleaning and property maintenance company dedicated to protecting and enhancing homes across the Lower Mainland and Fraser Valley.

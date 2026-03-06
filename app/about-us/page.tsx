@@ -228,7 +228,7 @@ export default function AboutUsPage() {
                                 At Simsan Fraser Maintenance Ltd, our goal is simple: <span className="font-bold">to be the trusted home care team our customers can rely on year after year</span>.
                             </p>
                             <p className="text-foreground mb-8 leading-relaxed font-bold">
-                                Proudly serving Abbotsford, Anmore, Belcarra,Bowen Island, Burnaby, Chilliwack, Coquitlam, Delta, Hope, Langley, Lions Bay, Maple Ridge, Mission,New Westminster, North Vancouver, Pitt Meadows, Port Coquitlam, Port Moody, Richmond, Surrey, Vancouver, West Vancouver and White Rock
+                                Proudly serving Abbotsford, Anmore, Belcarra,Bowen Island, Burnaby, Chilliwack, Coquitlam, Delta, Hope, Langley, Lions Bay, Maple Ridge, Mission,New Westminster, North Vancouver, Pitt Meadows, Port Coquitlam, Port Moody, Richmond, Surrey, Vancouver, West Vancouver, White Rock, Victoria, Nanaimo, Campbell River, Courtenay, Port Alberni, Parksville, Qualicum Beach, Duncan & Ladysmith.
 
                             </p>
 
@@ -373,7 +373,7 @@ export default function AboutUsPage() {
                             </div>
                             <h3 className="text-2xl font-bold text-foreground mb-4">Our Vision</h3>
                             <p className="leading-relaxed" style={{ color: '#212121' }}>
-                                To be the most trusted and respected exterior maintenance company in the Lower Mainland and Fraser Valley, setting the standard for quality, reliability and long-term property care while enhancing the value and longevity of every home we service.
+                                To be the most trusted and respected exterior maintenance company in the Lower Mainland, Fraser Valley and Vancouver Island, setting the standard for quality, reliability and long-term property care while enhancing the value and longevity of every home we service.
                             </p>
                         </div>
 

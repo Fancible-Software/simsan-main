@@ -114,7 +114,7 @@ export default function WhyChooseUs() {
               Whether you need routine maintenance or a full exterior refresh, Simsan Fraser Maintenance Ltd delivers dependable service you can trust.
             </p>
             <p className="text-sm md:text-base leading-relaxed mb-6 font-bold" style={{ color: colors.text.primary }}>
-Serving homeowners across the Lower Mainland and Fraser Valley.            </p>
+Serving homeowners across the Lower Mainland, Fraser Valley and Vancouver Island.            </p>
 
             {/* CTA Buttons */}
             <Box className="flex flex-col sm:flex-row gap-3">
