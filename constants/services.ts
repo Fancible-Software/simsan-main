@@ -69,8 +69,7 @@ export const SERVICES: Service[] = [
     heroImage: "/window_washing/window-washing-1.jpg",
     galleryImages: [
       "/window_washing/window-washing-1.jpg",
-      "/window_washing/window-washing-1.jpg",
-      "/window_washing/window-washing-1.jpg",
+      "/window_washing/window-washing-2.jpg",
     ],
     area: "Lower Mainland and Fraser Valley Area"
   },
@@ -100,7 +99,10 @@ export const SERVICES: Service[] = [
     galleryImages: [
       "/soft_washing/soft_washing_1.webp",
       "/soft_washing/soft_washing_2.webp",
-     
+      "/soft_washing/soft_washing_3.jpg",
+      "/soft_washing/soft_washing_4.jpg",
+      "/soft_washing/soft_washing_5.jpg",
+      "/soft_washing/soft_washing_6.jpg",
     ],
     area: "Lower Mainland and Fraser Valley Area"
   },
