@@ -119,7 +119,7 @@ Serving homeowners across the Lower Mainland, Fraser Valley and Vancouver Island
             {/* CTA Buttons */}
             <Box className="flex flex-col sm:flex-row gap-3">
               <a
-                href="tel:+17782227988"
+                href="tel:+16048804476"
                 className="px-6 py-3 rounded-lg text-sm font-semibold text-white flex items-center justify-center gap-2 transition-colors duration-200 uppercase tracking-wide no-underline"
                 style={{ backgroundColor: colors.primary }}
               >

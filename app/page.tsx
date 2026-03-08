@@ -45,8 +45,8 @@ export default function Home() {
             As a fully insured local company, we focus on honest pricing, clear communication and dependable service - every job, every time.
           </p>
           <p className="text-center sm:text-left text-white text-base md:text-lg mb-4 leading-relaxed font-bold">
-            Proudly serving Abbotsford, Anmore, Belcarra,Bowen Island, Burnaby, Chilliwack, Coquitlam, Delta, Hope, Langley, Lions Bay, Maple Ridge, Mission,New Westminster, North Vancouver, Pitt Meadows, Port Coquitlam, Port Moody, Richmond, Su rrey, Vancouver, West Vancouver, White Rock
-            </p>
+          Proudly serving Abbotsford, Anmore, Belcarra,Bowen Island, Burnaby, Chilliwack, Coquitlam, Delta, Hope, Langley, Lions Bay, Maple Ridge, Mission,New Westminster, North Vancouver, Pitt Meadows, Port Coquitlam, Port Moody, Richmond, Surrey, Vancouver, West Vancouver, White Rock, Victoria, Nanaimo, Campbell River, Courtenay, Port Alberni, Parksville, Qualicum Beach, Duncan & Ladysmith.
+             </p>
 
           <a
             href="/estimate"

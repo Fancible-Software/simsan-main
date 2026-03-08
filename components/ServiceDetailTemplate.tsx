@@ -82,7 +82,7 @@ export default function ServiceDetailTemplate({
 
                     <Box className="flex flex-col sm:flex-row gap-4 mt-4">
                         <a
-                            href="tel:+17782227988"
+                            href="tel:+16048804476"
                             className="text-white font-semibold px-8 py-4 rounded-lg w-fit flex items-center gap-2 transition-colors duration-200 uppercase tracking-wide text-sm lg:text-base no-underline"
                             style={{ background: colors.primary }}
                         >
@@ -185,7 +185,7 @@ export default function ServiceDetailTemplate({
                             )}
 
                             <a
-                                href="tel:+17782227988"
+                                href="tel:+16048804476"
                                 className="text-white font-semibold px-8 py-4 rounded-lg w-fit flex items-center gap-2 transition-colors duration-200 uppercase tracking-wide text-sm lg:text-base no-underline"
                                 style={{ background: colors.primary }}
                             >

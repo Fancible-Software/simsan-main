@@ -285,7 +285,7 @@ export default function EstimatePage() {
               <Box className="flex-1 relative">
                 <Box className="relative w-full h-full min-h-[400px] lg:min-h-[600px] rounded-2xl overflow-hidden">
                   <Image
-                    src="/home-about-img1.png"
+                    src="/flat_roof_cleaning/roof_cleaning_1.webp"
                     alt="Simsan Fraser Maintenance Services"
                     fill
                     className="object-cover"
