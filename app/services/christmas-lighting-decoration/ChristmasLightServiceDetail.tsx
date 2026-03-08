@@ -116,7 +116,7 @@ export default function ChristmasLightServiceDetail({ breadcrumbs }: ServiceDeta
                                 className="text-lg md:text-xl mb-6"
                                 style={{ color: colors.secondary }}
                             >
-                                Serving the Lower Mainland & Fraser Valley
+                                Serving the Lower Mainland, Fraser Valley and Vancouver Island areas
                             </p>
 
                             <Box className="space-y-4 mb-8" style={{ color: "#212121" }}>
@@ -159,7 +159,7 @@ export default function ChristmasLightServiceDetail({ breadcrumbs }: ServiceDeta
                                 </Box>
 
                                 <p className="text-base md:text-lg leading-relaxed">
-                                    Whether you want a classic, elegant or fully themed display, we bring your vision to life and make your home the highlight of the neighborhood. Our team serves Lower Mainland and Fraser Valley area, ensuring your holidays are bright, stress-free and magical.
+                                    Whether you want a classic, elegant or fully themed display, we bring your vision to life and make your home the highlight of the neighborhood. Our team serves Lower Mainland, Fraser Valley and Vancouver Island areas, ensuring your holidays are bright, stress-free and magical.
                                 </p>
                             </Box>
 
@@ -250,7 +250,7 @@ export default function ChristmasLightServiceDetail({ breadcrumbs }: ServiceDeta
                     },
                     {
                         question: "Do you offer commercial Christmas light installation?",
-                        answer: "Yes. We provide professional installation for residential homes, businesses, office buildings and commercial properties throughout the Lower Mainland & Fraser Valley."
+                        answer: "Yes. We provide professional installation for residential homes, businesses, office buildings and commercial properties throughout the Lower Mainland, Fraser Valley and Vancouver Island areas."
                     }
                 ]}
             />

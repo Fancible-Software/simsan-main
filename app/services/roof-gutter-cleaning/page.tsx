@@ -19,7 +19,7 @@ export default function RoofGutterCleaningPage() {
   const faqItems = [
     {
       question: "What can I expect on the day of service?",
-      answer: "We'll call or text on the way to your home in Lower Mainland or Fraser Valley. You don't need to be home for outside work, but we'll knock on the door to greet you either way. We'll let you know if we have questions for you or if your home could benefit from any additional services. When finished, we will come to the door to chat before we leave. We can answer any other questions you may have, let you know if we encountered anything unusual while we worked and offer recommendations for a service schedule going forward."
+      answer: "We'll call or text on the way to your home in Lower Mainland, Fraser Valley and Vancouver Island areas. You don't need to be home for outside work, but we'll knock on the door to greet you either way. We'll let you know if we have questions for you or if your home could benefit from any additional services. When finished, we will come to the door to chat before we leave. We can answer any other questions you may have, let you know if we encountered anything unusual while we worked and offer recommendations for a service schedule going forward."
     },
     {
       question: "How often should I have my gutters cleaned?",

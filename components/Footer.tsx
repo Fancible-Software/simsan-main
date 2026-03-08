@@ -224,7 +224,7 @@ export default function Footer() {
                     </svg>
                   </Box>
                   <Typography className="text-white" style={{ fontSize: '0.9375rem' }}>
-                    Lower Mainland & Fraser Valley, BC, Canada
+                    Lower Mainland, Fraser Valley and Vancouver Island areas, BC, Canada
                   </Typography>
                 </Box> */}
 

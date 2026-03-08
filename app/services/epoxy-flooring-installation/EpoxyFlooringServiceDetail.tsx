@@ -113,7 +113,7 @@ export default function EpoxyFlooringServiceDetail({ breadcrumbs }: ServiceDetai
                                 className="text-lg md:text-xl mb-6"
                                 style={{ color: colors.secondary }}
                             >
-                                Durable, Seamless Floors in the Lower Mainland & Fraser Valley
+                                Durable, Seamless Floors in the Lower Mainland, Fraser Valley and Vancouver Island areas
                             </p>
 
                             <Box className="space-y-4 mb-8" style={{ color: "#212121" }}>
@@ -186,10 +186,10 @@ export default function EpoxyFlooringServiceDetail({ breadcrumbs }: ServiceDetai
                                 </Box>
 
                                 <p className="text-base md:text-lg leading-relaxed">
-                                    Our epoxy flooring systems are designed to perform well in the Lower Mainland and Fraser Valley climate, providing a clean, professional finish that stands up to daily use.
+                                    Our epoxy flooring systems are designed to perform well in the Lower Mainland, Fraser Valley and Vancouver Island areas, providing a clean, professional finish that stands up to daily use.
                                 </p>
                                 <p className="text-base md:text-lg leading-relaxed">
-                                    At Simsan Fraser Maintenance Ltd, we provide professional epoxy flooring installation services across Lower Mainland and Fraser Valley area, using high-quality materials and proven installation methods for reliable results.
+                                    At Simsan Fraser Maintenance Ltd, we provide professional epoxy flooring installation services across Lower Mainland, Fraser Valley and Vancouver Island areas, using high-quality materials and proven installation methods for reliable results.
                                 </p>
                             </Box>
 

@@ -20,7 +20,7 @@ export const SERVICES: Service[] = [
     shortTitle: "Roof &",
     description: "Clogged gutters can cause water to back up into your roof, walls and foundation. Our professional cleaning removes leaves, needles and debris to keep your drainage system flowing properly and prevent structural damage.",
     longDescription: "Tired of climbing ladders and risking your safety to clean your roof and gutters? Simsan Fraser Maintenance Roof & Gutter Cleaning is here to help. For over 4 years, we've been the trusted name in the lower mainland and fraser valley for reliable, professional roof and gutter cleaning services. Our trained technicians don't just clean — they inspect, protect and extend the life of your roof and gutter system. We remove moss, leaves and debris, ensure proper water flow and handle minor repairs on the spot. And once we're done, we leave your property spotless.",
-    subheading: "Serving the Lower Mainland and Fraser Valley Area",
+    subheading: "Serving the Lower Mainland, Fraser Valley and Vancouver Island areas",
     typeOfServiceTitle: "BELOW ARE THE TYPE OF ROOFS CLEANED BY US",
     typesOfService: [
       "Asphalt Shingle Roof",
@@ -42,7 +42,7 @@ export const SERVICES: Service[] = [
       "/flat_roof_cleaning/roof_cleaning_2.webp",
       "/flat_roof_cleaning/roof_cleaning_3.webp"
     ],
-    area: "Lower Mainland and Fraser Valley Area"
+    area: "Lower Mainland, Fraser Valley and Vancouver Island areas"
   },
   {
     slug: "window-washing",
@@ -50,7 +50,7 @@ export const SERVICES: Service[] = [
     shortTitle: "Water-Fed Pole",
     description: "Our water-fed pole window washing service delivers a safer, more effective and environmentally friendly way to keep your windows crystal clear. Using extendable carbon-fiber poles and 100% purified, spot-free water, we clean your windows thoroughly—without ladders, harsh chemicals or streaks.",
     longDescription: "Our water-fed pole window washing service delivers a safer, more effective and environmentally friendly way to keep your windows crystal clear. Using extendable carbon-fiber poles and 100% purified, spot-free water, we clean your windows thoroughly—without ladders, harsh chemicals or streaks. This advanced system allows us to safely wash windows up to several stories high while working from the ground. Soft-bristled brushes gently loosen dirt, pollen and grime, while purified water rinses the glass clean and dries naturally without leaving residue. Water-fed pole cleaning is especially effective for regular maintenance, helping your windows stay cleaner for longer while protecting frames, seals and surrounding surfaces. At Simsan Fraser Maintenance Ltd, we combine professional equipment with trained technicians to ensure every window is cleaned with care and precision—leaving your home or business brighter, cleaner and more inviting.",
-    subheading: "Serving the Lower Mainland and Fraser Valley Area",
+    subheading: "Serving the Lower Mainland, Fraser Valley and Vancouver Island areas",
     typeOfServiceTitle: "Why choose water-fed pole window cleaning?",
     typesOfService: [
       "Spot-free, streak-free results using purified water",
@@ -71,7 +71,7 @@ export const SERVICES: Service[] = [
       "/window_washing/window-washing-1.jpg",
       "/window_washing/window-washing-2.jpg",
     ],
-    area: "Lower Mainland and Fraser Valley Area"
+    area: "Lower Mainland, Fraser Valley and Vancouver Island areas"
   },
   {
     slug: "soft-washing",
@@ -79,7 +79,7 @@ export const SERVICES: Service[] = [
     shortTitle: "Vinyl Siding",
     description: "Our vinyl siding soft washing service uses a water-fed pole brush system to safely and effectively clean your home's exterior without the risk of damage caused by high pressure. This method combines low-pressure water, soft-bristle brushes and professional-grade cleaning solutions to gently remove dirt, algae, mildew, pollen and environmental buildup from vinyl siding.",
     longDescription: "Our vinyl siding soft washing service uses a water-fed pole brush system to safely and effectively clean your home's exterior without the risk of damage caused by high pressure. This method combines low-pressure water, soft-bristle brushes and professional-grade cleaning solutions to gently remove dirt, algae, mildew, pollen and environmental buildup from vinyl siding. Using a water-fed pole allows our technicians to clean upper-level siding safely from the ground, reducing the need for ladders while ensuring consistent, thorough coverage. The soft-bristle brush agitates grime without scratching, while the low-pressure rinse leaves your siding clean, bright and refreshed. This method is especially effective in the Lower Mainland and Fraser Valley climate, where moisture promotes algae and mildew growth. Regular soft washing helps protect vinyl siding from long-term staining and deterioration while keeping your home looking its best year-round. At Simsan Fraser Maintenance Ltd, we provide professional vinyl siding soft washing services across Lower Mainland and Fraser Valley. Our experienced team uses industry-approved equipment and techniques to ensure safe, reliable and long-lasting results for your home.",
-    subheading: "Serving the Lower Mainland & Fraser Valley",
+    subheading: "Serving the Lower Mainland, Fraser Valley and Vancouver Island areas",
     typeOfServiceTitle: "Why choose water-fed pole soft washing for vinyl siding?",
     typesOfService: [
       "Safe, low-pressure cleaning designed specifically for vinyl siding",
@@ -104,7 +104,7 @@ export const SERVICES: Service[] = [
       "/soft_washing/soft_washing_5.jpg",
       "/soft_washing/soft_washing_6.jpg",
     ],
-    area: "Lower Mainland and Fraser Valley Area"
+    area: "Lower Mainland, Fraser Valley and Vancouver Island areas"
   },
   // {
   //   slug: "stucco-exterior-wall-soft-washing",
@@ -162,8 +162,8 @@ export const SERVICES: Service[] = [
     title: "Christmas Light Installation",
     shortTitle: "Christmas Light",
     description: "Make your home shine this holiday season with professional Christmas light installation from Simsan Fraser Maintenance Ltd. Our team handles everything from design and setup to takedown, creating a festive display that will impress family, friends and neighbors—without the stress or risk of doing it yourself.",
-    longDescription: "Make your home shine this holiday season with professional Christmas light installation from Simsan Fraser Maintenance Ltd. Our team handles everything from design and setup to takedown, creating a festive display that will impress family, friends and neighbors—without the stress or risk of doing it yourself. We safely install LED string lights, icicle lights, roofline lights, trees, shrubs and more, ensuring your decorations are secure, evenly spaced and fully functional. Using professional equipment and techniques, we prevent damage to your roof, gutters and landscaping while creating a bright, festive atmosphere. Whether you want a classic, elegant or fully themed display, we bring your vision to life and make your home the highlight of the neighborhood. Our team serves Lower Mainland and Fraser Valley area, ensuring your holidays are bright, stress-free and magical.",
-    subheading: "Serving the Lower Mainland & Fraser Valley",
+    longDescription: "Make your home shine this holiday season with professional Christmas light installation from Simsan Fraser Maintenance Ltd. Our team handles everything from design and setup to takedown, creating a festive display that will impress family, friends and neighbors—without the stress or risk of doing it yourself. We safely install LED string lights, icicle lights, roofline lights, trees, shrubs and more, ensuring your decorations are secure, evenly spaced and fully functional. Using professional equipment and techniques, we prevent damage to your roof, gutters and landscaping while creating a bright, festive atmosphere. Whether you want a classic, elegant or fully themed display, we bring your vision to life and make your home the highlight of the neighborhood. Our team serves Lower Mainland, Fraser Valley and Vancouver Island areas, ensuring your holidays are bright, stress-free and magical.",
+    subheading: "Serving the Lower Mainland, Fraser Valley and Vancouver Island areas",
     typeOfServiceTitle: "Our Christmas light services include:",
     typesOfService: [
       "Custom light design for homes and businesses",
@@ -184,8 +184,8 @@ export const SERVICES: Service[] = [
       "/christmas_light_setup/simsan_fraser_christmas_light_setup_1.webp",
       "/christmas_light_setup/simsan_fraser_christmas_light_setup_2.webp",
       "/christmas_light_setup/simsan_fraser_christmas_light_setup_3.webp"
-    ],
-    area: "Lower Mainland and Fraser Valley Area"
+    ],  
+    area: "Lower Mainland, Fraser Valley and Vancouver Island areas"
   },
   // {
   //   slug: "asphalt-shingle-roof-cleaning",

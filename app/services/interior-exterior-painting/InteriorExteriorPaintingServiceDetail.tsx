@@ -113,7 +113,7 @@ export default function InteriorExteriorPaintingServiceDetail({ breadcrumbs }: S
                                 className="text-lg md:text-xl mb-6"
                                 style={{ color: colors.secondary }}
                             >
-                                Serving the Lower Mainland & Fraser Valley
+                                Serving the Lower Mainland, Fraser Valley and Vancouver Island areas
                             </p>
 
                             <Box className="space-y-4 mb-8" style={{ color: "#212121" }}>
@@ -124,7 +124,7 @@ export default function InteriorExteriorPaintingServiceDetail({ breadcrumbs }: S
                                     For interior painting, we focus on proper preparation, clean lines and minimal disruption to your space. From walls and ceilings to trim, doors and cabinets, we use premium paints and proven techniques to create smooth, long-lasting results that transform your interior.
                                 </p>
                                 <p className="text-base md:text-lg leading-relaxed">
-                                    For exterior painting, we protect your property from the elements while improving curb appeal. Our process includes thorough surface preparation—such as washing, scraping, sanding and priming—to ensure the paint adheres properly and withstands the Lower Mainland and Fraser Valley climate.
+                                    For exterior painting, we protect your property from the elements while improving curb appeal. Our process includes thorough surface preparation—such as washing, scraping, sanding and priming—to ensure the paint adheres properly and withstands the Lower Mainland, Fraser Valley and Vancouver Island climate.
                                 </p>
 
                                 {/* Services List */}
@@ -189,7 +189,7 @@ export default function InteriorExteriorPaintingServiceDetail({ breadcrumbs }: S
                                 </Box>
 
                                 <p className="text-base md:text-lg leading-relaxed">
-                                    At Simsan Fraser Maintenance Ltd, we proudly provide interior and exterior painting services across Lower Mainland and Fraser Valley area. Our experienced painters deliver reliable, high-quality workmanship with respect for your home or business.
+                                    At Simsan Fraser Maintenance Ltd, we proudly provide interior and exterior painting services across Lower Mainland, Fraser Valley and Vancouver Island area. Our experienced painters deliver reliable, high-quality workmanship with respect for your home or business.
                                 </p>
                             </Box>
 

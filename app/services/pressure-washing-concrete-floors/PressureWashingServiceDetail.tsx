@@ -112,7 +112,7 @@ export default function PressureWashingServiceDetail({ breadcrumbs }: ServiceDet
                                 className="text-lg md:text-xl mb-6"
                                 style={{ color: colors.secondary }}
                             >
-                                Serving the Lower Mainland & Fraser Valley
+                                Serving the Lower Mainland, Fraser Valley and Vancouver Island areas
                             </p>
 
                             <Box className="space-y-4 mb-8" style={{ color: "#212121" }}>
@@ -185,10 +185,10 @@ export default function PressureWashingServiceDetail({ breadcrumbs }: ServiceDet
                                 </Box>
 
                                 <p className="text-base md:text-lg leading-relaxed">
-                                    Regular pressure washing is especially important in the Lower Mainland and Fraser Valley climate, where moisture promotes algae and organic growth. Routine cleaning helps protect your investment and keeps your property looking clean and well-maintained year-round.
+                                    Regular pressure washing is especially important in the Lower Mainland, Fraser Valley and Vancouver Island climate, where moisture promotes algae and organic growth. Routine cleaning helps protect your investment and keeps your property looking clean and well-maintained year-round.
                                 </p>
                                 <p className="text-base md:text-lg leading-relaxed">
-                                    At Simsan Fraser Maintenance Ltd, we provide professional concrete and wood pressure washing services across Lower Mainland and Fraser Valley area, delivering consistent, high-quality results you can trust.
+                                    At Simsan Fraser Maintenance Ltd, we provide professional concrete and wood pressure washing services across Lower Mainland, Fraser Valley and Vancouver Island areas, delivering consistent, high-quality results you can trust.
                                 </p>
                             </Box>
 
@@ -256,7 +256,7 @@ export default function PressureWashingServiceDetail({ breadcrumbs }: ServiceDet
                     },
                     {
                         question: "How often should concrete and wood be pressure washed?",
-                        answer: "Most properties in the Lower Mainland and Fraser Valley benefit from pressure washing once every 1–2 years, depending on shade, moisture and usage."
+                        answer: "Most properties in the Lower Mainland, Fraser Valley and Vancouver Island areas benefit from pressure washing once every 1–2 years, depending on shade, moisture and usage."
                     },
                     {
                         question: "Do you use chemicals when pressure washing?",

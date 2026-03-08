@@ -43,7 +43,7 @@ export default function SoftWashingPage() {
     },
     {
       question: "How often should vinyl siding be soft washed?",
-      answer: "In the Lower Mainland and Fraser Valley climate, most homes benefit from soft washing every 1–2 years, depending on shade, moisture and nearby vegetation."
+      answer: "In the Lower Mainland, Fraser Valley and Vancouver Island areas, most homes benefit from soft washing every 1–2 years, depending on shade, moisture and nearby vegetation."
     },
     {
       question: "Will soft washing damage paint or fade vinyl?",
@@ -54,8 +54,8 @@ export default function SoftWashingPage() {
       answer: "Yes. For vinyl siding, water-fed pole soft washing is safer, more consistent and reduces the risk of water intrusion or surface damage compared to traditional pressure washing."
     },
     {
-      question: "Do you offer this service throughout the Lower Mainland & Fraser Valley?",
-      answer: "Yes. We provide vinyl siding soft washing services across Lower Mainland and Fraser Valley Area."
+      question: "Do you offer this service throughout the Lower Mainland, Fraser Valley and Vancouver Island areas?",
+      answer: "Yes. We provide vinyl siding soft washing services across Lower Mainland, Fraser Valley and Vancouver Island areas."
     }
   ];
 

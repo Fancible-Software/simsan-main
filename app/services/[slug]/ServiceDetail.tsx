@@ -172,7 +172,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
 
                                 {service.slug === "christmas-lighting-decoration" && (
                                     <p className="text-base md:text-lg leading-relaxed">
-                                        Whether you want a classic, elegant or fully themed display, we bring your vision to life and make your home the highlight of the neighborhood. Our team serves Lower Mainland and Fraser Valley area, ensuring your holidays are bright, stress-free and magical.
+                                        Whether you want a classic, elegant or fully themed display, we bring your vision to life and make your home the highlight of the neighborhood. Our team serves Lower Mainland, Fraser Valley and Vancouver Island areas, ensuring your holidays are bright, stress-free and magical.
                                     </p>
                                 )}
 
@@ -374,7 +374,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                     {/* Introductory Paragraph */}
                     <Box className="space-y-5 mb-8">
                         <p className="text-base md:text-lg leading-relaxed">
-                            Your roof and gutters are your home's first line of defense against water damage, especially in the lower mainland and fraser valley challenging climate. With wet seasons and dry summer debris, clogged gutters, moss buildup and roof deterioration can become serious problems if not properly maintained.
+                            Your roof and gutters are your home's first line of defense against water damage, especially in the Lower Mainland, Fraser Valley and Vancouver Island challenging climate. With wet seasons and dry summer debris, clogged gutters, moss buildup and roof deterioration can become serious problems if not properly maintained.
                         </p>
 
                         <p className="text-base md:text-lg leading-relaxed">
@@ -448,7 +448,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                                 Moss Treatment & Removal
                             </h4>
                             <p className="text-base md:text-lg leading-relaxed" style={{ color: "#212121" }}>
-                                Moss is a major threat to lower mainland and fraser valley roofs. Our team carefully removes moss and applies treatment to slow regrowth and protect your shingles.
+                                Moss is a major threat to Lower Mainland, Fraser Valley and Vancouver Island areas roofs. Our team carefully removes moss and applies treatment to slow regrowth and protect your shingles.
 
                             </p>
                         </Box>
@@ -550,7 +550,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "Can you clean upper-floor windows with a water-fed pole?",
-                                answer: "Absolutely. Water-fed poles allow us to safely clean second-, third- and multi-story windows without ladders, making it ideal for homes and commercial buildings throughout the Lower Mainland and Fraser Valley."
+                                answer: "Absolutely. Water-fed poles allow us to safely clean second-, third- and multi-story windows without ladders, making it ideal for homes and commercial buildings throughout the Lower Mainland, Fraser Valley and Vancouver Island."
                             },
                             {
                                 question: "Is water-fed pole window washing better than traditional methods?",
@@ -562,7 +562,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "How often should I have my windows cleaned?",
-                                answer: "Most homeowners in the Lower Mainland and Fraser Valley schedule window cleaning 2–4 times per year, depending on exposure to rain, dust, pollen and nearby trees. Commercial properties may benefit from more frequent service."
+                                answer: "Most homeowners in the Lower Mainland, Fraser Valley and Vancouver Island areas schedule window cleaning 2–4 times per year, depending on exposure to rain, dust, pollen and nearby trees. Commercial properties may benefit from more frequent service."
                             },
                             {
                                 question: "Can water-fed pole cleaning remove heavy buildup?",
@@ -570,7 +570,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "Do you offer water-fed pole window cleaning for commercial properties?",
-                                answer: "Yes. We provide residential and commercial window cleaning services for offices, retail spaces, strata buildings and more across Lower Mainland and Fraser Valley."
+                                answer: "Yes. We provide residential and commercial window cleaning services for offices, retail spaces, strata buildings and more across Lower Mainland, Fraser Valley and Vancouver Island."
                             },
                             {
                                 question: "Is water-fed pole window washing weather-dependent?",
@@ -605,7 +605,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "How often should vinyl siding be soft washed?",
-                                answer: "In the Lower Mainland and Fraser Valley climate, most homes benefit from soft washing every 1–2 years, depending on shade, moisture and nearby vegetation."
+                                answer: "In the Lower Mainland, Fraser Valley and Vancouver Island climate, most homes benefit from soft washing every 1–2 years, depending on shade, moisture and nearby vegetation."
                             },
                             {
                                 question: "Will soft washing damage paint or fade vinyl?",
@@ -616,8 +616,8 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                                 answer: "Yes. For vinyl siding, water-fed pole soft washing is safer, more consistent and reduces the risk of water intrusion or surface damage compared to traditional pressure washing."
                             },
                             {
-                                question: "Do you offer this service throughout the Lower Mainland & Fraser Valley?",
-                                answer: "Yes. We provide vinyl siding soft washing services across Lower Mainland and Fraser Valley Area."
+                                question: "Do you offer this service throughout the Lower Mainland, Fraser Valley and Vancouver Island?",
+                                answer: "Yes. We provide vinyl siding soft washing services across Lower Mainland, Fraser Valley and Vancouver Island Area."
                             }
                         ]
                         : service.slug === "stucco-exterior-wall-soft-washing"
@@ -644,7 +644,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "How often should stucco and exterior walls be cleaned?",
-                                answer: "In the Lower Mainland and Fraser Valley, we recommend soft washing every 1–2 years, depending on shade, moisture and exposure to organic growth."
+                                answer: "In the Lower Mainland, Fraser Valley and Vancouver Island, we recommend soft washing every 1–2 years, depending on shade, moisture and exposure to organic growth."
                             },
                             {
                                 question: "Will soft washing damage paint or finishes?",
@@ -660,7 +660,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "Do you offer stucco and wall soft washing for commercial properties?",
-                                answer: "Yes. We provide residential, commercial and strata wall cleaning services throughout Lower Mainland and Fraser Valley areas."
+                                answer: "Yes. We provide residential, commercial and strata wall cleaning services throughout Lower Mainland, Fraser Valley and Vancouver Island areas."
                             }
                         ]
                         : service.slug === "christmas-lighting-decoration"
@@ -699,7 +699,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "Do you offer commercial Christmas light installation?",
-                                answer: "Yes. We provide professional installation for residential homes, businesses, office buildings and commercial properties throughout the Lower Mainland & Fraser Valley."
+                                answer: "Yes. We provide professional installation for residential homes, businesses, office buildings and commercial properties throughout the Lower Mainland, Fraser Valley and Vancouver Island."
                             }
                         ]
                         : service.slug === "pressure-washing-concrete-floors"
@@ -718,7 +718,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                             },
                             {
                                 question: "How often should concrete and wood be pressure washed?",
-                                answer: "Most properties in the Lower Mainland and Fraser Valley benefit from pressure washing once every 1–2 years, depending on shade, moisture and usage."
+                                answer: "Most properties in the Lower Mainland, Fraser Valley and Vancouver Island benefit from pressure washing once every 1–2 years, depending on shade, moisture and usage."
                             },
                             {
                                 question: "Do you use chemicals when pressure washing?",
@@ -822,7 +822,7 @@ export default function ServiceDetail({ service, breadcrumbs }: ServiceDetailPro
                         : [
                             {
                                 question: "What can I expect on the day of service?",
-                                answer: "We'll call or text on the way to your home in Lower Mainland or Fraser Valley. You don't need to be home for outside work, but we'll knock on the door to greet you either way. We'll let you know if we have questions for you or if your home could benefit from any additional services. When finished, we will come to the door to chat before we leave. We can answer any other questions you may have, let you know if we encountered anything unusual while we worked and offer recommendations for a service schedule going forward."
+                                answer: "We'll call or text on the way to your home in Lower Mainland, Fraser Valley and Vancouver Island. You don't need to be home for outside work, but we'll knock on the door to greet you either way. We'll let you know if we have questions for you or if your home could benefit from any additional services. When finished, we will come to the door to chat before we leave. We can answer any other questions you may have, let you know if we encountered anything unusual while we worked and offer recommendations for a service schedule going forward."
                             },
                             {
                                 question: "How often should I have my gutters cleaned?",

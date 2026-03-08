@@ -211,7 +211,7 @@ export default function AboutUsPage() {
                             </h2>
 
                             <p className="text-foreground mb-4 leading-relaxed">
-                                <span className="font-bold">Simsan Fraser Maintenance Ltd</span>  is a locally owned and operated exterior cleaning and property maintenance company dedicated to protecting and enhancing homes across the Lower Mainland and Fraser Valley.
+                                <span className="font-bold">Simsan Fraser Maintenance Ltd</span>  is a locally owned and operated exterior cleaning and property maintenance company dedicated to protecting and enhancing homes across the Lower Mainland, Fraser Valley and Vancouver Island.
                             </p>
 
                             <p className="text-foreground mb-8 leading-relaxed">
