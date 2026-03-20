@@ -14,7 +14,11 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Simsan Fraser Maintenance",
-  description: "Modern Next.js application with SSR, Tailwind CSS and Material-UI",
+  description: "Simsan Fraser Maintenance Ltd provides reliable exterior cleaning and property maintenance for homeowners who value quality and care.",
+  icons: {
+    icon: "/icons/logo.svg",
+    shortcut: "/icons/logo.svg",
+  },
 };
 
 export default function RootLayout({
