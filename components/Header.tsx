@@ -56,7 +56,13 @@ export default function Header() {
     <Box className="w-72 flex flex-col h-full bg-white">
       <Box className="flex justify-between items-center px-3 py-4 border-b">
         <Link href="/">
-          <Image src="/icons/logo.svg" alt="Logo" width={160} height={44} priority />
+          <Box style={{ width: "160px", height: "52px", overflow: "hidden", position: "relative" }}>
+            <img
+              src="/simsan_fraser_maintenance_logo.png"
+              alt="Logo"
+              style={{ position: "absolute", width: "208px", height: "208px", left: "-24px", top: "-47px" }}
+            />
+          </Box>
         </Link>
         <IconButton onClick={handleDrawerToggle} aria-label="Close menu"><CloseSvgIcon /></IconButton>
       </Box>
@@ -129,7 +135,7 @@ export default function Header() {
 
       {/* Main Header */}
       <AppBar position="static" elevation={0} className="bg-white" sx={{ backgroundColor: "white" }}>
-        <Toolbar className="justify-between px-3 md:px-8 py-1 min-h-0 md:min-h-[56px]">
+        <Toolbar className="justify-between px-3 md:px-8 py-0 min-h-0" sx={{ minHeight: 0 }}>
           {/* Hamburger for Mobile and Tablet */}
           <Box className="flex items-center lg:hidden">
             <IconButton aria-label="open menu" edge="start" onClick={handleDrawerToggle}>
@@ -138,16 +144,28 @@ export default function Header() {
           </Box>
           {/* Logo - Centered on Mobile/Tablet, Left on Desktop */}
           <Link href="/" className="no-underline flex-1 flex lg:flex-none lg:justify-start justify-center">
-            <Box className="flex items-center">
-              <Image
-                src="/icons/logo.svg"
+            {/* Mobile / Tablet logo */}
+            <div
+              className="lg:hidden"
+              style={{ width: "160px", height: "100px", overflow: "hidden", position: "relative", flexShrink: 0 }}
+            >
+              <img
+                src="/simsan_fraser_maintenance_logo.png"
                 alt="Simsan Fraser Maintenance Ltd."
-                width={160}
-                height={80}
-                priority
-                className="md:w-[188px] md:h-[80px] w-[130px] h-[34px] object-contain"
+                style={{ position: "absolute", width: "210px", height: "210px", left: "-14px", top: "-48px" }}
               />
-            </Box>
+            </div>
+            {/* Desktop logo */}
+            <div
+              className="hidden lg:block"
+              style={{ width: "220px", height: "135px", overflow: "hidden", position: "relative", flexShrink: 0 }}
+            >
+              <img
+                src="/simsan_fraser_maintenance_logo.png"
+                alt="Simsan Fraser Maintenance Ltd."
+                style={{ position: "absolute", width: "288px", height: "255px", left: "-14px", top: "-54px" }}
+              />
+            </div>
           </Link>
           {/* Desktop Navigation */}
           <Box className="hidden lg:flex gap-1 items-center flex-1 justify-center">

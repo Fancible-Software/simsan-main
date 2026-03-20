@@ -101,7 +101,7 @@ export default function Footer() {
             <Box className="flex flex-col sm:items-start items-center">
               <Link href="/" className="no-underline">
                 <Image
-                  src="/icons/logo.svg"
+                  src="/simsan_fraser_maintenance_logo.png"
                   alt="Simsan Fraser Maintenance Ltd."
                   width={300}
                   height={100}
